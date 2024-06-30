@@ -1,0 +1,67 @@
+{
+  "ObjType": 4,
+  "Id": 0,
+  "IdCustomer": 0,
+  "IdPOS": 3,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "3652a301-652e-4730-bef5-1a15c5fe9416",
+  "TypeInt": 1,
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0,
+  "DateCreated": "2024-06-08T14:27:04.6911972-04:00",
+  "Employee": "Leila",
+  "Stamps": 3,
+  "StampsUsed": 0,
+  "Tax1": 0.0,
+  "Tax2": 0.0,
+  "Total": 93.49,
+  "CostTotal": 66.0,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "Interac": 93.49
+    }
+  },
+  "Lines": [
+    {
+      "Id": 0,
+      "IdProduct": 3818,
+      "ProductCode": "073416401228",
+      "Desc": "Riz Brun court Lundberg Bio",
+      "Qty": 1.0,
+      "UnitPrice": 109.99,
+      "Discount": 16.50,
+      "TaxCode": "Z",
+      "Tax1": 0.0,
+      "Tax2": 0.0,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PromotionalCodeUsed": "Manual",
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 0,
+  "PreparationFee": 0.0,
+  "GlobalDiscount": 0.0,
+  "AmountPayWithPoints": 0.0,
+  "DeliveryOption": 1,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": true,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 3,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": true,
+  "CreditNoteBefore": 0.0,
+  "CashierName": "",
+  "Ext": {
+    "NbItems": 1
+  }
+}

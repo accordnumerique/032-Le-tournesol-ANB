@@ -1,0 +1,83 @@
+{
+  "ObjType": 4,
+  "Id": 0,
+  "IdCustomer": 0,
+  "IdPOS": 3,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "054dbbf5-a54f-4c5d-aa73-2585106dd346",
+  "TypeInt": 1,
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0,
+  "DateCreated": "2024-06-07T14:41:15.0859492-04:00",
+  "Employee": "Edouard",
+  "Stamps": 0,
+  "StampsUsed": 0,
+  "Tax1": 0.30,
+  "Tax2": 0.61,
+  "Total": 11.98,
+  "CostTotal": 4.31,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "Interac": 11.98
+    }
+  },
+  "Lines": [
+    {
+      "Id": 0,
+      "IdProduct": 637,
+      "ProductCode": "627062110227",
+      "Desc": "Milan Farine Ble Entier Pain 2 kg",
+      "Qty": 1.0,
+      "UnitPrice": 6.99,
+      "Discount": 0.91,
+      "TaxCode": "S",
+      "Tax1": 0.30,
+      "Tax2": 0.61,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PromotionalCodeUsed": "Manual",
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    },
+    {
+      "Id": 0,
+      "IdProduct": 5,
+      "ProductCode": "DiversSansTaxes",
+      "Desc": "Divers - non taxable",
+      "Qty": 1.0,
+      "UnitPrice": 4.99,
+      "Discount": 0.0,
+      "TaxCode": "Z",
+      "Tax1": 0.0,
+      "Tax2": 0.0,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 0,
+  "PreparationFee": 0.0,
+  "GlobalDiscount": 0.0,
+  "AmountPayWithPoints": 0.0,
+  "DeliveryOption": 1,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": true,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 0,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": true,
+  "CreditNoteBefore": 0.0,
+  "CashierName": "",
+  "Ext": {
+    "NbItems": 2
+  }
+}

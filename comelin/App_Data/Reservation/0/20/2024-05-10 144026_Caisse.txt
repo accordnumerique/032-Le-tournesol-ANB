@@ -1,0 +1,83 @@
+{
+  "Delivery": 4,
+  "ObjType": 15,
+  "SubTotalItemThatGiveFreeShipping": 119.97,
+  "SubTotalItemHaveShippingCost": 119.97,
+  "SubTotal": 119.97,
+  "Taxes": 17.97,
+  "Total": 137.94,
+  "Id": 20,
+  "_idCustomer": 720,
+  "DateCreated": "2024-05-10T14:34:11.047",
+  "DateModified": "2024-05-10T14:40:26.9352027-04:00",
+  "DateClientSent": "0001-01-01T00:00:00",
+  "StatusInt": 1,
+  "TypeInt": 1,
+  "Notes": "Livré au sous-sol 7512-A ",
+  "SourceWeb": true,
+  "IdStore": 1,
+  "NoShipping": false,
+  "TaxCode": "S",
+  "TotalLastKnown": 137.94,
+  "Lines": [
+    {
+      "UnitPrice": 39.99,
+      "Title": "Natural Factors - Pycnogenol 25 mg Extrait d’écorce de pin",
+      "Discount": 0.0,
+      "SubTotal": 119.97,
+      "IdProduct": 3698,
+      "Quantity": 3.0,
+      "DateAdded": "2024-05-10T18:34:11.0445653",
+      "Reserved": false,
+      "StampMultiplier": 1,
+      "WasInStockAtTimeOfOrder": false,
+      "NoPointsOverride": false,
+      "DiscountCalculated": 0.0,
+      "_tag": "2ae60780-8297-4b1c-b4b8-76f0bbea3a3b",
+      "_tax": {
+        "ObjType": 12,
+        "Id": 1,
+        "TaxCode": "S",
+        "TaxName": "Standard",
+        "Tax1": 5.0,
+        "Tax2": 9.975,
+        "Match": "QC",
+        "IsDeleted": false
+      }
+    }
+  ],
+  "IdTemporary": "1231d4c6-66c2-4517-b53e-c9aeab68bdab",
+  "Payments": {
+    "ObjType": 250,
+    "Amounts": {}
+  },
+  "IdReferrer": 0,
+  "DisableSubItems": false,
+  "HasShippingAddress": true,
+  "ShippingAddress": {
+    "Street1": "7512-A ",
+    "Locality": "St-Leonard",
+    "Region": "Quebec",
+    "RegionCode": "QC",
+    "Country": "Canada",
+    "CountryCode": "CA",
+    "PostalCode": "H1s2k8 ",
+    "Street2": ""
+  },
+  "BillingAddress": {
+    "Street1": "7512 ",
+    "Locality": "St-Leonard ",
+    "Region": "Quebec",
+    "RegionCode": "QC",
+    "Country": "Canada",
+    "CountryCode": "CA",
+    "PostalCode": "H1s2k8",
+    "Street2": ""
+  },
+  "_shippingCost": 0.0,
+  "HasPreparationFee": true,
+  "_Deliver": 4,
+  "IsDeleted": false,
+  "_tax1": 6.00,
+  "_tax2": 11.97
+}

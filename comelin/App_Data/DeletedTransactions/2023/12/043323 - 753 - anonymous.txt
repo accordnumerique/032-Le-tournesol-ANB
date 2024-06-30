@@ -1,0 +1,67 @@
+{
+  "ObjType": 4,
+  "Id": 753,
+  "IdCustomer": 0,
+  "IdPOS": 3,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "53e9c3f1-ab68-4c93-ae10-5dd2d6452db3",
+  "TypeInt": 1,
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0000,
+  "DateCreated": "2023-12-22T15:35:09.597",
+  "Employee": "Leila",
+  "Stamps": 0,
+  "StampsUsed": 0,
+  "Tax1": 0.7500,
+  "Tax2": 1.5000,
+  "Total": 17.2400,
+  "CostTotal": 7.1200,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "Cash": 20.0,
+      "Penny": -0.01,
+      "Change": -2.75
+    }
+  },
+  "Lines": [
+    {
+      "Id": 3264,
+      "IdProduct": 306,
+      "ProductCode": "829850506988",
+      "Desc": "Eau Hamamelis 100 ml",
+      "Qty": 1.0000,
+      "UnitPrice": 14.9900,
+      "Discount": 0.0000,
+      "TaxCode": "S",
+      "Tax1": 0.7500,
+      "Tax2": 1.5000,
+      "InvBefore": 1.0000,
+      "CalculatedDiscount": 0.0,
+      "PointMultiplier": 1,
+      "Cost": 7.1200
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 0,
+  "PreparationFee": 0.0000,
+  "GlobalDiscount": 0.0000,
+  "AmountPayWithPoints": 0.0000,
+  "DeliveryOption": 1,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": false,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 0,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": false,
+  "CreditNoteBefore": 0.0,
+  "Ext": {
+    "NbItems": 1
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "ObjType": 4,
+  "Id": 0,
+  "IdCustomer": 0,
+  "IdPOS": 3,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "98533069-921e-4164-b675-35f9e344d947",
+  "TypeInt": 1,
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0,
+  "DateCreated": "2024-06-12T16:54:40.518488-04:00",
+  "Employee": "Leila",
+  "Stamps": 1,
+  "StampsUsed": 0,
+  "Tax1": 1.95,
+  "Tax2": 3.89,
+  "Total": 44.83,
+  "CostTotal": 0.0,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "Interac": 44.83
+    }
+  },
+  "Lines": [
+    {
+      "Id": 0,
+      "IdProduct": 4,
+      "ProductCode": "DiversTaxable",
+      "Desc": "GATTILIER ST FRANCIS",
+      "Qty": 1.0,
+      "UnitPrice": 38.99,
+      "Discount": 0.0,
+      "TaxCode": "S",
+      "Tax1": 1.95,
+      "Tax2": 3.89,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 0,
+  "PreparationFee": 0.0,
+  "GlobalDiscount": 0.0,
+  "AmountPayWithPoints": 0.0,
+  "DeliveryOption": 1,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": true,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 1,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": true,
+  "CreditNoteBefore": 0.0,
+  "CashierName": "",
+  "Ext": {
+    "NbItems": 1
+  }
+}

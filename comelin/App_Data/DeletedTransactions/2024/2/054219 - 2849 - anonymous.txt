@@ -1,0 +1,65 @@
+{
+  "ObjType": 4,
+  "Id": 2849,
+  "IdCustomer": 0,
+  "IdPOS": 3,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "fe8c0aea-8902-4e0c-8508-cb6d39ee1bd5",
+  "TypeInt": 1,
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0000,
+  "DateCreated": "2024-02-09T17:42:06.85",
+  "Employee": "Leila",
+  "Stamps": 0,
+  "StampsUsed": 0,
+  "Tax1": 0.0000,
+  "Tax2": 0.0000,
+  "Total": 13.2500,
+  "CostTotal": 0.0000,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "Cash": 20.0,
+      "Change": -6.75
+    }
+  },
+  "Lines": [
+    {
+      "Id": 6789,
+      "IdProduct": 2695,
+      "Desc": "beaupre.lambert.miel.",
+      "Qty": 1.0000,
+      "UnitPrice": 13.2500,
+      "Discount": 0.0000,
+      "TaxCode": "Z",
+      "Tax1": 0.0000,
+      "Tax2": 0.0000,
+      "InvBefore": -2.0000,
+      "CalculatedDiscount": 0.0,
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 0,
+  "PreparationFee": 0.0000,
+  "GlobalDiscount": 0.0000,
+  "AmountPayWithPoints": 0.0000,
+  "DeliveryOption": 1,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": false,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 0,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": false,
+  "CreditNoteBefore": 0.0,
+  "Ext": {
+    "NbItems": 1
+  }
+}

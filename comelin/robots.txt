@@ -1,0 +1,18 @@
+﻿User-agent: *
+Disallow: /fr/Listing.aspx
+Disallow: /en/Listing.aspx
+Disallow: /fr/product.aspx
+Disallow: /en/product.aspx
+Disallow: /admin/
+Disallow: /POSViewOrder.aspx
+Disallow: /fr/POS_
+Disallow: /en/POS_
+Disallow: /support/
+Disallow: /fr/Search
+Disallow: /en/Search
+
+User-agent: PetalBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /

@@ -1,0 +1,4 @@
+﻿{"Url":"/admin/api/inventory/report/?type=Cat1","Date":"2024-05-13T13:24:41.5208032-04:00","ReceivedLength":4,"SendLength":4169,"ElapseMs":10,"DateTime":"2024-05-13T17:24:41.5308094Z"}
+{"Url":"/admin/api/inventory/report/?type=Matrix","Date":"2024-05-13T13:24:44.5340913-04:00","ReceivedLength":4,"SendLength":314516,"ElapseMs":11,"DateTime":"2024-05-13T17:24:44.546064Z"}
+{"Url":"/admin/api/inventory/report/?type=undefined","Date":"2024-05-13T13:25:52.3290998-04:00","ReceivedLength":4,"SendLength":323348,"ElapseMs":11,"DateTime":"2024-05-13T17:25:52.3410644Z"}
+{"Url":"/admin/api/inventory/report/?type=Product","Date":"2024-05-13T13:25:53.5670824-04:00","ReceivedLength":4,"SendLength":323348,"ElapseMs":11,"DateTime":"2024-05-13T17:25:53.5790237Z"}

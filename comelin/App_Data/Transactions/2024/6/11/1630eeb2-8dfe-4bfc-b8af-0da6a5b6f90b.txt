@@ -1,0 +1,81 @@
+{
+  "ObjType": 4,
+  "Id": 0,
+  "IdCustomer": 0,
+  "IdPOS": 3,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "1630eeb2-8dfe-4bfc-b8af-0da6a5b6f90b",
+  "TypeInt": 1,
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0,
+  "DateCreated": "2024-06-11T15:02:46.8464757-04:00",
+  "Employee": "Leila",
+  "Stamps": 0,
+  "StampsUsed": 0,
+  "Tax1": 0.55,
+  "Tax2": 1.10,
+  "Total": 21.13,
+  "CostTotal": 7.69,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "Interac": 21.13
+    }
+  },
+  "Lines": [
+    {
+      "Id": 0,
+      "IdProduct": 2258,
+      "Desc": "BEAU-PRE.LAMBERT.MIEL.500G",
+      "Qty": 1.0,
+      "UnitPrice": 8.49,
+      "Discount": 0.0,
+      "TaxCode": "Z",
+      "Tax1": 0.0,
+      "Tax2": 0.0,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    },
+    {
+      "Id": 0,
+      "IdProduct": 696,
+      "ProductCode": "628055073123",
+      "Desc": "Merv.Abei.Miel  t  500 g",
+      "Qty": 1.0,
+      "UnitPrice": 10.99,
+      "Discount": 0.0,
+      "TaxCode": "S",
+      "Tax1": 0.55,
+      "Tax2": 1.10,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 0,
+  "PreparationFee": 0.0,
+  "GlobalDiscount": 0.0,
+  "AmountPayWithPoints": 0.0,
+  "DeliveryOption": 1,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": true,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 0,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": true,
+  "CreditNoteBefore": 0.0,
+  "CashierName": "",
+  "Ext": {
+    "NbItems": 2
+  }
+}

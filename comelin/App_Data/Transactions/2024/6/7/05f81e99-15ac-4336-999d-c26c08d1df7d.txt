@@ -1,0 +1,69 @@
+{
+  "ObjType": 4,
+  "Id": 0,
+  "IdCustomer": 0,
+  "IdPOS": 3,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "05f81e99-15ac-4336-999d-c26c08d1df7d",
+  "TypeInt": 1,
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0,
+  "DateCreated": "2024-06-07T11:48:32.7005835-04:00",
+  "Employee": "Leila",
+  "Stamps": 0,
+  "StampsUsed": 0,
+  "Tax1": 0.0,
+  "Tax2": 0.0,
+  "Total": 3.89,
+  "CostTotal": 3.91,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "Cash": 84.8,
+      "Penny": -0.01,
+      "Change": -80.90
+    }
+  },
+  "Lines": [
+    {
+      "Id": 0,
+      "IdProduct": 2221,
+      "ProductCode": "066969909365066969909365",
+      "Desc": "HORIUM.TOFU.SUPER.CREMEUX.1KG",
+      "Qty": 1.0,
+      "UnitPrice": 5.99,
+      "Discount": 2.10,
+      "TaxCode": "Z",
+      "Tax1": 0.0,
+      "Tax2": 0.0,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PromotionalCodeUsed": "Manual",
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 0,
+  "PreparationFee": 0.0,
+  "GlobalDiscount": 0.0,
+  "AmountPayWithPoints": 0.0,
+  "DeliveryOption": 1,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": true,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 0,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": true,
+  "CreditNoteBefore": 0.0,
+  "CashierName": "",
+  "Ext": {
+    "NbItems": 1
+  }
+}

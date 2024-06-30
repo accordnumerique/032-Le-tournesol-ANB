@@ -1,0 +1,81 @@
+{
+  "ObjType": 4,
+  "Id": 0,
+  "IdCustomer": 0,
+  "IdPOS": 3,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "b93da904-b3c9-4a94-9e7c-d488c45a0595",
+  "TypeInt": 1,
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0,
+  "DateCreated": "2024-06-02T13:45:59.0204652-04:00",
+  "Employee": "Leila",
+  "Stamps": 1,
+  "StampsUsed": 0,
+  "Tax1": 1.52,
+  "Tax2": 3.04,
+  "Total": 35.04,
+  "CostTotal": 20.73,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "Interac": 35.04
+    }
+  },
+  "Lines": [
+    {
+      "Id": 0,
+      "IdProduct": 793,
+      "ProductCode": "749544007617",
+      "Desc": "Emile.Noel.Huil.Olive.Douce.1 l",
+      "Qty": 1.0,
+      "UnitPrice": 25.99,
+      "Discount": 0.0,
+      "TaxCode": "S",
+      "Tax1": 1.30,
+      "Tax2": 2.59,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    },
+    {
+      "Id": 0,
+      "IdProduct": 2820,
+      "Desc": "mte ibre zero sucre  gingembre 330 ml",
+      "Qty": 1.0,
+      "UnitPrice": 4.49,
+      "Discount": 0.0,
+      "TaxCode": "S",
+      "Tax1": 0.22,
+      "Tax2": 0.45,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 0,
+  "PreparationFee": 0.0,
+  "GlobalDiscount": 0.0,
+  "AmountPayWithPoints": 0.0,
+  "DeliveryOption": 1,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": true,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 1,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": true,
+  "CreditNoteBefore": 0.0,
+  "CashierName": "",
+  "Ext": {
+    "NbItems": 2
+  }
+}

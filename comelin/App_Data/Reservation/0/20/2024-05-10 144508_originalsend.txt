@@ -1,0 +1,108 @@
+{
+  "Delivery": 4,
+  "ObjType": 15,
+  "SubTotalItemThatGiveFreeShipping": 119.97,
+  "SubTotalItemHaveShippingCost": 119.97,
+  "SubTotal": 119.97,
+  "Taxes": 17.97,
+  "Total": 137.94,
+  "Id": 20,
+  "_idCustomer": 720,
+  "DateCreated": "2024-05-10T14:34:11.047",
+  "DateModified": "2024-05-10T14:45:08.127577-04:00",
+  "DateClientSent": "2024-05-10T14:45:07.6258668-04:00",
+  "StatusInt": 2,
+  "TypeInt": 1,
+  "PaymentMode": "PayPal",
+  "SourceWeb": true,
+  "IdStore": 1,
+  "NoShipping": false,
+  "TaxCode": "S",
+  "TotalLastKnown": 137.94,
+  "Lines": [
+    {
+      "UnitPrice": 39.99,
+      "Title": "Natural Factors - Pycnogenol 25 mg Extrait d’écorce de pin",
+      "Discount": 0.0,
+      "SubTotal": 119.97,
+      "IdProduct": 3698,
+      "Quantity": 3.0,
+      "DateAdded": "2024-05-10T18:34:11.0445653",
+      "Reserved": false,
+      "StampMultiplier": 1,
+      "_discountManual": 0.0,
+      "_unitPriceOverrided": 39.99,
+      "StampMultiplierManual": 1,
+      "WasInStockAtTimeOfOrder": true,
+      "NoPointsOverride": false,
+      "DiscountCalculated": 0.0,
+      "_tag": "2ae60780-8297-4b1c-b4b8-76f0bbea3a3b",
+      "_tax": {
+        "ObjType": 12,
+        "Id": 1,
+        "TaxCode": "S",
+        "TaxName": "Standard",
+        "Tax1": 5.0,
+        "Tax2": 9.975,
+        "Match": "QC",
+        "IsDeleted": false
+      }
+    }
+  ],
+  "IdTemporary": "1231d4c6-66c2-4517-b53e-c9aeab68bdab",
+  "Payments": {
+    "ObjType": 250,
+    "Amounts": {}
+  },
+  "ShippingOverride": 0.0,
+  "IdReferrer": 0,
+  "SecurityDepositMade": 137.94,
+  "DisableSubItems": true,
+  "HasShippingAddress": true,
+  "ShippingAddress": {
+    "Street1": "7512-A ",
+    "Locality": "St-Leonard",
+    "Region": "Quebec",
+    "RegionCode": "QC",
+    "Country": "Canada",
+    "CountryCode": "CA",
+    "PostalCode": "H1s2k8 ",
+    "Street2": ""
+  },
+  "BillingAddress": {
+    "Street1": "7512 ",
+    "Locality": "St-Leonard ",
+    "Region": "Quebec",
+    "RegionCode": "QC",
+    "Country": "Canada",
+    "CountryCode": "CA",
+    "PostalCode": "H1s2k8",
+    "Street2": ""
+  },
+  "_shippingCost": 0.0,
+  "HasPreparationFee": true,
+  "MessagesOrNotes": [
+    {
+      "Date": "2024-05-10T18:45:07.6308537Z",
+      "Text": "Livré au sous-sol 7512-A ",
+      "IsCustomer": true,
+      "IsVisibleToCustomer": false,
+      "SendEmail": false,
+      "Tag": "9e9c2817-e7b6-4039-9f2e-c1e3f375a6d0",
+      "IsAutomaticMessage": false
+    },
+    {
+      "Date": "2024-05-10T18:45:08.127577Z",
+      "IsCustomer": false,
+      "IsVisibleToCustomer": false,
+      "SendEmail": false,
+      "Tag": "b74ff5b9-c0f9-41e5-b1bc-6bfcea4087c9",
+      "EmailHtml": "<!DOCTYPE html>\r\n<html lang=\"fr\">\r\n<head>\r\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"/>\r\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n\t<title>Bon de commande C20 Reçu</title>\r\n</head>\r\n<body>\r\n\r\n<span style=\"color: transparent; display: none; height: 0; opacity: 0; overflow: hidden; mso-hide: all; visibility: hidden; width: 0;\"><span style=\"font-weight: 400;\">Votre commande est en préparation. Nous vous informerons lorsque la commande sera expédiée</span></span>\r\n\t<div style=\"width: 600px;max-width:100%;margin-left: auto; margin-right: auto;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif\"><table style=\"width: 100%;\" cellspacing=\"0\">\r\n\t\t\t<tr>\r\n\t\t\t\t<td style=\"text-align: center; width: 50%\">\r\n\t\t\t\t\t<img style=\"width: 100%\" id=\"logo-store\" src=\"https://images.comelin.com/212/1/w600/Magasin-Tournesol-Aliments-naturels-et-biologiques.png\" alt=\"Tournesol Aliments naturels et biologiques\"/>\r\n\t\t\t\t</td>\r\n\t\t\t\t<td style=\"text-align: right\">\r\n\t\t\t\t\t<div  style=\"width: 100%;padding: 20px 0; font-weight: bold; font-size: 20px;\">Accusé Réception</div>\r\n\t\t\t\t\t<div>Bon de commande C20</div>\r\n\t\t\t\t</td>\r\n\t\t\t</tr>\r\n\t\t</table>\r\n\t\t<div style=\"width: 100%; border: 1px solid #ccc; border-radius: 5px; margin: 20px 0\">\r\n\t\t\t<div style=\"background-color: rgb(3, 173, 3); width: 16%; border-top-left-radius: 5px; border-bottom-left-radius: 5px; line-height: 8px\">&nbsp;</div>\r\n\t\t</div>\r\n\r\n\t\t<div style=\"text-align: right\">\r\n\t\t\tÉtat de la commande: <b>Reçu</b>\r\n\t\t</div>\r\n\r\n\r\n\t\t<table style=\"width: 100%; background-color: #f4f4f4; padding:20px; margin:20px 0\" cellspacing=\"0\">\r\n\t\t\t<tr>\r\n\t\t\t\t<td style=\"width: 50%\">\r\n\t\t\t\t\tJames MacKinnon<br>\r\n\t\t\t\t\tjimmymac2010@live.ca<br>\r\n\t\t\t\t\t(514) 969-7359<br>\r\n\t\t\t\t\t\r\n\r\n\t\t\t\t</td>\r\n\t\t\t\t<td><b>Livraison:</b><br />7512-A <br />St-Leonard, Quebec H1s2k8 <br />Canada<br /></td>\r\n\t\t\t</tr>\r\n\t\t</table><div  style=\"width: 100%;padding: 20px 0; font-weight: bold; font-size: 20px;\">Communication</div><div id=\"ReservationStatePreparationMsg\"><span style=\"font-weight: 400;\">Votre commande est en préparation. Nous vous informerons lorsque la commande sera expédiée</span></div><p><span style=\" color: black; font-weight: bold;\">James MacKinnon</span> <span style=\"color: darkgray; font-style: italic;\">10 mai 2024 14:45</span><br />\"Livr&#233; au sous-sol 7512-A \"</p><a style=\"font-weight:bold; margin:10px\" href=\"https://TournesolAlimentsnaturelsetbiologiques.comelin.com/reservation?idOrder=20&pass=B259856B&msg=true\">Appuyez ici pour r&#233;pondre &#224; ce message</a><div  style=\"width: 100%;padding: 20px 0; font-weight: bold; font-size: 20px;\">En préparation</div><table style=\"width: 100%;\">\r\n\t\t\t<tr>\r\n\t\t\t\t<td style=\"width:50px;text-align: center; font-weight: bold\">3 X</td>\r\n\t\t\t\t<td style=\"width:90px\"><img src=\"https://images.comelin.com/212/737/w80/Pycnogenol-25-mg-Extrait-d-ecorce-de-pin-Tournesol-Aliments-naturels-et-biologiques.webp\" alt=\"Pycnogenol 25 mg Extrait d’&#233;corce de pin\"></td>\r\n\t\t\t\t<td>\r\n\t\t\t\t\tNatural Factors - Pycnogenol 25 mg Extrait d’écorce de pin<br /><span style=\"color: darkgray\">Antioxydants</span></td><td style=\"text-align: right; white-space: nowrap;padding-left: 1.2rem; \" style=\"white-space:nowrap;text-align:right\">119,97$\r\n\t\t\t\t</td>\r\n\t\t\t</tr>\r\n\t\t</table><hr />\r\n\t\r\n\t\t\t<div id=\"section-totals\" class=\"section-summary\" style=\"text-align: right\">\r\n\t\t\t\t<table style=\"margin-left: auto\"><tr id=\"subtotal\" style=\"font-weight: bold\">\r\n\t\t\t\t\t\t<td>Sous-total</td>\r\n\t\t\t\t\t\t<td style=\"text-align: right; white-space: nowrap;padding-left: 1.2rem; \">119,97$</td>\r\n\t\t\t\t\t</tr><tr id=\"shipping\">\r\n\t\t\t\t\t\t<td>Livraison</td>\r\n\t\t\t\t\t\t<td style=\"text-align: right; white-space: nowrap;padding-left: 1.2rem; \">0,00$</td>\r\n\t\t\t\t\t</tr><tr id=\"tax1\">\r\n\t\t\t\t\t\t<td>TPS #135599660</td>\r\n\t\t\t\t\t\t<td style=\"text-align: right; white-space: nowrap;padding-left: 1.2rem; \">6,00$</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t\t<tr id=\"tax2\">\r\n\t\t\t\t\t\t<td>TVQ #1015588698</td>\r\n\t\t\t\t\t\t<td style=\"text-align: right; white-space: nowrap;padding-left: 1.2rem; \">11,97$</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t\t<tr id=\"total\" style=\"font-weight: bold\">\r\n\t\t\t\t\t\t<td>Total</td>\r\n\t\t\t\t\t\t<td style=\"text-align: right; white-space: nowrap;padding-left: 1.2rem; \">137,94$</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t</table>\r\n\t\t\t</div><hr><div id=\"section-payments\" class=\"section-summary\"><table><tr>\r\n\t\t\t\t\t\t<td>Dépôt de sécurité</td>\r\n\t\t\t\t\t\t<td style=\"text-align: right; white-space: nowrap;padding-left: 1.2rem; \">137,94$</td>\r\n\t\t\t\t\t</tr><tr class=b>\r\n\t\t\t\t\t\t<td>Montant total à payer</td>\r\n\t\t\t\t\t\t<td style=\"text-align: right; white-space: nowrap;padding-left: 1.2rem; \">0,00$</td>\r\n\t\t\t\t\t</tr></table></div></div><style>\r\n                    td {vertical-align: top;font-size: 14px;line-height: 18px;font-family: Arial, sans-serif}\r\n                .section-summary td { text-align: right;text-align: right; width: 100%; }\r\n\r\n</style></body></html>",
+      "IsAutomaticMessage": true
+    }
+  ],
+  "_Deliver": 4,
+  "IsDeleted": false,
+  "_tax1": 6.00,
+  "_tax2": 11.97
+}

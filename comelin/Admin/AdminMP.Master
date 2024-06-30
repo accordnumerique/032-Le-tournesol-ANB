@@ -1,0 +1,56 @@
+﻿<%@ Master AutoEventWireup="true" Inherits="WebSite.Admin.AdminMP" CodeBehind="AdminMP.Master.cs"  %>
+<!DOCTYPE html>
+<html class=admin lang="fr">
+<head runat="server">
+    <script src="https://cdn.jsdelivr.net/combine/npm/jquery@3.3.1/dist/jquery.min.js,npm/popper.js@1.14.4/dist/umd/popper.min.js,gh/twbs/bootstrap@4.1.3/dist/js/bootstrap.min.js,npm/moment@2.22.2/moment.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script src="/admin/js/jquery.timeago.js?v=3"></script>
+	<script src="https://www.comelin.com/cdn/notify.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
+    <script src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.10.24/b-1.7.0/b-html5-1.7.0/b-print-1.7.0/rg-1.1.3/datatables.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.10.25/b-1.7.1/b-html5-1.7.1/b-print-1.7.1/rg-1.1.3/datatables.min.css"/>
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" rel="stylesheet" >
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="/admin/css/comelin-admin.min.css" rel="stylesheet" runat="server" id="linkCSS"  />	
+	<asp:ContentPlaceHolder ID="head" runat="server">
+	</asp:ContentPlaceHolder>
+</head>
+<body id="b">
+	<form id="form1" runat="server"> 
+		<div id="top-bar">
+			<a href="/admin/" id="top-title">
+				<i id="iconHome" class="fa fa-home fa-2x"></i>
+				<span class="header-company-name">Panneau administratif  <%= Settings.Current.Name%></span>
+			</a>
+			<div id="actions" runat="server" EnableViewState="False" ClientIDMode="Static">
+				<a  href="/Admin/config" style="position: relative">
+                    <img src="/Admin/images/settings.png" />
+                    <img class="help-page" data-kb="comelin/panneau-administration/configuration/informations-sur-la-compagnie" />
+                    Configurations
+                </a>
+				<a id="lnkTeamViewer" href="https://download.teamviewer.com/full"><img src="https://www.comelin.com/shared/images/teamviewer.svg"/>TeamViewer</a>
+				<a href="?restart=true" id="lnkRestart" onclick="return confirm('Confirmer la ré-initialisation de Comelin?')">
+					<img src="/admin/images/restart.png" title="Redémarré la platform (en cas de problème)" />Redémarrer</a>
+				<a href="/installer/" id="lnkInstall" runat="server" style="position: relative" >
+                    <img src="/admin/images/download.png" title="Télécharger Comelin pour nouvelle installation"/>
+                    <img class="help-page" data-kb="comelin/panneau-administration/instalation" />
+                    Télécharger
+				</a>
+				<a href="https://facture.comelin.com/?guid=" target="_blanc" runat="server" Visible="False" id="lnkInvoices" ><img src="/admin/images/invoices.svg">Factures</a>&nbsp;
+				<a href="/admin/login.aspx?action=Logout"><img src="/admin/images/logout.png" id="lnkLogout" title="Se déconnecté" /><%= SessionVariable.CurrentEmployeeName %></a>			
+			</div>
+		</div>
+		<div class="container-fluid">
+			<%= UserMessage.Write() %>
+			
+			<asp:ContentPlaceHolder ID="cp" runat="server">
+			</asp:ContentPlaceHolder>
+		<a id="lnkToTop" href="#b" class="visibleBottom"><i aria-hidden="true" class="fa fa-chevron-up"></i></a>
+		</div>
+	</form>
+	<script src="/admin/js/admin.js<%=JsVersion %>"></script>
+	<asp:ContentPlaceHolder ID="cpFooter" runat="server">
+	</asp:ContentPlaceHolder>
+</body>
+</html>

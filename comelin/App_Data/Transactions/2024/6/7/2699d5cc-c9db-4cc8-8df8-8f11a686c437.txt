@@ -1,0 +1,65 @@
+{
+  "ObjType": 4,
+  "Id": 0,
+  "IdCustomer": 0,
+  "IdPOS": 3,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "2699d5cc-c9db-4cc8-8df8-8f11a686c437",
+  "TypeInt": 1,
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0,
+  "DateCreated": "2024-06-07T15:51:47.1034659-04:00",
+  "Employee": "Edouard",
+  "Stamps": 0,
+  "StampsUsed": 0,
+  "Tax1": 0.45,
+  "Tax2": 0.90,
+  "Total": 10.34,
+  "CostTotal": 0.0,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "Interac": 10.34
+    }
+  },
+  "Lines": [
+    {
+      "Id": 0,
+      "IdProduct": 3817,
+      "Desc": "nf acide folique",
+      "Qty": 1.0,
+      "UnitPrice": 8.99,
+      "Discount": 0.0,
+      "TaxCode": "S",
+      "Tax1": 0.45,
+      "Tax2": 0.90,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 0,
+  "PreparationFee": 0.0,
+  "GlobalDiscount": 0.0,
+  "AmountPayWithPoints": 0.0,
+  "DeliveryOption": 1,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": true,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 0,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": true,
+  "CreditNoteBefore": 0.0,
+  "CashierName": "",
+  "Ext": {
+    "NbItems": 1
+  }
+}

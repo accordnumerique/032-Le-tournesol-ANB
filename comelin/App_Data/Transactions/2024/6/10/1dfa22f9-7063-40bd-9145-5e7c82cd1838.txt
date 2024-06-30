@@ -1,0 +1,63 @@
+{
+  "ObjType": 4,
+  "Id": 0,
+  "IdCustomer": 0,
+  "IdPOS": 3,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "1dfa22f9-7063-40bd-9145-5e7c82cd1838",
+  "TypeInt": 32,
+  "Notes": "merveilles sans gluten",
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0,
+  "DateCreated": "2024-06-10T13:28:34.8946659-04:00",
+  "Employee": "Leila",
+  "Stamps": 0,
+  "StampsUsed": 0,
+  "Tax1": 0.0,
+  "Tax2": 0.0,
+  "Total": -129.1,
+  "CostTotal": 0.0,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "Cash": -129.1
+    }
+  },
+  "Lines": [
+    {
+      "Id": 0,
+      "IdProduct": 0,
+      "Desc": "merveilles sans gluten",
+      "Qty": 1.0,
+      "UnitPrice": -129.1,
+      "Discount": 0.0,
+      "TaxCode": "\u0000",
+      "Tax1": 0.0,
+      "Tax2": 0.0,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "Cost": 0.0
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 0,
+  "PreparationFee": 0.0,
+  "GlobalDiscount": 0.0,
+  "AmountPayWithPoints": 0.0,
+  "DeliveryOption": 0,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": false,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 0,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": false,
+  "CreditNoteBefore": 0.0,
+  "CashierName": "",
+  "Ext": {}
+}

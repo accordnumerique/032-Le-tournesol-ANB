@@ -1,0 +1,69 @@
+{
+  "ObjType": 4,
+  "Id": 0,
+  "IdCustomer": 0,
+  "IdPOS": 3,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "412dca96-cf23-4f14-98ff-07aa0f44a8b4",
+  "TypeInt": 1,
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0,
+  "DateCreated": "2024-06-12T16:13:34.239993-04:00",
+  "Employee": "Leila",
+  "Stamps": 0,
+  "StampsUsed": 0,
+  "Tax1": 0.26,
+  "Tax2": 0.52,
+  "Total": 5.97,
+  "CostTotal": 5.43,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "Cash": 8.2,
+      "Penny": 0.02,
+      "Change": -2.25
+    }
+  },
+  "Lines": [
+    {
+      "Id": 0,
+      "IdProduct": 3811,
+      "ProductCode": "627987606010",
+      "Desc": "Patates Douces",
+      "Qty": 1.0,
+      "UnitPrice": 7.99,
+      "Discount": 2.80,
+      "TaxCode": "S",
+      "Tax1": 0.26,
+      "Tax2": 0.52,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PromotionalCodeUsed": "Manual",
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 0,
+  "PreparationFee": 0.0,
+  "GlobalDiscount": 0.0,
+  "AmountPayWithPoints": 0.0,
+  "DeliveryOption": 1,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": true,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 0,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": true,
+  "CreditNoteBefore": 0.0,
+  "CashierName": "",
+  "Ext": {
+    "NbItems": 1
+  }
+}

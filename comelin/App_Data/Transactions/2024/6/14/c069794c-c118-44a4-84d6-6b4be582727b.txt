@@ -1,0 +1,68 @@
+{
+  "ObjType": 4,
+  "Id": 0,
+  "IdCustomer": 0,
+  "IdPOS": 3,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "c069794c-c118-44a4-84d6-6b4be582727b",
+  "TypeInt": 1,
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0,
+  "DateCreated": "2024-06-14T15:51:22.0196185-04:00",
+  "Employee": "Leila",
+  "Stamps": 0,
+  "StampsUsed": 0,
+  "Tax1": 0.34,
+  "Tax2": 0.68,
+  "Total": 7.83,
+  "CostTotal": 6.75,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "Cash": 23.05,
+      "Penny": -0.02,
+      "Change": -15.20
+    }
+  },
+  "Lines": [
+    {
+      "Id": 0,
+      "IdProduct": 680,
+      "ProductCode": "627843837039",
+      "Desc": "Gutsy.Kombu.Energie 355 ml",
+      "Qty": 3.0,
+      "UnitPrice": 3.49,
+      "Discount": 3.66,
+      "TaxCode": "S",
+      "Tax1": 0.34,
+      "Tax2": 0.68,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PromotionalCodeUsed": "Manual",
+      "Cost": 0.0
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 0,
+  "PreparationFee": 0.0,
+  "GlobalDiscount": 0.0,
+  "AmountPayWithPoints": 0.0,
+  "DeliveryOption": 1,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": true,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 0,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": true,
+  "CreditNoteBefore": 0.0,
+  "CashierName": "",
+  "Ext": {
+    "NbItems": 3
+  }
+}

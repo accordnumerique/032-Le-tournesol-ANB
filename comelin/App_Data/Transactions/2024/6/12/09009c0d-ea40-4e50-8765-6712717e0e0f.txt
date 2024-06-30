@@ -1,0 +1,68 @@
+{
+  "ObjType": 4,
+  "Id": 0,
+  "IdCustomer": 0,
+  "IdPOS": 3,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "09009c0d-ea40-4e50-8765-6712717e0e0f",
+  "TypeInt": 1,
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0,
+  "DateCreated": "2024-06-12T16:12:06.0355605-04:00",
+  "Employee": "Leila",
+  "Stamps": 0,
+  "StampsUsed": 0,
+  "Tax1": 0.39,
+  "Tax2": 0.78,
+  "Total": 8.95,
+  "CostTotal": 7.80,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "Cash": 17.15,
+      "Change": -8.20
+    }
+  },
+  "Lines": [
+    {
+      "Id": 0,
+      "IdProduct": 2194,
+      "ProductCode": "832958000517",
+      "Desc": "glutenberg  millet mais blonde 473ml",
+      "Qty": 3.0,
+      "UnitPrice": 3.99,
+      "Discount": 4.19,
+      "TaxCode": "S",
+      "Tax1": 0.39,
+      "Tax2": 0.78,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PromotionalCodeUsed": "Manual",
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 0,
+  "PreparationFee": 0.0,
+  "GlobalDiscount": 0.0,
+  "AmountPayWithPoints": 0.0,
+  "DeliveryOption": 1,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": true,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 0,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": true,
+  "CreditNoteBefore": 0.0,
+  "CashierName": "",
+  "Ext": {
+    "NbItems": 3
+  }
+}

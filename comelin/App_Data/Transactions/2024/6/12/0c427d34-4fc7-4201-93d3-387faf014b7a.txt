@@ -1,0 +1,83 @@
+{
+  "ObjType": 4,
+  "Id": 0,
+  "IdCustomer": 0,
+  "IdPOS": 3,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "0c427d34-4fc7-4201-93d3-387faf014b7a",
+  "TypeInt": 1,
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0,
+  "DateCreated": "2024-06-12T13:18:09.7144904-04:00",
+  "Employee": "Leila",
+  "Stamps": 1,
+  "StampsUsed": 0,
+  "Tax1": 1.49,
+  "Tax2": 2.97,
+  "Total": 40.14,
+  "CostTotal": 22.60,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "Interac": 40.14
+    }
+  },
+  "Lines": [
+    {
+      "Id": 0,
+      "IdProduct": 186,
+      "ProductCode": "628176567488",
+      "Desc": "Anokian Creme Visage Tilleul 55 gr",
+      "Qty": 1.0,
+      "UnitPrice": 34.99,
+      "Discount": 5.25,
+      "TaxCode": "S",
+      "Tax1": 1.49,
+      "Tax2": 2.97,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PromotionalCodeUsed": "Manual",
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    },
+    {
+      "Id": 0,
+      "IdProduct": 1988,
+      "Desc": "biobon.vege.pate.sans.gluten.200g",
+      "Qty": 1.0,
+      "UnitPrice": 6.99,
+      "Discount": 1.05,
+      "TaxCode": "Z",
+      "Tax1": 0.0,
+      "Tax2": 0.0,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PromotionalCodeUsed": "Manual",
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 0,
+  "PreparationFee": 0.0,
+  "GlobalDiscount": 0.0,
+  "AmountPayWithPoints": 0.0,
+  "DeliveryOption": 1,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": true,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 1,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": true,
+  "CreditNoteBefore": 0.0,
+  "CashierName": "",
+  "Ext": {
+    "NbItems": 2
+  }
+}

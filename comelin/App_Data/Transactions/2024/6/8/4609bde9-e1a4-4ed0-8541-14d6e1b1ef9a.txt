@@ -1,0 +1,66 @@
+{
+  "ObjType": 4,
+  "Id": 0,
+  "IdCustomer": 0,
+  "IdPOS": 3,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "4609bde9-e1a4-4ed0-8541-14d6e1b1ef9a",
+  "TypeInt": 1,
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0,
+  "DateCreated": "2024-06-08T13:17:27.8056309-04:00",
+  "Employee": "Leila",
+  "Stamps": 0,
+  "StampsUsed": 0,
+  "Tax1": 1.00,
+  "Tax2": 1.99,
+  "Total": 22.98,
+  "CostTotal": 9.54,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "Interac": 22.98
+    }
+  },
+  "Lines": [
+    {
+      "Id": 0,
+      "IdProduct": 3490,
+      "ProductCode": "068958016283",
+      "Desc": "NF - Calcium et Magnesium",
+      "Qty": 1.0,
+      "UnitPrice": 19.99,
+      "Discount": 0.0,
+      "TaxCode": "S",
+      "Tax1": 1.00,
+      "Tax2": 1.99,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 0,
+  "PreparationFee": 0.0,
+  "GlobalDiscount": 0.0,
+  "AmountPayWithPoints": 0.0,
+  "DeliveryOption": 1,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": true,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 0,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": true,
+  "CreditNoteBefore": 0.0,
+  "CashierName": "",
+  "Ext": {
+    "NbItems": 1
+  }
+}

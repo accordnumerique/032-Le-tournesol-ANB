@@ -1,0 +1,67 @@
+{
+  "ObjType": 4,
+  "Id": 0,
+  "IdCustomer": 484,
+  "IdPOS": 3,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "01c7bcf3-d8fc-446c-9e5d-fb7b96fe800f",
+  "TypeInt": 1,
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0,
+  "DateCreated": "2024-06-14T14:56:53.8703465-04:00",
+  "Employee": "Leila",
+  "Stamps": 1,
+  "StampsUsed": 0,
+  "Tax1": 0.0,
+  "Tax2": 0.0,
+  "Total": 31.44,
+  "CostTotal": 0.0,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "MasterCard": 31.44
+    }
+  },
+  "Lines": [
+    {
+      "Id": 0,
+      "IdProduct": 5,
+      "ProductCode": "DiversSansTaxes",
+      "Desc": "Divers - non taxable",
+      "Qty": 7.0,
+      "UnitPrice": 4.99,
+      "Discount": 3.49,
+      "TaxCode": "Z",
+      "Tax1": 0.0,
+      "Tax2": 0.0,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PromotionalCodeUsed": "Manual",
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 35,
+  "PreparationFee": 0.0,
+  "GlobalDiscount": 0.0,
+  "AmountPayWithPoints": 0.0,
+  "DeliveryOption": 1,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": true,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 1,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": true,
+  "CreditNoteBefore": 0.0,
+  "CashierName": "",
+  "Ext": {
+    "NbItems": 7
+  }
+}

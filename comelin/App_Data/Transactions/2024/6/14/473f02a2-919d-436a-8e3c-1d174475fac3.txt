@@ -1,0 +1,69 @@
+{
+  "ObjType": 4,
+  "Id": 0,
+  "IdCustomer": 0,
+  "IdPOS": 3,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "473f02a2-919d-436a-8e3c-1d174475fac3",
+  "TypeInt": 1,
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0,
+  "DateCreated": "2024-06-14T14:11:56.5693397-04:00",
+  "Employee": "Leila",
+  "Stamps": 0,
+  "StampsUsed": 0,
+  "Tax1": 0.39,
+  "Tax2": 0.78,
+  "Total": 8.96,
+  "CostTotal": 7.98,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "Cash": 20.0,
+      "Penny": 0.01,
+      "Change": -11.05
+    }
+  },
+  "Lines": [
+    {
+      "Id": 0,
+      "IdProduct": 814,
+      "ProductCode": "7622210449405",
+      "Desc": "Prince.Choco.Noisette.300 g",
+      "Qty": 2.0,
+      "UnitPrice": 5.99,
+      "Discount": 4.19,
+      "TaxCode": "S",
+      "Tax1": 0.39,
+      "Tax2": 0.78,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PromotionalCodeUsed": "Manual",
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 0,
+  "PreparationFee": 0.0,
+  "GlobalDiscount": 0.0,
+  "AmountPayWithPoints": 0.0,
+  "DeliveryOption": 1,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": true,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 0,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": true,
+  "CreditNoteBefore": 0.0,
+  "CashierName": "",
+  "Ext": {
+    "NbItems": 2
+  }
+}

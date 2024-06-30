@@ -1,0 +1,82 @@
+{
+  "ObjType": 4,
+  "Id": 0,
+  "IdCustomer": 0,
+  "IdPOS": 3,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "a46d39a2-7ed5-4949-930a-f2e1a3434f31",
+  "TypeInt": 1,
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0,
+  "DateCreated": "2024-06-08T12:31:53.150514-04:00",
+  "Employee": "Leila",
+  "Stamps": 1,
+  "StampsUsed": 0,
+  "Tax1": 1.51,
+  "Tax2": 3.00,
+  "Total": 34.65,
+  "CostTotal": 16.33,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "Interac": 34.65
+    }
+  },
+  "Lines": [
+    {
+      "Id": 0,
+      "IdProduct": 1651,
+      "ProductCode": "697026182201",
+      "Desc": "Clef des champs - Bronchix 50 ml",
+      "Qty": 1.0,
+      "UnitPrice": 25.99,
+      "Discount": 0.0,
+      "TaxCode": "S",
+      "Tax1": 1.30,
+      "Tax2": 2.59,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    },
+    {
+      "Id": 0,
+      "IdProduct": 657,
+      "ProductCode": "627062300857",
+      "Desc": "Mila.Mais.Eclat.500 g",
+      "Qty": 1.0,
+      "UnitPrice": 4.15,
+      "Discount": 0.0,
+      "TaxCode": "S",
+      "Tax1": 0.21,
+      "Tax2": 0.41,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 0,
+  "PreparationFee": 0.0,
+  "GlobalDiscount": 0.0,
+  "AmountPayWithPoints": 0.0,
+  "DeliveryOption": 1,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": true,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 1,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": true,
+  "CreditNoteBefore": 0.0,
+  "CashierName": "",
+  "Ext": {
+    "NbItems": 2
+  }
+}

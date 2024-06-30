@@ -1,0 +1,68 @@
+{
+  "ObjType": 4,
+  "Id": 0,
+  "IdCustomer": 0,
+  "IdPOS": 3,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "47a238a5-2aaa-4219-9ada-1ca6fc3d744e",
+  "TypeInt": 1,
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0,
+  "DateCreated": "2024-06-12T11:32:50.3462335-04:00",
+  "Employee": "Leila",
+  "Stamps": 0,
+  "StampsUsed": 0,
+  "Tax1": 0.22,
+  "Tax2": 0.45,
+  "Total": 5.17,
+  "CostTotal": 2.92,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "Cash": 5.2,
+      "Penny": 0.02,
+      "Change": -0.05
+    }
+  },
+  "Lines": [
+    {
+      "Id": 0,
+      "IdProduct": 891,
+      "ProductCode": "831436002043",
+      "Desc": "S/G Choco 80%",
+      "Qty": 2.0,
+      "UnitPrice": 2.25,
+      "Discount": 0.0,
+      "TaxCode": "S",
+      "Tax1": 0.22,
+      "Tax2": 0.45,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 0,
+  "PreparationFee": 0.0,
+  "GlobalDiscount": 0.0,
+  "AmountPayWithPoints": 0.0,
+  "DeliveryOption": 1,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": true,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 0,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": true,
+  "CreditNoteBefore": 0.0,
+  "CashierName": "",
+  "Ext": {
+    "NbItems": 2
+  }
+}

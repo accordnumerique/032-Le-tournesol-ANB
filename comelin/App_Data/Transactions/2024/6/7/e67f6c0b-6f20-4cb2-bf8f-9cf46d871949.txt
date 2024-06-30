@@ -1,0 +1,66 @@
+{
+  "ObjType": 4,
+  "Id": 0,
+  "IdCustomer": 0,
+  "IdPOS": 3,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "e67f6c0b-6f20-4cb2-bf8f-9cf46d871949",
+  "TypeInt": 1,
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0,
+  "DateCreated": "2024-06-07T16:36:39.1803363-04:00",
+  "Employee": "Edouard",
+  "Stamps": 0,
+  "StampsUsed": 0,
+  "Tax1": 0.82,
+  "Tax2": 1.64,
+  "Total": 18.95,
+  "CostTotal": 8.09,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "Interac": 18.95
+    }
+  },
+  "Lines": [
+    {
+      "Id": 0,
+      "IdProduct": 1067,
+      "ProductCode": "829850400927",
+      "Desc": "Divine essence - Huile Essentielle Gaultherie Odorante15 ml",
+      "Qty": 1.0,
+      "UnitPrice": 16.49,
+      "Discount": 0.0,
+      "TaxCode": "S",
+      "Tax1": 0.82,
+      "Tax2": 1.64,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 0,
+  "PreparationFee": 0.0,
+  "GlobalDiscount": 0.0,
+  "AmountPayWithPoints": 0.0,
+  "DeliveryOption": 1,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": true,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 0,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": true,
+  "CreditNoteBefore": 0.0,
+  "CashierName": "",
+  "Ext": {
+    "NbItems": 1
+  }
+}

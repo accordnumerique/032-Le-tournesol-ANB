@@ -1,0 +1,283 @@
+Tag	fr	en	Comment
+Remove	Enlever	Remove
+LogginUserNotFound	"Aucun compte client n’existe avec le courriel: ""{0}""."	"No account with the email address ""{0}"" have been found."	Error when user login and user not found
+LogginNoPassword	Ce compte client n'a pas de mots de passe. Il faut remplir tous les champs.	The account have no password, you need to fill all the fields.	
+LogginWrongPassword	Le mot de passe ne correspond pas.	Wrong Password	
+LogginResendPassword	Un courriel a été envoyé avec un lien pour assigner un mot de passe.	An email has been sent with a link to assign a password.	
+EmailSendError	Erreur lors de l'envoie du courriel	Error while sending the email
+ForgotPassword	J'ai oublié mon mot de passe	I've forgot my password
+Logon	Se connecter	Logon	
+PasswordReset	Lien invalide ou déjà utilisé pour changer le mot de passe.	Link invalid or already use to change your password.	
+CartQuantity	Quantité	Quantity	
+CartPrice	Prix	Price	 
+CartUnitPrice	Prix unitaire	Unit price	
+CartSubTotal	Sous-total	Subtotal	
+CartShipping	Livraison	Shipping	
+CartCarrier	Mon transporteur	My carrier	
+CartSpecifyCountry	Spécifier le pays	Specify the country	
+CartWillBeConfirm	Sera confirmé par téléphone	Will be confirmed by phone	
+CartTVQ	TVP	PST	
+CartTPS	TPS	GST	
+Total	Total	Total
+DropLocation	Point de chute	Drop location
+
+CartNotInStock	Pas en inventaire - Il y aura un délai de commande	Not in stock - There will be an extra delay	
+CartEventNoPlaceAvailable	Complètement vendu	Sold out.	
+CartNotInStockCannotBeAdded	En rupture de stock	Sorry! Out of stock.	
+CartNotInStockShort	en rupture de stock	out of stock.	
+InStock	en inventaire	in stock
+CartNotInStockQuestion	Ajouter au panier?	Add to cart?	
+CartNew	Nouveau	New	
+CartFractionAvailable	Disponible en quantité plus petite	Available in smaller quantity	
+CartAddToCart	Ajouter au panier	Add to cart	
+CartReadyOnTitle	Pré-Commande	Pre-Order	
+CartReadyOn	Disponible à partir du {0}	Available on {0}	
+			
+CartProductRemovedTitle	Produit retiré du panier	Product remove from cart	
+CartProductRemoved	{0} a été retiré de votre panier puisqu'il n'est pas disponible.	{0} has been removed from your cart because the item is not available.	
+CartLimitedQuantityTitle	Quantité limitée	Limited Quantity	
+CartLimitedQuantity	{0} - Un maximum de {1} peut être commandé.	{0} - A maximum of {1} can be ordered.	
+CartProductRemovedSuggestion	Trouver un produit alternatif	Find a substitution product	
+CartExtraShippingFees	Frais de transport additionnel de {0:c}	Extra shipping fees of {0:c}	
+CartNotCountingForFreeShipping	Pas pris en considération pour obtenir la poste gratuite.	Not counted to get free shipping	
+CartFreeShipping	Livraison gratuite!	Free Shipping!	
+CartNoShipping	Pas de livraison, récupérez en magasin.	No shipping, pickup in store.	
+CartLocalDelivery	Livraison locale	Local delivery
+			
+CartEmpty	Votre panier est vide	The cart is empty	
+CartTotalToPay	Montant total à payer	Total amount to paid	
+CartApplyPromoCode	Appliquer code promotion	Apply promo code	
+PromotionCode	code promotionnel	promo code	
+Apply	Appliquer	Apply	
+PromotionLiquidation	Liquidation	Sale	
+PromotionDiscount	Solde	Discount	limited time
+PromotionRebate	Promotion	Promotion	always
+PromotionUntil	Jusqu'au	Until	promotion is valid until a certain date
+PromotionTimeframe	Du {0} jusqu’au {1}	From {0} to {1}	
+PromotionInStoreOnly	en magasin seulement	in store only	
+PromotionOnlineOnly	en ligne seulement	en ligne seulement	
+EmailInUseTitle	Courriel en utilisation	Email already in use	
+EmailInUseText	Le courriel {0} est déjà en utilisation. <a href='Mot-Passe-Oublie.aspx?email={0}'>Je désire recevoir un nouveau mot de passe.</a>	The email {0} is already in used. <a href='Mot-Passe-Oublie.aspx?email={0}'>I would like to receive a new password.</a>	{0} = email = {1} = url
+CartPayment	Paiement	Payment	
+CartPayPal	Effectuer votre paiement PayPal	Do your PayPal payment	
+GiftCard	Carte Cadeau	Gift Card	
+GiftCardInvalid	Le numéro de votre carte cadeau est incorrect.	The gift card number is invalid.	
+GiftCardDoNotExist	La carte-cadeau est inexistante.	No Gift card exist with this number.	
+GiftCardExpired	La carte-cadeau est expirée depuis le {0}.	The gift card is expired since {0}.	
+GiftCardNotActive	La carte-cadeau sera valide à partir du {0}.	The gift card will be valid from {0}.	
+GiftCardEmpty	La carte-cadeau a été utilisée en totalité et est vide.	The gift card has been used and is not empty.	
+GiftCardOk	La carte-cadeau a un solde de {0:c}. Il est possible que le solde soit différent si d'autres commandes internet non complétées ont été faites.	The gift card has a balance of {0:c}. It's possible the balance is lower if other pending transaction have not yet been processed.	
+GiftCardCheckInStore	La carte-cadeau sera validée en magasin.	The gift card will be validate in store.	
+GiftCardAlreadyAdded	La carte-cadeau {0} est déjà assignée.	The gift card {0} is already assigned	
+SummaryFreeShippingOk	Votre achat contient plus de {0:c} d'articles à prix régulier. Vous obtenez la livraison gratuite.	Your order qualifies for free shipping.	
+SummaryFreeShippingCondition	Un achat de {0:c} d'articles à prix régulier vous éviterait les frais de livraison de base. Présentement, vous avez {1:c} admissible.	Your order would qualify for free shipping with {0:c} before taxes.  You currently have {1:c}.	
+SummaryFreeShippingMessage	Obtenez la livraison gratuite à l'achat de {0:c} d'articles à prix régulier.	Get free shipping when purchase for {0:c} or more.	
+SummaryFreeShippingExtra	Certaines surcharges demeurent à cause du volume ou de poids des articles.	The extra shipping cost is still billed because of the size of some items.	
+SummaryFreePreparationFee	Obtenez les frais de préparation gratuit à l'achat de {0:c} d'articles à prix régulier.	Get free preparation fee when purchase for {0:c} or more.	
+TextFree	Gratuit	Free	
+NewsletterHeader	Journal	Newsletter	
+NewsletterSubscribe	Vous êtes inscrite au Journal.	Your are subscribe to the newsletter.	
+NewsletterUnsubscribe	Vous n'êtes pas inscrite au Journal.	Your are not subscribe to the newsletter. 	
+AccountUpdated	Votre information à été mise à jour.	Your information has been updated.	
+AccountSetPassword	Votre compte n'a pas de mot de passe. Svp complétez vos informations.	This account do not have password. Please complete your information.	
+WishListLoginRequired	Vous devez être authentifié pour créer votre liste cadeau.	You must login to use the wish list.	
+WishList	Liste cadeau	Wish List	
+WishListPurchased	Cet article a été acheté!	This item as been purchased!	
+WishListHowTo	Vous êtes en mode édition de liste cadeau. Vous pouvez naviguer le site et ajouter des articles.	You are in wish list mode. You can browse the web site and add items to your chart.	
+WishListComplete	J'ai terminé ma liste cadeau.	I've complete my wish list.	
+SummaryPromotionalCodeNotFound	Aucune promotion avec le code '{0}' n'est présentement valide.	There is currently no valid promotional code '{0}'	
+PickupInStore	Cueillette en magasin	Pick up	in store
+PickupIn	Récupérer à	Pick up at	
+PriceInCad	Prix en dollars canadiens	All prices in Canadian dollars
+CategoryPagePrevious	Page Précédente	Previous Page	
+CategoryPageNext	Page Suivante	Next Page	
+CategoryPageXOfY	Page {0} de {1}	Page {0} of {1}	
+CategoryViewMore	Voir davantage	View more	
+CategoryXofYProductDisplayed	{0} des {1} produits affichés	{0} of {1} products displayed	
+CategoryViewAll	Tous les produits	View all products	
+CategoryNew	Nouveautés	New Products	
+GlobalProducts	Produits	Products	
+GlobalProduct	Produit	Product
+GlobalFree	Gratuit	Free	
+GlobalProductCode	Code de produit	Product code	
+GlobalBarcode	Code à barres	Barcode	
+SupplierCode	Code fournisseur	Supplier code
+GlobalPromotion	Nos Promotions	Our Promotions	
+CartToConfirm	à confirmer	to be confirmed	
+ProductAvailability	Disponibilité	Availability	
+ProductAvailabilityNoneInventory	Ce produit n'est pas inventorié et considéré toujours disponible.	This product is not inventoried and consider always in stock.	
+ProductAvailabilityDelay	transfert sur demande	transfer on demain	
+ProductAvailabilityOnline	En ligne	Online	
+ProductAvailabilityTransport	Transport entre magasins	In transit between stores	
+ProductAvailabilityDelayToConfirm	Délai à confirmer	Delay to be confirmed	
+ProductAvailabilityOrdered	En commande du fournisseur	In order from the supplier	
+ReferenceWelcome	Bienvenue aux clients de {0}! Bon magasinage!	Welcome to customers of {0}! Happy Shopping!	
+FilterByBrand	Par Marque	By Brand	
+FilterByPrice	Par Prix	By Price	
+FilterViewAll	Plus…	More…	
+PriceRangeLessThan	Moins de 	Less than 	
+PriceRangeMoreThan	Plus de 	More than 	
+PriceRangeTo	 à 	 to 	
+FilterAll	Tout	All	
+SearchResult	Résultats de recherche	Search Results	
+OnlineShop	Boutique en ligne	Online shop	
+Template-WishList-Purchased-True	Déjà acheté!	Already bought	
+Template-WishList-Purchased-False			
+GlobalFor	pour	for	
+SpecialOrder	Commande spéciale	Special order
+QtyMaxPerClient	Qté maximale par client	Max quantity per client
+
+#Configuration			
+Store	Magasin	Store	
+ComputerName	Nom de l'ordinateur	Computer Name	
+SetupConfigureInvoice	Configuration des factures	Customized Invoices	
+Printers	Imprimantes	Printers	
+PrinterInvoice3inch	"Imprimante Facture (3"" large)"	"Invoice Printer (3"" wide)"	
+PrinterFullSize	"Imprimante (8.5"" x 11"")"	"Printer (8.5"" x 11"")"	
+PrinterSticker	"Imprimante à étiquettes (2"" large)"	"Sticker Printer (2"" wide)"	
+Sticker	Étiquettes	Stickers	
+Other	Autre	Other	
+			
+#TopMenu			
+ButtonLogin1	Connection	Connexion	
+ButtonLoginForEmploye	pour employé	for employee	
+Employes	employés	employes	
+PurchaseOrders	Réservations	POs	
+NewOrder	Nouvelle Facture	Start new invoice	
+NewProduct	Nouveau Produit	New Product	
+Restock	Réception de marchandises	Restock Inventory	
+SalesSummary	Sommaire de ventes	Sales Summary	
+TransferStore	Transfert de Magasin	Transfer to another store	
+ProductToOrder	Produits à Commander	Products to order	
+Promotions	Promotions et rabais	Promotions and rebate	
+TransactionHistory	Historique Transactions	Transactions History	
+SupplierOrder	Commande fournisseur	Supplier Order
+	
+#Tool menu			
+OptionsAndConfiguration	Options && configuration	Options && configurations	
+EmergencyContact	Contact d'urgence	Emergency contact	
+			
+			
+			
+Search	Recherche	Search	
+Popular	Populaires	Popular	
+Print	Imprimer	Print	
+Cancel	Annuler	Cancel	
+PurchaseOrder	Bon de commande	Purchase Order	
+Billing	Facturer	Billing	
+Complete	Terminer	Complete	
+Rebate	Rabais	Discount	
+Deleted	effacé	deleted	
+		
+#Sales summary			
+			
+#ucSales 			
+FilterByDate	Filtre par date	Filter by date	
+Customer	Client	Customer	
+From	Depuis le	From	
+To	Au	To	
+FilterByCustomerGroup	Filter par groupe de clients	Filter by customer group	
+UpdateSalesSummary	Actualiser Sommaire	Update Summary	
+SalesBeforeDiscount	Vente avant rabais	Sales before discount	
+NetSales	Vente Net	Net Sales	
+PettyCast	Petite Caisse	Petty Cash	
+PrintSales	Imprimer les ventes	Print Sales	
+ExportExcel	Exporter sur Excel	Export to Excel	
+PreparationFee	Frais de préparation	Preparation fee
+
+#Print			
+Invoice	Facture	Invoice	
+PurchaseOrderAbb	Réser	PO	
+ShippingAddress	Adresse de livraison	Shipping Address	
+InvoiceGift	Facture Cadeau	Invoice Gift	
+			
+TotalItems	Nombre total d'articles	Total number of items	
+TotalRebate	Rabais total	Total rebate	
+			
+#Search window			
+Title	Titre	Title	
+Brand	Marque	Brand	
+Category	Catégorie	Category	
+Supplier	Fournisseur	Supplier	
+			
+BreadcrumbHome	Accueil	Home	
+StarProduct	Coups de coeur	Favorite	
+AvailableInStore	Disponible en magasin	Available in store	
+WarningProductShippedWhenAllAvailable	La commande sera postée que lorsque TOUS les articles seront disponibles seulement.	The order will be shipped when all items will be available only.	
+			
+#View transaction			
+ShippingCart	Panier d'achat	Shopping cart	
+AssignTo	Assigné à	Assign to	
+ServedBy	Servi par	Served by	
+PreparedBy	Préparé par	Prepared by	
+BilledBy	Facturé par	Billed by	
+SecurityDespositMade	Dépôt déjà fait	Deposit made	
+SecurityDeposit	Dépôt de sécurité	Security deposit
+ModificationSinceSignature	Modification(s) depuis la signature	Modification(s) since signature
+
+SupplierOrderTitle	Numéro de Commande	Purchase Order Number
+SalesTitle	Facture	Invoice
+AdjustementTitle	Ajustement d'inventaire	Inventory adjustment
+ReStockTitle	Réception de marchandises	Restock inventory
+TransferTitle	Transfert entre magasins	Transfers between stores
+PettyCashTitle	Transaction petite caisse	Petty cash transaction
+InventoryTitle	Décompte d'inventaire	Inventory recount
+RmaTitle	Retour de marchandises au fabricant	RMA / Return	
+CreativityTitle	Créations	Creation
+InternetOrderTitle	Accusé Réception	Order Acknowledgement
+
+#points			
+CartStamps	Points	Points	
+CartNoPoints	Ne donne pas de points	Doesn't give points	
+PointsGranted	Points accumulées	Points accumulated	
+PointsSpended	Points utilisées	Points spend	
+PointsBalance	Solde des points	Points balance	
+CartItem	Article	Item	
+Cost	Coût	Cost	
+CostMaterial	Coût d'achat	Purchase cost
+CostMaterialTT	Coût du produit lorsqu'il est acheter d'un fournisseur	Cost of the product when buying from a supplier
+CostShipping	Coût du transport	Shipping cost
+CostShippingTT	Les frais de transport moyen que votre entreprise paie pour acheter le produit	Average shipping cost that your company pay to buy the product
+CostCustoms	Coût de douane	Customs cost
+CostCustomsTT	Frais de douane si le produit est acheter d'un autre pays	Customs cost if the product is purchased from another country
+CostBuild	Coût fabrication	Manufacturing cost
+CostBuildTT	Si vous fabriquer le produit, frais de vos matière première	If you build the produit, price of your raw material
+CostLabor	Coût main d'oeuvre	Labor cost
+CostLaborTT	Si vous fabriquer le produit, frais de votre main d'oeuvre	If you build the product, price of your labor
+CostTotal	Coût total	Total cost	
+CostTotalTT	Coût d'achat + transport + douane + fabrication + main d'oeuvre	Purchase cost + shipping + customs + manufacture + labor
+ChargedManually	Aucun montant n'est facturé automatiquement sur la carte de crédit, la facture finale sera émise lorsque la commande sera complète.	No amount will be billed automatically on the credit card, the final invoice wil lbe send when the order is complete.	
+			
+#payment system			
+PaymentVisa	Visa	Visa	
+PaymentMasterCard	MasterCard	MasterCard	
+PaymentInterac	Débit	Debit
+PaymentInteracTransfer	Virement Interac	Interac e-Transfer
+PaymentCash	Comptant	Cash	
+PaymentChange	Change	Change	
+PaymentAmex	American Express	American Express	
+PaymentGeneric1	À configuré	To be configure	
+PaymentPayPal	PayPal	PayPal	
+PaymentCheck	Chèque	Check	
+PaymentGiftCard	Carte Cadeau	Gift Card	
+PaymentFidelityPoints	Points fidélité	Fidelity points	
+PaymentOther	Autre	Other	
+PaymentPenny	Arrondissement	Rounding	
+PaymentCredit	Compte Client	Credit	
+PaymentCreditNote	Notes de crédit	Credit notes	
+PaymentNone	Non défini	Not defined	
+PaymentNet30Days	Net 30 jours	Net 30 days	
+PaymentSquare	Square	Square	
+PaymentFirstData	En ligne	Online
+PaymentTip	Pourboire	Tip
+PaymentMonerisOnline	Moneris en ligne	Moneris online
+ExpirationDate	Date d'expiration invalide	Invalid expiration date
+PaymentInteracTransferMsg_2	Il est de votre responsabilité de faire le virement à <b>{0}</b> au montant de <b>{1}</b>. <br /> Lors du virement, utiliser votre numéro de commande <code>{2}</code> comme réponse à la question.	It's your responsability to do a wire transfer of <b>{1}</b> to <b>{0}</b>. In the transfert, use the order number <code>{2}</code> as answers to the question.
+
+#Store configuration
+StorePrimary	Magasin par défaut	Primary Store
+InventoryForShipping	Effectue de la livraison par la poste	Do online shipping
+InventoryForPickup	Le client peut collecter en magasin	Customer can pick-up at store
+Select	Sélectionner	Select
+OptionNotAvailable	Option not disponible	Option not available
+YouMustSelectAStore	Vous devez sélectionner un magasin	You must select a store

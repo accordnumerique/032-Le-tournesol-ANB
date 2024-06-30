@@ -1,0 +1,83 @@
+{
+  "ObjType": 4,
+  "Id": 0,
+  "IdCustomer": 0,
+  "IdPOS": 3,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "3f2e852f-3cde-43e8-a564-e34fce575685",
+  "TypeInt": 1,
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0,
+  "DateCreated": "2024-06-03T13:49:19.6804665-04:00",
+  "Employee": "Leila",
+  "Stamps": 1,
+  "StampsUsed": 0,
+  "Tax1": 0.0,
+  "Tax2": 0.0,
+  "Total": 48.88,
+  "CostTotal": 4.45,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "Cash": 100.0,
+      "Penny": -0.02,
+      "Change": -51.10
+    }
+  },
+  "Lines": [
+    {
+      "Id": 0,
+      "IdProduct": 3437,
+      "Desc": "pissenlit clef 250 gr",
+      "Qty": 1.0,
+      "UnitPrice": 39.99,
+      "Discount": 0.0,
+      "TaxCode": "Z",
+      "Tax1": 0.0,
+      "Tax2": 0.0,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    },
+    {
+      "Id": 0,
+      "IdProduct": 2610,
+      "ProductCode": "8116",
+      "Desc": "Chardon marie plante 70g",
+      "Qty": 1.0,
+      "UnitPrice": 8.89,
+      "Discount": 0.0,
+      "TaxCode": "Z",
+      "Tax1": 0.0,
+      "Tax2": 0.0,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 0,
+  "PreparationFee": 0.0,
+  "GlobalDiscount": 0.0,
+  "AmountPayWithPoints": 0.0,
+  "DeliveryOption": 1,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": true,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 1,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": true,
+  "CreditNoteBefore": 0.0,
+  "CashierName": "",
+  "Ext": {
+    "NbItems": 2
+  }
+}

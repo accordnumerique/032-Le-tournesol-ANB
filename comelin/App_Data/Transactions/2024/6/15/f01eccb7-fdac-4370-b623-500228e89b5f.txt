@@ -1,0 +1,66 @@
+{
+  "ObjType": 4,
+  "Id": 0,
+  "IdCustomer": 0,
+  "IdPOS": 3,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "f01eccb7-fdac-4370-b623-500228e89b5f",
+  "TypeInt": 1,
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0,
+  "DateCreated": "2024-06-15T16:20:24.8069951-04:00",
+  "Employee": "Leila",
+  "Stamps": 0,
+  "StampsUsed": 0,
+  "Tax1": 1.20,
+  "Tax2": 2.39,
+  "Total": 27.57,
+  "CostTotal": 15.66,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "Interac": 27.57
+    }
+  },
+  "Lines": [
+    {
+      "Id": 0,
+      "IdProduct": 3560,
+      "ProductCode": "662166221103",
+      "Desc": "Patience jus de canneberg biologique 946 ml",
+      "Qty": 2.0,
+      "UnitPrice": 11.99,
+      "Discount": 0.0,
+      "TaxCode": "S",
+      "Tax1": 1.20,
+      "Tax2": 2.39,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 0,
+  "PreparationFee": 0.0,
+  "GlobalDiscount": 0.0,
+  "AmountPayWithPoints": 0.0,
+  "DeliveryOption": 1,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": true,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 0,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": true,
+  "CreditNoteBefore": 0.0,
+  "CashierName": "",
+  "Ext": {
+    "NbItems": 2
+  }
+}

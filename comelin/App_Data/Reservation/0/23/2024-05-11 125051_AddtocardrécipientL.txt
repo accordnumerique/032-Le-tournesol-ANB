@@ -1,0 +1,62 @@
+{
+  "Delivery": 4,
+  "ObjType": 15,
+  "SubTotalItemThatGiveFreeShipping": 49.99,
+  "SubTotalItemHaveShippingCost": 49.99,
+  "SubTotal": 69.99,
+  "Taxes": 10.49,
+  "Total": 80.48,
+  "Id": 23,
+  "_idCustomer": 721,
+  "DateCreated": "2024-05-11T12:49:21.553",
+  "DateModified": "2024-05-11T12:50:51.7122693-04:00",
+  "DateClientSent": "0001-01-01T00:00:00",
+  "StatusInt": 1,
+  "TypeInt": 1,
+  "SourceWeb": true,
+  "IdStore": 0,
+  "NoShipping": false,
+  "TaxCode": "S",
+  "TotalLastKnown": 80.48,
+  "Lines": [
+    {
+      "UnitPrice": 49.99,
+      "Title": "récipient 4L",
+      "Discount": 0.0,
+      "SubTotal": 49.99,
+      "IdProduct": 3318,
+      "Quantity": 1.0,
+      "DateAdded": "2024-05-11T16:50:51.7112717Z",
+      "Reserved": false,
+      "StampMultiplier": 1,
+      "WasInStockAtTimeOfOrder": false,
+      "NoPointsOverride": false,
+      "DiscountCalculated": 0.0,
+      "_tag": "3478aa9a-c6ac-4e8e-9fca-912cebc0e555",
+      "_tax": {
+        "ObjType": 12,
+        "Id": 1,
+        "TaxCode": "S",
+        "TaxName": "Standard",
+        "Tax1": 5.0,
+        "Tax2": 9.975,
+        "Match": "QC",
+        "IsDeleted": false
+      }
+    }
+  ],
+  "IdTemporary": "eded508e-e188-4357-b8e4-76fa1a1fd889",
+  "Payments": {
+    "ObjType": 250,
+    "Amounts": {}
+  },
+  "IdReferrer": 0,
+  "DisableSubItems": false,
+  "HasShippingAddress": false,
+  "_shippingCost": 20.0,
+  "HasPreparationFee": true,
+  "_Deliver": 4,
+  "IsDeleted": false,
+  "_tax1": 3.50,
+  "_tax2": 6.99
+}

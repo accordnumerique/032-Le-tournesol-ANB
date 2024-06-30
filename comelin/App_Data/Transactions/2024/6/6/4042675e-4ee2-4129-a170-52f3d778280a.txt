@@ -1,0 +1,68 @@
+{
+  "ObjType": 4,
+  "Id": 0,
+  "IdCustomer": 0,
+  "IdPOS": 3,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "4042675e-4ee2-4129-a170-52f3d778280a",
+  "TypeInt": 1,
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0,
+  "DateCreated": "2024-06-06T13:33:05.6241098-04:00",
+  "Employee": "Leila",
+  "Stamps": 0,
+  "StampsUsed": 0,
+  "Tax1": 0.78,
+  "Tax2": 1.55,
+  "Total": 17.90,
+  "CostTotal": 14.52,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "Cash": 20.0,
+      "Change": -2.10
+    }
+  },
+  "Lines": [
+    {
+      "Id": 0,
+      "IdProduct": 600,
+      "ProductCode": "180519005021",
+      "Desc": "Vilains - Blanche Pilon 473 ml",
+      "Qty": 4.0,
+      "UnitPrice": 5.99,
+      "Discount": 8.39,
+      "TaxCode": "S",
+      "Tax1": 0.78,
+      "Tax2": 1.55,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PromotionalCodeUsed": "Manual",
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 0,
+  "PreparationFee": 0.0,
+  "GlobalDiscount": 0.0,
+  "AmountPayWithPoints": 0.0,
+  "DeliveryOption": 1,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": true,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 0,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": true,
+  "CreditNoteBefore": 0.0,
+  "CashierName": "",
+  "Ext": {
+    "NbItems": 4
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "ObjType": 4,
+  "Id": 0,
+  "IdCustomer": 0,
+  "IdPOS": 3,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "1c02e81c-9f71-4b2d-a593-c96207ad4147",
+  "TypeInt": 1,
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0,
+  "DateCreated": "2024-06-02T14:06:06.0746999-04:00",
+  "Employee": "Leila",
+  "Stamps": 0,
+  "StampsUsed": 0,
+  "Tax1": 0.52,
+  "Tax2": 1.05,
+  "Total": 12.98,
+  "CostTotal": 7.35425,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "Interac": 12.98
+    }
+  },
+  "Lines": [
+    {
+      "Id": 0,
+      "IdProduct": 2123,
+      "ProductCode": "2237",
+      "Desc": "POMMES.gaia\r\nPoids:0.185 kg",
+      "Qty": 0.185,
+      "UnitPrice": 4.99,
+      "Discount": 0.0,
+      "TaxCode": "Z",
+      "Tax1": 0.0,
+      "Tax2": 0.0,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    },
+    {
+      "Id": 0,
+      "IdProduct": 872,
+      "ProductCode": "818762001926",
+      "Desc": "Rise.Framb.Vanille.1 l",
+      "Qty": 1.0,
+      "UnitPrice": 10.49,
+      "Discount": 0.0,
+      "TaxCode": "S",
+      "Tax1": 0.52,
+      "Tax2": 1.05,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 0,
+  "PreparationFee": 0.0,
+  "GlobalDiscount": 0.0,
+  "AmountPayWithPoints": 0.0,
+  "DeliveryOption": 1,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": true,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 0,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": true,
+  "CreditNoteBefore": 0.0,
+  "CashierName": "",
+  "Ext": {
+    "NbItems": 2
+  }
+}

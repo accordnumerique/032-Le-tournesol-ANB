@@ -1,0 +1,20 @@
+select pos_tab.f01 as prod_upc, pos_tab.f02 as prod_desc, pos_tab.f04 as cat_no, sdp_tab.F1022 as cat_nom,
+cost_tab.f27 as fourn_code,
+vendor.f334 as fourn_nom,
+PRICEOBJ_TAB.f21 as prod_format,
+OBJ_TAB.f22 as prod_mesure,
+pos_tab.f05 as cons_code,
+btl_tab.f1020 as cons_desc,
+cost_tab.f19 as inv_unXemb,
+cost_tab.f195 as prix_cout_emb,
+price_tab.f30 as prix_vend_un,
+pos_tab.f81 as prix_tps,
+pos_tab.f96 as prix_tvq
+from
+pos_tab left join cost_tab on pos_tab.f01 = cost_tab.f01
+left join vendor on vendor.f27 = cost_tab.f27
+left join price_tab on pos_tab.f01 = price_tab.f01
+left join SDP_TAB on pos_tab.f04 = sdp_tab.F04
+left join priceobj_tab on pos_tab.f01 = PRICEOBJ_TAB.F01
+left join OBJ_TAB on pos_tab.f01 = obj_tab.f01
+left join btl_tab on pos_tab.f05 = btl_tab.f05

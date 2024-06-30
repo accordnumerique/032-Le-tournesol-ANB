@@ -1,0 +1,66 @@
+{
+  "ObjType": 4,
+  "Id": 0,
+  "IdCustomer": 0,
+  "IdPOS": 3,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "92a9ed9b-bd6c-4608-af3b-b581ae4172c1",
+  "TypeInt": 1,
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0,
+  "DateCreated": "2024-06-14T17:48:20.3616401-04:00",
+  "Employee": "Leila",
+  "Stamps": 1,
+  "StampsUsed": 0,
+  "Tax1": 1.45,
+  "Tax2": 2.89,
+  "Total": 33.33,
+  "CostTotal": 14.88,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "MasterCard": 33.33
+    }
+  },
+  "Lines": [
+    {
+      "Id": 0,
+      "IdProduct": 1666,
+      "ProductCode": "697026192347",
+      "Desc": "Clef des champs - Drastix 50ml 50 ml",
+      "Qty": 1.0,
+      "UnitPrice": 28.99,
+      "Discount": 0.0,
+      "TaxCode": "S",
+      "Tax1": 1.45,
+      "Tax2": 2.89,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 0,
+  "PreparationFee": 0.0,
+  "GlobalDiscount": 0.0,
+  "AmountPayWithPoints": 0.0,
+  "DeliveryOption": 1,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": true,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 1,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": true,
+  "CreditNoteBefore": 0.0,
+  "CashierName": "",
+  "Ext": {
+    "NbItems": 1
+  }
+}

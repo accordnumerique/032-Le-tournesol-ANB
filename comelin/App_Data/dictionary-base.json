@@ -1,0 +1,4662 @@
+{
+  "Version": 166,
+  "Entries": [
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Cart",
+      "Code": "LocalDeliveryNoAvailable",
+      "Text": {
+        "Text": "La livraison locale n'est pas offer dans votre secteur ({0})",
+        "Fr": "La livraison locale n'est pas offer dans votre secteur ({0})",
+        "En": "Local delivery is not offer in your region ({0})"
+      },
+      "Description": {
+        "Text": "{0} sera le code postal entré.",
+        "Fr": "{0} sera le code postal entré.",
+        "En": "{0} will be the postal code / zip entered."
+      }
+    },
+    {
+      "ForComelin": true,
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "Confirm",
+      "Text": {
+        "Text": "Confirmer",
+        "Fr": "Confirmer",
+        "En": "Confirm"
+      },
+      "Description": {
+        "Text": "",
+        "Fr": "",
+        "En": ""
+      }
+    },
+    {
+      "ForComelin": true,
+      "ForWebsite": true,
+      "Code": "Role",
+      "Text": {
+        "Text": "Rôle",
+        "Fr": "Rôle",
+        "En": "Role"
+      },
+      "Description": {
+        "Text": "regroupement de permissions",
+        "Fr": "regroupement de permissions",
+        "En": " set of permissions"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "Customer",
+      "Code": "PostalCode",
+      "Text": {
+        "Text": "code postal",
+        "Fr": "code postal",
+        "En": "postal code"
+      },
+      "Description": {
+        "Text": "",
+        "Fr": "",
+        "En": ""
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "OnlineForm",
+      "Code": "RequiredField",
+      "Text": {
+        "Text": "Champs requis",
+        "Fr": "Champs requis",
+        "En": "Required field"
+      },
+      "Description": {
+        "Text": "",
+        "Fr": "",
+        "En": ""
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "IsMultiline": true,
+      "Module": "OnlineForm",
+      "Code": "FormSubjects",
+      "Text": {
+        "Text": "",
+        "Fr": "",
+        "En": ""
+      },
+      "Description": {
+        "Text": "Liste des sujets (un par ligne) qui l'utilisateur peut choisir lorsqu'il complète le formulaire.",
+        "Fr": "Liste des sujets (un par ligne) qui l'utilisateur peut choisir lorsqu'il complète le formulaire.",
+        "En": "List of subject (on per line) that the user can select when he fill the form."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "OnlineForm",
+      "Code": "DocumentAdded",
+      "Text": {
+        "Text": "Document ajouté!",
+        "Fr": "Document ajouté!",
+        "En": "Document added!"
+      },
+      "Description": {
+        "Text": "Texte  de confirmation lorsqu'un attachment est ajouté au message",
+        "Fr": "Texte  de confirmation lorsqu'un attachment est ajouté au message",
+        "En": "Confirmation text when an attachment is added to the message."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "OnlineForm",
+      "Code": "FormConfirmation",
+      "Text": {
+        "Text": "Merci",
+        "Fr": "Merci",
+        "En": "Thank you"
+      },
+      "Description": {
+        "Text": "Texte affichée une fois le formulaire complété.",
+        "Fr": "Texte affichée une fois le formulaire complété.",
+        "En": "Text display to the user when the form is submited."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "OnlineForm",
+      "Code": "FormSubject",
+      "Text": {
+        "Text": "Sujet",
+        "Fr": "Sujet",
+        "En": "Subject"
+      },
+      "Description": {
+        "Text": "Texte affiché pour le titre de la demande (sujet du courriel qui sera envoyé)",
+        "Fr": "Texte affiché pour le titre de la demande (sujet du courriel qui sera envoyé)",
+        "En": ""
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "OnlineForm",
+      "Code": "FormLastName",
+      "Text": {
+        "Text": "Nom",
+        "Fr": "Nom",
+        "En": "Last name"
+      },
+      "Description": {
+        "Text": "",
+        "Fr": "",
+        "En": ""
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "OnlineForm",
+      "Code": "FormFirstName",
+      "Text": {
+        "Text": "Prénom",
+        "Fr": "Prénom",
+        "En": "First name"
+      },
+      "Description": {
+        "Text": "",
+        "Fr": "",
+        "En": ""
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "IsMultiline": true,
+      "IsHtml": true,
+      "Module": "ProductPage",
+      "Code": "WishlistRemove",
+      "Text": {
+        "Text": " <i class=\"fa fa-heart remove-from-wishlish\"  title=\"Retirer de ma liste de souhaits\"></i>",
+        "Fr": " <i class=\"fa fa-heart remove-from-wishlish\"  title=\"Retirer de ma liste de souhaits\"></i>",
+        "En": " <i class=\"fa fa-heart remove-from-wishlish\"  title=\"Remove from wishlist\"></i>"
+      },
+      "Description": {
+        "Text": "Html pour retirer un produit de la liste de souhait",
+        "Fr": "Html pour retirer un produit de la liste de souhait",
+        "En": "Html to remove a product from the wishlist"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "IsMultiline": true,
+      "IsHtml": true,
+      "Module": "ProductPage",
+      "Code": "WishlistAdd",
+      "Text": {
+        "Text": "<i class=\"fa fa-heart-o add-to-wishlish\"  title=\"Ajouter à ma liste de souhaits\"></i>",
+        "Fr": "<i class=\"fa fa-heart-o add-to-wishlish\"  title=\"Ajouter à ma liste de souhaits\"></i>",
+        "En": "<i class=\"fa fa-heart-o add-to-wishlish\"  title=\"Add to wishlist\"></i>"
+      },
+      "Description": {
+        "Text": "Html pour ajouter à la liste de souhait",
+        "Fr": "Html pour ajouter à la liste de souhait",
+        "En": "Html to display wishlist"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "IsMultiline": true,
+      "IsHtml": true,
+      "Module": "ProductPage",
+      "Code": "ProductSoonAvailableWeb",
+      "Text": {
+        "Text": "",
+        "Fr": "",
+        "En": ""
+      },
+      "Description": {
+        "Text": "Text visible lorsque le produit est considéré \"bientôt disponible\" et que le produit a déjà été vendu (n'est pas une prévente)",
+        "Fr": "Text visible lorsque le produit est considéré \"bientôt disponible\" et que le produit a déjà été vendu (n'est pas une prévente)",
+        "En": ""
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Listing",
+      "Code": "FilterOptions",
+      "Text": {
+        "Text": "Options",
+        "Fr": "Options",
+        "En": "Options"
+      },
+      "Description": {
+        "Text": "autre filtre d'option en ligne (nouveauté ou en promotion seulement)",
+        "Fr": "autre filtre d'option en ligne (nouveauté ou en promotion seulement)",
+        "En": ""
+      }
+    },
+    {
+      "ForComelin": true,
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "HomePage",
+      "Code": "ButtonNewsletter",
+      "Text": {
+        "Text": "M'inscrire",
+        "Fr": "M'inscrire",
+        "En": "Sign me up"
+      },
+      "Description": {
+        "Text": "Texte sur le bouton pour la confirmation s'inscrire à l'infolettre",
+        "Fr": "Texte sur le bouton pour la confirmation s'inscrire à l'infolettre",
+        "En": "Text on the button to confirm registration to newsletter."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "IsMultiline": true,
+      "IsHtml": true,
+      "Module": "ProductPage",
+      "Code": "PreSaleWeb",
+      "Text": {
+        "Text": "Prévente",
+        "Fr": "Prévente",
+        "En": "Pre-sale"
+      },
+      "Description": {
+        "Text": "Texte afficher en ligne lorsque le produit est en prévente (avec une date prévue)",
+        "Fr": "Texte afficher en ligne lorsque le produit est en prévente (avec une date prévue)",
+        "En": "Text display online when the product is consider pre-sale (with specified date)"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "SupplierOrder",
+      "Code": "ViewOrderInAttachement",
+      "Text": {
+        "Text": "Voici notre commande. Voir la pièce jointe.",
+        "Fr": "Voici notre commande. Voir la pièce jointe.",
+        "En": "Here is our order. See attachment."
+      },
+      "Description": {
+        "Text": "Texte dans le courriel qui est envoyé au fournisseur.",
+        "Fr": "Texte dans le courriel qui est envoyé au fournisseur.",
+        "En": "Text in the email send to supplier"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "IsMultiline": true,
+      "IsHtml": true,
+      "Module": "WebSite",
+      "Code": "Logo",
+      "Text": {
+        "Text": "<img src=\"{0}\"  alt=\"{1}\" />",
+        "Fr": "<img src=\"{0}\"  alt=\"{1}\" />",
+        "En": "<img src=\"{0}\"  alt=\"{1}\" />"
+      },
+      "Description": {
+        "Text": "Entête du site web. {0} = Url de logo du magasin principale, {1} le nom de l'entreprise",
+        "Fr": "Entête du site web. {0} = Url de logo du magasin principale, {1} le nom de l'entreprise",
+        "En": "Head of the web site. {0} = Url of the logo of the main store, {1} = name of the company."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "WebSite",
+      "Code": "AllRightReserves",
+      "Text": {
+        "Text": "Tous droits réservés",
+        "Fr": "Tous droits réservés",
+        "En": "All rights reserved"
+      },
+      "Description": {
+        "Text": "",
+        "Fr": "",
+        "En": ""
+      }
+    },
+    {
+      "ForComelin": true,
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Billing",
+      "Code": "CartProductAccessLimited",
+      "Text": {
+        "Text": "L'article n'est pas disponible (restriction).",
+        "Fr": "L'article n'est pas disponible (restriction).",
+        "En": "The item is not available (restriction)."
+      },
+      "Description": {
+        "Text": "L'article ne peut pas être vu ou acheter parce qu'une restriction de visibilité sur le magasin ou le groupe de client a été configurée.",
+        "Fr": "L'article ne peut pas être vu ou acheter parce qu'une restriction de visibilité sur le magasin ou le groupe de client a été configurée.",
+        "En": "The item cannot be viewed or purchase because of a visibility restriction was made (via stores or customer group)."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "points",
+      "Code": "PointsAvailable",
+      "Text": {
+        "Text": "Points disponible",
+        "Fr": "Points disponible",
+        "En": "Available points"
+      },
+      "Description": {
+        "Text": "afficher le nombre de point disponible pour faire une paiement",
+        "Fr": "afficher le nombre de point disponible pour faire une paiement",
+        "En": "Display the number of points available for paiement"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Web",
+      "Code": "FollowUs",
+      "Text": {
+        "Text": "Suivez-nous",
+        "Fr": "Suivez-nous",
+        "En": "Follow us"
+      },
+      "Description": {
+        "Text": "Site web: texte avant les liens des réseaux sociaux.",
+        "Fr": "Site web: texte avant les liens des réseaux sociaux.",
+        "En": "Website: texte before link to social network."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Payment",
+      "Code": "PaymentPayPalLabel",
+      "Text": {
+        "Text": "PayPal - Visa / MasterCard",
+        "Fr": "PayPal - Visa / MasterCard",
+        "En": "PayPal - Visa / MasterCard"
+      },
+      "Description": {
+        "Text": "Texte affiché en ligne pour le mode de paiement par PayPal",
+        "Fr": "Texte affiché en ligne pour le mode de paiement par PayPal",
+        "En": "Text display online in the e-commerce when customer pick payment method."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Products",
+      "Code": "AvailableFrom",
+      "Text": {
+        "Text": "Disponible à partir du",
+        "Fr": "Disponible à partir du",
+        "En": "Available from"
+      },
+      "Description": {
+        "Text": "Text avant la date que le produit sera disponible en magasin (lorsqu'il est en commande chez le fournisseur)",
+        "Fr": "Text avant la date que le produit sera disponible en magasin (lorsqu'il est en commande chez le fournisseur)",
+        "En": "Text display before the date (when the product is order at the supplier)"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Newsletter",
+      "Code": "NewsletterSubscribeSuccess",
+      "Text": {
+        "Text": "Le courriel '{0}' a été ajouté.",
+        "Fr": "Le courriel '{0}' a été ajouté.",
+        "En": "The email '{0}' has been registered."
+      },
+      "Description": {
+        "Text": "Message de confirmation lorsque le client s'incrirt à l'infolettre.",
+        "Fr": "Message de confirmation lorsque le client s'incrirt à l'infolettre.",
+        "En": "Confirmation message when you subscribe"
+      }
+    },
+    {
+      "Module": "Newsletter",
+      "Code": "NewsletterAlreadySubscribe",
+      "Text": {
+        "Text": "Vous êtes déjà inscrit à l’info-lettre.",
+        "Fr": "Vous êtes déjà inscrit à l’info-lettre.",
+        "En": "You are a subscriber already."
+      },
+      "Description": {
+        "Text": "Message lorsque le client s'inscrit à l'infolettre alors qu'il est déjà inscrit.",
+        "Fr": "Message lorsque le client s'inscrit à l'infolettre alors qu'il est déjà inscrit.",
+        "En": "Message when the user subscribe to the newsletter but is already subscribe."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Customer",
+      "Code": "Email",
+      "Text": {
+        "Text": "Courriel",
+        "Fr": "Courriel",
+        "En": "Email"
+      },
+      "Description": {
+        "Text": "Courriel du client (module infolettre)",
+        "Fr": "Courriel du client (module infolettre)",
+        "En": ""
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Customer",
+      "Code": "Name",
+      "Text": {
+        "Text": "Nom",
+        "Fr": "Nom",
+        "En": "Name"
+      },
+      "Description": {
+        "Text": "Nom du client",
+        "Fr": "Nom du client",
+        "En": ""
+      }
+    },
+    {
+      "ForComelin": true,
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Promotion",
+      "Code": "PromotionCodeAlreadyUsed",
+      "Text": {
+        "Text": "Le code promotionnel '{0}' a déjà utilisé lors de la facture #{1}.",
+        "Fr": "Le code promotionnel '{0}' a déjà utilisé lors de la facture #{1}.",
+        "En": "The promo code '{0}' has already been used at invoice #{1}."
+      },
+      "Description": {
+        "Text": "Message lorsqu'un client essaye d'utiliser un code promotionnel déjà utilisé. {0} = Le code promotionnel entré. {1} = Le numéro de la facture.",
+        "Fr": "Message lorsqu'un client essaye d'utiliser un code promotionnel déjà utilisé. {0} = Le code promotionnel entré. {1} = Le numéro de la facture.",
+        "En": ""
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Cart",
+      "Code": "MessageCartFooterTitle",
+      "Text": {
+        "Text": "",
+        "Fr": "",
+        "En": ""
+      },
+      "Description": {
+        "Text": "Titre du message affiché avant la confirmation voir 'MessageCartFooter'",
+        "Fr": "Titre du message affiché avant la confirmation voir 'MessageCartFooter'",
+        "En": "Title of the message display because cart confirmation"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "IsMultiline": true,
+      "IsHtml": true,
+      "Module": "Cart",
+      "Code": "MessageCartFooter",
+      "Text": {
+        "Text": "",
+        "Fr": "",
+        "En": ""
+      },
+      "Description": {
+        "Text": "Message affiché dans le bas du panier avant la confirmation",
+        "Fr": "Message affiché dans le bas du panier avant la confirmation",
+        "En": "Message display at the end of the cart before confirmation."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Listing",
+      "Code": "ByCategory",
+      "Text": {
+        "Text": "Par Catégorie",
+        "Fr": "Par Catégorie",
+        "En": "By Category"
+      },
+      "Description": {
+        "Text": "Filtre dans le menu de gauche par catégorie de produit",
+        "Fr": "Filtre dans le menu de gauche par catégorie de produit",
+        "En": "Filter on the left by category product."
+      }
+    },
+    {
+      "ForComelin": true,
+      "CanBeEditByUser": true,
+      "Module": "Invoice",
+      "Code": "CreditNoteZero",
+      "Text": {
+        "Text": "Aucune note de crédit (balance: 0$)",
+        "Fr": "Aucune note de crédit (balance: 0$)",
+        "En": "No credit note (balance: 0$)"
+      },
+      "Description": {
+        "Text": "Lorsque le client a utilisé sa note de crédit ou payé sont compte recevable",
+        "Fr": "Lorsque le client a utilisé sa note de crédit ou payé sont compte recevable",
+        "En": "When the customer used it's credit note or paid it's receivable account."
+      }
+    },
+    {
+      "ForComelin": true,
+      "CanBeEditByUser": true,
+      "Module": "Invoice",
+      "Code": "CreditNoteNegative1",
+      "Text": {
+        "Text": "Vous avez un solde à payer de {0:c}",
+        "Fr": "Vous avez un solde à payer de {0:c}",
+        "En": "You have an outstanding balance of {0:c}"
+      },
+      "Description": {
+        "Text": "Note de crédit négative, lorsque le client vous doit de l'argent (compte recevable)",
+        "Fr": "Note de crédit négative, lorsque le client vous doit de l'argent (compte recevable)",
+        "En": "Credit note negative when a the customer has amount to pay you (account receivable)"
+      }
+    },
+    {
+      "ForComelin": true,
+      "CanBeEditByUser": true,
+      "Module": "Invoice",
+      "Code": "CreditNotePositive1",
+      "Text": {
+        "Text": "Vous avez une note de crédit de {0:c}",
+        "Fr": "Vous avez une note de crédit de {0:c}",
+        "En": "You have a credit note of {0:c}"
+      },
+      "Description": {
+        "Text": "Note de crédit positive (lorsque votre entreprise doit de l'argent au client)",
+        "Fr": "Note de crédit positive (lorsque votre entreprise doit de l'argent au client)",
+        "En": "Positive crédit note, when your company hold money from the customer"
+      }
+    },
+    {
+      "ForComelin": true,
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Customer",
+      "Code": "EmailInvalid",
+      "Text": {
+        "Text": "Le courriel '{0}' est invalide.",
+        "Fr": "Le courriel '{0}' est invalide.",
+        "En": "The email '{0}' is invalid."
+      },
+      "Description": {
+        "Text": "",
+        "Fr": "",
+        "En": ""
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Product",
+      "Code": "OutOfStock",
+      "Text": {
+        "Text": "Rupture de stock",
+        "Fr": "Rupture de stock",
+        "En": "Out of stock"
+      },
+      "Description": {
+        "Text": "Texte court affiché sur les produits en rupture d'inventaire",
+        "Fr": "Texte court affiché sur les produits en rupture d'inventaire",
+        "En": "Short text display on product out of stock"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "Product",
+      "Code": "Amount",
+      "Text": {
+        "Text": "Montant",
+        "Fr": "Montant",
+        "En": "Amount"
+      },
+      "Description": {
+        "Text": "Montant spécifique que l'employé veut payer (ex: carte cadeau)",
+        "Fr": "Montant spécifique que l'employé veut payer (ex: carte cadeau)",
+        "En": "Specific amount the client want to pay (eg: gift card)"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Product",
+      "Code": "Included",
+      "Text": {
+        "Text": "Articles ajoutés à la facture",
+        "Fr": "Articles ajoutés à la facture",
+        "En": "Items added to the invoice"
+      },
+      "Description": {
+        "Text": "Titre pour les autres produits incluent avec le produit courrant.",
+        "Fr": "Titre pour les autres produits incluent avec le produit courrant.",
+        "En": "Label to display other products included with the current product"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Product",
+      "Code": "CannotBeShipped",
+      "Text": {
+        "Text": "Ne peut pas être expédié",
+        "Fr": "Ne peut pas être expédié",
+        "En": "Cannot be shipped"
+      },
+      "Description": {
+        "Text": "Note affiché si le produit a une restriction pour ne pas être envoyé par la poste.",
+        "Fr": "Note affiché si le produit a une restriction pour ne pas être envoyé par la poste.",
+        "En": "Note display if the product cannot be shipped by mail."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Security",
+      "Code": "ComputerNotAuthorized",
+      "Text": {
+        "Text": "Cet ordinateur n'est pas autorisé à se connecter. Contactez votre supérieur pour en obtenir la permission!",
+        "Fr": "Cet ordinateur n'est pas autorisé à se connecter. Contactez votre supérieur pour en obtenir la permission!",
+        "En": "This computer is not authorized to connect. Contact your supervisor to get permission."
+      },
+      "Description": {
+        "Text": "Message affiché lorsqu'un nouvel ordinateur se connecte pour la première fois et n'a pas été autorisé.",
+        "Fr": "Message affiché lorsqu'un nouvel ordinateur se connecte pour la première fois et n'a pas été autorisé.",
+        "En": "Text display when a new computer try to connect to Comelin and never been authorized."
+      }
+    },
+    {
+      "ForComelin": true,
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Transaction",
+      "Code": "TrackingNumber",
+      "Text": {
+        "Text": "Numéro de suivi",
+        "Fr": "Numéro de suivi",
+        "En": "Tracking number"
+      },
+      "Description": {
+        "Text": "Code de repérage pour envoie par la poste.",
+        "Fr": "Code de repérage pour envoie par la poste.",
+        "En": "Number to track package send by mail."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Payment",
+      "Code": "CountryNotDeserved",
+      "Text": {
+        "Text": "Nous avons détecté que vous êtes présentement dans un pays qui n'est pas servi par notre entreprise.",
+        "Fr": "Nous avons détecté que vous êtes présentement dans un pays qui n'est pas servi par notre entreprise.",
+        "En": "We have detected that you are currently in a country that is not served by our company."
+      },
+      "Description": {
+        "Text": "Message qui apparait lorsque le client vient d'un pays qui n'est pas dans la liste. Le nom du pays sera affiché à la fin du message.",
+        "Fr": "Message qui apparait lorsque le client vient d'un pays qui n'est pas dans la liste. Le nom du pays sera affiché à la fin du message.",
+        "En": "Message that will be displayed when the customer is from a country that is not on the list."
+      }
+    },
+    {
+      "ForComelin": true,
+      "Module": "Product",
+      "Code": "ListStoreWithoutPermission",
+      "Text": {
+        "Text": "Liste de magasins qui n'ont pas la permission",
+        "Fr": "Liste de magasins qui n'ont pas la permission",
+        "En": "List of stores without permission"
+      },
+      "Description": {
+        "Text": "",
+        "Fr": "",
+        "En": ""
+      }
+    },
+    {
+      "ForComelin": true,
+      "Module": "Product",
+      "Code": "ListStoreWithPermission",
+      "Text": {
+        "Text": "Liste de magasins qui ont la permission",
+        "Fr": "Liste de magasins qui ont la permission",
+        "En": "List of stores with permission"
+      },
+      "Description": {
+        "Text": "",
+        "Fr": "",
+        "En": ""
+      }
+    },
+    {
+      "ForComelin": true,
+      "Module": "Product",
+      "Code": "VisibilityByStore",
+      "Text": {
+        "Text": "Visibilité par magasin",
+        "Fr": "Visibilité par magasin",
+        "En": "Visibility by store"
+      },
+      "Description": {
+        "Text": "Option de mettre un produit ou un catégorie non visible à certains magasins.",
+        "Fr": "Option de mettre un produit ou un catégorie non visible à certains magasins.",
+        "En": "Option to make a product or category visible only to some stores."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Payment",
+      "Code": "CreditCardNumberInvalid",
+      "Text": {
+        "Text": "Le numéro de la carte de crédit est invalide.",
+        "Fr": "Le numéro de la carte de crédit est invalide.",
+        "En": "The credit number is invalid."
+      },
+      "Description": {
+        "Text": "",
+        "Fr": "",
+        "En": ""
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "Payment",
+      "Code": "Month",
+      "Text": {
+        "Text": "Mois",
+        "Fr": "Mois",
+        "En": "Month"
+      },
+      "Description": {
+        "Text": "",
+        "Fr": "",
+        "En": ""
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "Payment",
+      "Code": "Year",
+      "Text": {
+        "Text": "Année",
+        "Fr": "Année",
+        "En": "Year"
+      },
+      "Description": {
+        "Text": "",
+        "Fr": "",
+        "En": ""
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Payment",
+      "Code": "ExpirationDateInvalid",
+      "Text": {
+        "Text": "Date d'expiration invalide",
+        "Fr": "Date d'expiration invalide",
+        "En": "Invalid expiration date"
+      },
+      "Description": {
+        "Text": "Message d'erreur",
+        "Fr": "Message d'erreur",
+        "En": "Error message "
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Payment",
+      "Code": "CVV",
+      "Text": {
+        "Text": "CVV",
+        "Fr": "CVV",
+        "En": "CVV"
+      },
+      "Description": {
+        "Text": " Code de sécurité (3 chiffres derrière la carte)",
+        "Fr": " Code de sécurité (3 chiffres derrière la carte)",
+        "En": "Security code"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Payment",
+      "Code": "CreditCardNumber",
+      "Text": {
+        "Text": "Numéro de carte de crédit",
+        "Fr": "Numéro de carte de crédit",
+        "En": "Credit card number"
+      },
+      "Description": {
+        "Text": "",
+        "Fr": "",
+        "En": ""
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Payment",
+      "Code": "CreditCardName",
+      "Text": {
+        "Text": "Nom sur la carte de crédit",
+        "Fr": "Nom sur la carte de crédit",
+        "En": "Name on the credit card"
+      },
+      "Description": {
+        "Text": "",
+        "Fr": "",
+        "En": ""
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Payment",
+      "Code": "CheckoutPayment",
+      "Text": {
+        "Text": "Caisse - Paiement",
+        "Fr": "Caisse - Paiement",
+        "En": "Checkout - Payment"
+      },
+      "Description": {
+        "Text": "Page de sélection du mode de paiement en ligne.",
+        "Fr": "Page de sélection du mode de paiement en ligne.",
+        "En": "Checkout page when the customer specify the payment method"
+      }
+    },
+    {
+      "ForComelin": true,
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Payment",
+      "Code": "PaymentMode",
+      "Text": {
+        "Text": "Mode de paiement",
+        "Fr": "Mode de paiement",
+        "En": "Payment mode"
+      },
+      "Description": {
+        "Text": "",
+        "Fr": "",
+        "En": "Checkout page"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "IsMultiline": true,
+      "IsHtml": true,
+      "Module": "Payment",
+      "Code": "PaymentSezzleInstruction",
+      "Text": {
+        "Text": "<img style=\"max-width: 300px\" src=\"https://media.sezzle.com/branding/2.0/Sezzle_Logo_FullColor.svg\"  alt=\"Sezzle Logo\">",
+        "Fr": "<img style=\"max-width: 300px\" src=\"https://media.sezzle.com/branding/2.0/Sezzle_Logo_FullColor.svg\"  alt=\"Sezzle Logo\">",
+        "En": "<img style=\"max-width: 300px\" src=\"https://media.sezzle.com/branding/2.0/Sezzle_Logo_FullColor.svg\"  alt=\"Sezzle Logo\">"
+      },
+      "Description": {
+        "Text": "",
+        "Fr": "",
+        "En": ""
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "IsMultiline": true,
+      "IsHtml": true,
+      "Module": "Payment",
+      "Code": "PaymentNet30DaysInstruction",
+      "Text": {
+        "Text": "",
+        "Fr": "",
+        "En": ""
+      },
+      "Description": {
+        "Text": "Information supplémentaire lorsque le client choisi ce mode de paiement.",
+        "Fr": "Information supplémentaire lorsque le client choisi ce mode de paiement.",
+        "En": "Extra information when the customer select this payment method."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "IsMultiline": true,
+      "IsHtml": true,
+      "Module": "Payment",
+      "Code": "PaymentPayPalInstruction",
+      "Text": {
+        "Text": "Cliquez sur le bouton jaune PayPal afin d’être redirigé vers la plateforme de paiement sécurisée.",
+        "Fr": "Cliquez sur le bouton jaune PayPal afin d’être redirigé vers la plateforme de paiement sécurisée.",
+        "En": "Click on the PayPal yellow button to be redirected to the payment platform."
+      },
+      "Description": {
+        "Text": "Information supplémentaire lorsque le client choisi le mode de paiement PayPal.",
+        "Fr": "Information supplémentaire lorsque le client choisi le mode de paiement PayPal.",
+        "En": "Extra information when the customer select the payment method PayPal."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "IsMultiline": true,
+      "IsHtml": true,
+      "Module": "Payment",
+      "Code": "InteracTransferInstruction",
+      "Text": {
+        "Text": "Il est de votre responsabilité de faire le virement à <b>{0}</b> au montant de <b>{1}</b>.<br />Lors du virement, utiliser votre numéro de commande <code>{2}</code> comme réponse à la question.",
+        "Fr": "Il est de votre responsabilité de faire le virement à <b>{0}</b> au montant de <b>{1}</b>.<br />Lors du virement, utiliser votre numéro de commande <code>{2}</code> comme réponse à la question.",
+        "En": "<span>It's your responsibility to make a transfer of</span> <b>{1}</b> to <b>{0}</b>.<br /><span>During the transfer, use the order number as confirmation number</span> <code>{2}</code> <span>as answer to the secret question</span>."
+      },
+      "Description": {
+        "Text": "Instruction pour les virements Interacs. {0} = votre courriel configuré dans la panneau admin. {1} le montant à payer, {2} le numéro de la commande commençant par un C.",
+        "Fr": "Instruction pour les virements Interacs. {0} = votre courriel configuré dans la panneau admin. {1} le montant à payer, {2} le numéro de la commande commençant par un C.",
+        "En": "Instruction for Interac transfer. {0} is your email address configured in the admin panel. {1} is the amount to be paid. {2} is the reservation Id starting with a C."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Cart",
+      "Code": "PaymentBlockTooManyFailure0",
+      "Text": {
+        "Text": "Votre appareil a été bloqué de faire d'autres tentatives d'achat. Veuillez réessayer dans {0} hour(s).",
+        "Fr": "Votre appareil a été bloqué de faire d'autres tentatives d'achat. Veuillez réessayer dans {0} hour(s).",
+        "En": "Your device has been blocked because of too many failed attempts. Please try again in {0} hour(s)."
+      },
+      "Description": {
+        "Text": "Message affiché lorsque le client a fait trop d'erreur lors de la tentative de paiement",
+        "Fr": "Message affiché lorsque le client a fait trop d'erreur lors de la tentative de paiement",
+        "En": "Message display when the user made too many paiement failure"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Cart",
+      "Code": "PaymentError",
+      "Text": {
+        "Text": "Erreur lors du paiement",
+        "Fr": "Erreur lors du paiement",
+        "En": "Error in the paiement"
+      },
+      "Description": {
+        "Text": "Message generic lorsque le paiement est rejeter",
+        "Fr": "Message generic lorsque le paiement est rejeter",
+        "En": "Generic error message when the gateway rejected the paiement. More information will be displayed"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Payment",
+      "Code": "Payment",
+      "Text": {
+        "Text": "Payer",
+        "Fr": "Payer",
+        "En": "Payment"
+      },
+      "Description": {
+        "Text": "Texte sur le bouton pour aller à la page de paiement.",
+        "Fr": "Texte sur le bouton pour aller à la page de paiement.",
+        "En": "Label on the button to go to the paiement page."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "IsMultiline": true,
+      "IsHtml": true,
+      "Module": "Paiement",
+      "Code": "NotesAndComments",
+      "Text": {
+        "Text": "Notes et commentaires",
+        "Fr": "Notes et commentaires",
+        "En": "Notes and comments"
+      },
+      "Description": {
+        "Text": "Texte précédent le champs de texte libre pour le client avant de paiement du panier.",
+        "Fr": "Texte précédent le champs de texte libre pour le client avant de paiement du panier.",
+        "En": "Label preceding the free text field from the customer before the paiement of the cart."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Product",
+      "Code": "EventSoldOut",
+      "Text": {
+        "Text": "Complètement vendu",
+        "Fr": "Complètement vendu",
+        "En": "Sold out"
+      },
+      "Description": {
+        "Text": "Terme pour dire que l'événement est complètement vendu et plus disponible.",
+        "Fr": "Terme pour dire que l'événement est complètement vendu et plus disponible.",
+        "En": "Term display when the event is completely sold and no longer available."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "SoldOut",
+      "Text": {
+        "Text": "",
+        "Fr": "",
+        "En": ""
+      },
+      "Description": {
+        "Text": "",
+        "Fr": "",
+        "En": ""
+      }
+    },
+    {
+      "ForComelin": true,
+      "ForWebsite": true,
+      "Code": "Transfer",
+      "Text": {
+        "Text": "transfert",
+        "Fr": "transfert",
+        "En": "transfer"
+      },
+      "Description": {
+        "Text": "Transfer de produit inter magasins",
+        "Fr": "Transfer de produit inter magasins",
+        "En": "Transfer products between stores."
+      }
+    },
+    {
+      "ForComelin": true,
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Billing",
+      "Code": "Tax2",
+      "Text": {
+        "Text": "TVQ",
+        "Fr": "TVQ",
+        "En": "QST"
+      },
+      "Description": {
+        "Text": "Taxes provincial (TVQ)",
+        "Fr": "Taxes provincial (TVQ)",
+        "En": "Provincial tax (QST)"
+      }
+    },
+    {
+      "ForComelin": true,
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Billing",
+      "Code": "Tax1",
+      "Text": {
+        "Text": "TPS",
+        "Fr": "TPS",
+        "En": "GST"
+      },
+      "Description": {
+        "Text": "Tax fédéral (TPS)",
+        "Fr": "Tax fédéral (TPS)",
+        "En": "Fédéral tax (GST)"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Cart",
+      "Code": "ContinueShopping",
+      "Text": {
+        "Text": "Continuer à magasiner",
+        "Fr": "Continuer à magasiner",
+        "En": "Continue shopping"
+      },
+      "Description": {
+        "Text": "Sommaire du panier d'achat: texte pour retourner aux produits.",
+        "Fr": "Sommaire du panier d'achat: texte pour retourner aux produits.",
+        "En": "Cart summary: texte to return to products."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Listing",
+      "Code": "Department",
+      "Text": {
+        "Text": "Rayons",
+        "Fr": "Rayons",
+        "En": "Departments"
+      },
+      "Description": {
+        "Text": "Titre de la liste des catégories primaires (souvent dans le bas du site web)",
+        "Fr": "Titre de la liste des catégories primaires (souvent dans le bas du site web)",
+        "En": "Title of the section of the primary category (often in the web site footer)"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Contact",
+      "Code": "OpenHoursExceptions",
+      "Text": {
+        "Text": "Exceptions",
+        "Fr": "Exceptions",
+        "En": "Exceptions"
+      },
+      "Description": {
+        "Text": "Titre pour les exceptions des heures d'ouvertures",
+        "Fr": "Titre pour les exceptions des heures d'ouvertures",
+        "En": "Title for exception of opening hours"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Contact",
+      "Code": "Contact",
+      "Text": {
+        "Text": "Contact",
+        "Fr": "Contact",
+        "En": "Contact"
+      },
+      "Description": {
+        "Text": "Titre pour la section des informations de contact",
+        "Fr": "Titre pour la section des informations de contact",
+        "En": "Title for section of contact information"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Contact",
+      "Code": "Address",
+      "Text": {
+        "Text": "Adresse",
+        "Fr": "Adresse",
+        "En": "Address"
+      },
+      "Description": {
+        "Text": "Titre pour l'adresse postal",
+        "Fr": "Titre pour l'adresse postal",
+        "En": "Title for postal address"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "IsMultiline": true,
+      "IsHtml": true,
+      "Module": "TmpPage",
+      "Code": "TmpDescription",
+      "Text": {
+        "Text": "<h2>Comelin!</h2>\n<hr />Articles<br />ou services<br />que votre<br />entreprise offre.<br />\n<p><a href=\"/admin/config/Text.aspx#TmpDescription\" target=\"_blank\" rel=\"noopener\">Configurer ce texte </a></p>",
+        "Fr": "<h2>Comelin!</h2>\n<hr />Articles<br />ou services<br />que votre<br />entreprise offre.<br />\n<p><a href=\"/admin/config/Text.aspx#TmpDescription\" target=\"_blank\" rel=\"noopener\">Configurer ce texte </a></p>",
+        "En": "<h2>Slogan of your company</h2>\n<hr />Articles<br />or services<br />that your company offer.<br />\n<p><a href=\"/admin/config/Text.aspx#TmpDescription\" target=\"_blank\" rel=\"noopener\">Configure this text here</a></p>"
+      },
+      "Description": {
+        "Text": "Texte visible sur la page d'accueil temporaire ou s'il n'y a pas de boutique en ligne.",
+        "Fr": "Texte visible sur la page d'accueil temporaire ou s'il n'y a pas de boutique en ligne.",
+        "En": ""
+      }
+    },
+    {
+      "ForComelin": true,
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Promotion",
+      "Code": "PriceFlyer",
+      "Text": {
+        "Text": "Prix circulaire",
+        "Fr": "Prix circulaire",
+        "En": "Flyer price"
+      },
+      "Description": {
+        "Text": "Nom afficher pour les promotions par produit (circulaire)",
+        "Fr": "Nom afficher pour les promotions par produit (circulaire)",
+        "En": "Name display for promotion that set specific price per item (like a grocery flyer)"
+      }
+    },
+    {
+      "ForComelin": true,
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "IsMultiline": true,
+      "Code": "StartupTip",
+      "Text": {
+        "Text": "Bonjour et garder le :)",
+        "Fr": "Bonjour et garder le :)",
+        "En": ""
+      },
+      "Description": {
+        "Text": "Text visible à l'écran avant le début de la facturation,",
+        "Fr": "Text visible à l'écran avant le début de la facturation,",
+        "En": "Visible texte on the screen before billing."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Account",
+      "Code": "AccountDisabled",
+      "Text": {
+        "Text": "Votre compte client a été désactivé.",
+        "Fr": "Votre compte client a été désactivé.",
+        "En": "Your account is disabled."
+      },
+      "Description": {
+        "Text": "Message affiché au client en ligne lorsqu'il passe une commande et que son compte client a été désactivé dans Comelin.",
+        "Fr": "Message affiché au client en ligne lorsqu'il passe une commande et que son compte client a été désactivé dans Comelin.",
+        "En": "Error message display to the customer when try to pass an order by his account is disabled in Comelin."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "Creation",
+      "Code": "CreationRefillAutomatic0",
+      "Text": {
+        "Text": "\"Fabrication\" de {0} automatique",
+        "Fr": "\"Fabrication\" de {0} automatique",
+        "En": "\"Build\" of the {0} automatically."
+      },
+      "Description": {
+        "Text": "",
+        "Fr": "",
+        "En": ""
+      }
+    },
+    {
+      "ForComelin": true,
+      "ForWebsite": true,
+      "Module": "payment system",
+      "Code": "PaymentSezzle",
+      "Text": {
+        "Text": "Sezzle",
+        "Fr": "Sezzle",
+        "En": "Sezzle"
+      },
+      "Description": {
+        "Text": "",
+        "Fr": "",
+        "En": ""
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "report",
+      "Code": "variant",
+      "Text": {
+        "Text": "modèle",
+        "Fr": "modèle",
+        "En": "variant"
+      },
+      "Description": {
+        "Text": "type de produit dans la matrice",
+        "Fr": "type de produit dans la matrice",
+        "En": "type of product in the matrix"
+      }
+    },
+    {
+      "Module": "report",
+      "Code": "CategoryPrimary",
+      "Text": {
+        "Text": "catégorie primaire",
+        "Fr": "catégorie primaire",
+        "En": "primary catégorie"
+      },
+      "Description": {
+        "Text": "Catégorie de premier niveau (département)",
+        "Fr": "Catégorie de premier niveau (département)",
+        "En": "Category of first level (department)"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "report",
+      "Code": "by",
+      "Text": {
+        "Text": "par",
+        "Fr": "par",
+        "En": "by"
+      },
+      "Description": {
+        "Text": "ex: regroupement *par* marque",
+        "Fr": "ex: regroupement *par* marque",
+        "En": "ex: group *by* brand"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "report",
+      "Code": "groupByBrand",
+      "Text": {
+        "Text": "par marque",
+        "Fr": "par marque",
+        "En": "by brand"
+      },
+      "Description": {
+        "Text": "Rapport en ligne, filtre par marque de produits",
+        "Fr": "Rapport en ligne, filtre par marque de produits",
+        "En": "Online report: filter by brand"
+      }
+    },
+    {
+      "ForComelin": true,
+      "ForWebsite": true,
+      "Module": "report",
+      "Code": "to",
+      "Text": {
+        "Text": "au",
+        "Fr": "au",
+        "En": "to"
+      },
+      "Description": {
+        "Text": "",
+        "Fr": "",
+        "En": ""
+      }
+    },
+    {
+      "ForComelin": true,
+      "ForWebsite": true,
+      "Module": "report",
+      "Code": "from",
+      "Text": {
+        "Text": "du",
+        "Fr": "du",
+        "En": "from"
+      },
+      "Description": {
+        "Text": "",
+        "Fr": "",
+        "En": ""
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "report",
+      "Code": "report",
+      "Text": {
+        "Text": "rapport",
+        "Fr": "rapport",
+        "En": "report"
+      },
+      "Description": {
+        "Text": "",
+        "Fr": "",
+        "En": ""
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Cart",
+      "Code": "DelayTransferRequired",
+      "Text": {
+        "Text": "Délai à prévoir",
+        "Fr": "Délai à prévoir",
+        "En": "Delay expected"
+      },
+      "Description": {
+        "Text": "L'article est commandé, non disponible dans la succursale demandé, mais disponible dans une autre, sera transféré.",
+        "Fr": "L'article est commandé, non disponible dans la succursale demandé, mais disponible dans une autre, sera transféré.",
+        "En": "The item ordered is not available in the selected store but available in another and will need to be transfer."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "IsMultiline": true,
+      "Module": "Product",
+      "Code": "DoNotNotifyMe",
+      "Text": {
+        "Text": "Ne pas m'avertir",
+        "Fr": "Ne pas m'avertir",
+        "En": "Do not notify me"
+      },
+      "Description": {
+        "Text": "Bouton pour ne pas être notifier",
+        "Fr": "Bouton pour ne pas être notifier",
+        "En": "Button to not be notified"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "IsMultiline": true,
+      "Module": "Product",
+      "Code": "NotifyMe",
+      "Text": {
+        "Text": "Avertissez-moi",
+        "Fr": "Avertissez-moi",
+        "En": "Notify me!"
+      },
+      "Description": {
+        "Text": "Bouton pour être notifier",
+        "Fr": "Bouton pour être notifier",
+        "En": "Button to be notified"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "IsMultiline": true,
+      "IsHtml": true,
+      "Module": "Product",
+      "Code": "OutOfStockNotificationMsg",
+      "Text": {
+        "Text": "Entrez votre courriel pour être informé lorsque le produit sera de retour en inventaire:",
+        "Fr": "Entrez votre courriel pour être informé lorsque le produit sera de retour en inventaire:",
+        "En": "Enter your email and you will be notify when the product is back in stock:"
+      },
+      "Description": {
+        "Text": "Le client peut enter son courriel pour être informé lorsque le produit est de retour en inventaire.",
+        "Fr": "Le client peut enter son courriel pour être informé lorsque le produit est de retour en inventaire.",
+        "En": "User can enter their email to get notify when the product is back in stock."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "IsMultiline": true,
+      "IsHtml": true,
+      "Module": "Product",
+      "Code": "OutOfStockNotificationTitle",
+      "Text": {
+        "Text": "Ce produit est en rupture d'inventaire",
+        "Fr": "Ce produit est en rupture d'inventaire",
+        "En": "This product is out of stock"
+      },
+      "Description": {
+        "Text": "Titlre de la boite de notification lorsque le produit est en rupture de stock. ",
+        "Fr": "Titlre de la boite de notification lorsque le produit est en rupture de stock. ",
+        "En": "Title of the notification box when the product is out of the stock."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Cart",
+      "Code": "StoreNoSelected",
+      "Text": {
+        "Text": "Magasin non sélectionné",
+        "Fr": "Magasin non sélectionné",
+        "En": "Store not sélected"
+      },
+      "Description": {
+        "Text": "Lorsqu'il y a plusieurs magasin et que le client n'a pas fait son choix.",
+        "Fr": "Lorsqu'il y a plusieurs magasin et que le client n'a pas fait son choix.",
+        "En": "When there is multiple store and the customer didn't picked any."
+      }
+    },
+    {
+      "ForComelin": true,
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Product",
+      "Code": "TextField3",
+      "Text": {
+        "Text": "Mise en garde",
+        "Fr": "Mise en garde",
+        "En": "Caution"
+      },
+      "Description": {
+        "Text": "Champs de texte #3 configurable pour les produits ",
+        "Fr": "Champs de texte #3 configurable pour les produits ",
+        "En": "Configurable text field #3 for product."
+      }
+    },
+    {
+      "ForComelin": true,
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Product",
+      "Code": "TextField2",
+      "Text": {
+        "Text": "Mode d'utilisation",
+        "Fr": "Mode d'utilisation",
+        "En": "How to use"
+      },
+      "Description": {
+        "Text": "Champs de texte #2 configurable pour les produits ",
+        "Fr": "Champs de texte #2 configurable pour les produits ",
+        "En": "Configurable text field #2 for product."
+      }
+    },
+    {
+      "ForComelin": true,
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Product",
+      "Code": "TextField1",
+      "Text": {
+        "Text": "Ingrédients",
+        "Fr": "Ingrédients",
+        "En": "Ingredients"
+      },
+      "Description": {
+        "Text": "Champs de texte #1 configurable pour les produits .",
+        "Fr": "Champs de texte #1 configurable pour les produits .",
+        "En": "Configurable text field #1 for product."
+      }
+    },
+    {
+      "ForComelin": true,
+      "ForWebsite": true,
+      "Module": "Reservation",
+      "Code": "PickupNip",
+      "Text": {
+        "Text": "NIP de récupération",
+        "Fr": "NIP de récupération",
+        "En": "Pickup NIP"
+      },
+      "Description": {
+        "Text": "Code que le client peut s'identifier pour récupéré une réservation en magasin.",
+        "Fr": "Code que le client peut s'identifier pour récupéré une réservation en magasin.",
+        "En": "Code the customer can say to pickup the réservation in store."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "",
+      "Code": "EmailSent",
+      "Text": {
+        "Text": "Courriel envoyé",
+        "Fr": "Courriel envoyé",
+        "En": "Email sent"
+      },
+      "Description": {
+        "Text": "Message ajouté automatiquement aux réservations dans les commentaires lorsqu'un courriel est envoyé.",
+        "Fr": "Message ajouté automatiquement aux réservations dans les commentaires lorsqu'un courriel est envoyé.",
+        "En": "Message added automatically to the reservation messages where an email is sent."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "NotDefined",
+      "Text": {
+        "Text": "Non défini",
+        "Fr": "Non défini",
+        "En": "Not defined"
+      },
+      "Description": {
+        "Text": "Lorsqu'une valeur n'a pas été précisée.",
+        "Fr": "Lorsqu'une valeur n'a pas été précisée.",
+        "En": "When a value has not been set."
+      }
+    },
+    {
+      "ForComelin": true,
+      "CanBeEditByUser": true,
+      "Code": "MustSelectDeliveryOption",
+      "Text": {
+        "Text": "Pour créer une réservation, choisissez au préalable l'option de livraison.",
+        "Fr": "Pour créer une réservation, choisissez au préalable l'option de livraison.",
+        "En": "To create a reservation, select a shipping option."
+      },
+      "Description": {
+        "Text": "",
+        "Fr": "",
+        "En": ""
+      }
+    },
+    {
+      "ForComelin": true,
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "ShipByMail",
+      "Text": {
+        "Text": "Poste",
+        "Fr": "Poste",
+        "En": "Mail"
+      },
+      "Description": {
+        "Text": "Lorsque le coli est envoyé par la poste ou un transporteur.",
+        "Fr": "Lorsque le coli est envoyé par la poste ou un transporteur.",
+        "En": "When the package is shipped by mail or by a carrier."
+      }
+    },
+    {
+      "ForComelin": true,
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "",
+      "Code": "LocalDelivery",
+      "Text": {
+        "Text": "Livraison locale",
+        "Fr": "Livraison locale",
+        "En": "Local delivery"
+      },
+      "Description": {
+        "Text": "mode de livraison local (pas par la poste)",
+        "Fr": "mode de livraison local (pas par la poste)",
+        "En": "shipping method (not by mail)"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "OpenHours",
+      "Code": "OpenHours",
+      "Text": {
+        "Text": "Heures d'ouverture",
+        "Fr": "Heures d'ouverture",
+        "En": "Opening hours"
+      },
+      "Description": {
+        "Text": "Titre pour les heures d'ouverture",
+        "Fr": "Titre pour les heures d'ouverture",
+        "En": "Title for opening hours."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "OpenHours",
+      "Code": "Open",
+      "Text": {
+        "Text": "Ouvert",
+        "Fr": "Ouvert",
+        "En": "Open now"
+      },
+      "Description": {
+        "Text": "heures d'ouverture si le magasin est ouvert présentement",
+        "Fr": "heures d'ouverture si le magasin est ouvert présentement",
+        "En": "opening hours is the store is open right now"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "OpenHours",
+      "Code": "Closed",
+      "Text": {
+        "Text": "Fermé",
+        "Fr": "Fermé",
+        "En": "Closed"
+      },
+      "Description": {
+        "Text": "affichage des heures d'ouvertures et le magasin est fermé",
+        "Fr": "affichage des heures d'ouvertures et le magasin est fermé",
+        "En": "when the open hours is display and the store is closed"
+      }
+    },
+    {
+      "ForComelin": true,
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Invoice",
+      "Code": "BalanceDue",
+      "Text": {
+        "Text": "Solde dû",
+        "Fr": "Solde dû",
+        "En": "Balance due"
+      },
+      "Description": {
+        "Text": "Montant restant à payer au client lors d'une facture (module compte recevable)",
+        "Fr": "Montant restant à payer au client lors d'une facture (module compte recevable)",
+        "En": "Amount remaining to pay on invoice (module account receivable)"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Web",
+      "Code": "VariableGeneric1",
+      "Text": {
+        "Text": "Variable Generic 1",
+        "Fr": "Variable Generic 1",
+        "En": "Generic variable 1"
+      },
+      "Description": {
+        "Text": "Permet de configurer des scripts externes.",
+        "Fr": "Permet de configurer des scripts externes.",
+        "En": "Used to configure external script."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "IsMultiline": true,
+      "IsHtml": true,
+      "Module": "EmailReservation",
+      "Code": "ReservationStateReadyDropLocationMsg",
+      "Text": {
+        "Text": "<span style=\"font-weight: 400;\">Votre commande est prête. Veuillez vous présenter au point de chute {0} pour la récupérer.</span>",
+        "Fr": "<span style=\"font-weight: 400;\">Votre commande est prête. Veuillez vous présenter au point de chute {0} pour la récupérer.</span>",
+        "En": "Your order is ready to be picked up."
+      },
+      "Description": {
+        "Text": "Point de chute: La réservation est complétée.{0} sera remplacer par le nom du point de chute sélectionné.",
+        "Fr": "Point de chute: La réservation est complétée.{0} sera remplacer par le nom du point de chute sélectionné.",
+        "En": "Drop location: The reservation is complete."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "IsMultiline": true,
+      "IsHtml": true,
+      "Module": "EmailReservation",
+      "Code": "ReservationStatePreparationDropLocationMsg",
+      "Text": {
+        "Text": "<p><span style=\"font-weight: 400;\">Votre commande est en préparation. Nous vous informerons lorsque la commande sera prête à être récupérée au point de chute {0}.</span></p>",
+        "Fr": "<p><span style=\"font-weight: 400;\">Votre commande est en préparation. Nous vous informerons lorsque la commande sera prête à être récupérée au point de chute {0}.</span></p>",
+        "En": "<p><span style=\"font-weight: 400;\">Your order is in preparation. You will be contacted when it will be ready.</span></p>"
+      },
+      "Description": {
+        "Text": "Point de chute: La réservation n'est pas complétée. {0} sera remplacer par le nom du point de chute sélectionné.",
+        "Fr": "Point de chute: La réservation n'est pas complétée. {0} sera remplacer par le nom du point de chute sélectionné.",
+        "En": "Drop location:  The reservation is not completed."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "IsMultiline": true,
+      "IsHtml": true,
+      "Module": "EmailReservation",
+      "Code": "ReservationStateReadyShipByMailMsg",
+      "Text": {
+        "Text": "<p><span style=\"font-weight: 400;\">Votre commande est prête pour l'expédition.</span></p>",
+        "Fr": "<p><span style=\"font-weight: 400;\">Votre commande est prête pour l'expédition.</span></p>",
+        "En": "<p>Your order is currently being prepared, another email will be send when the order is complete.</p>"
+      },
+      "Description": {
+        "Text": "Livraison par la poste:  La réservation est complétée.",
+        "Fr": "Livraison par la poste:  La réservation est complétée.",
+        "En": "Ship by email: The reservation is complete."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "IsMultiline": true,
+      "IsHtml": true,
+      "Module": "EmailReservation",
+      "Code": "ReservationStatePreparationLocalDeliveryMsg",
+      "Text": {
+        "Text": "<span style=\"font-weight: 400;\">Votre commande est en préparation. Nous vous informerons lorsque la commande sera sortie pour livraison locale.</span>",
+        "Fr": "<span style=\"font-weight: 400;\">Votre commande est en préparation. Nous vous informerons lorsque la commande sera sortie pour livraison locale.</span>",
+        "En": "Your order is in preparation. You will be contacted when it will be shipped."
+      },
+      "Description": {
+        "Text": "Livraison locale: La réservation n'est pas complétée.",
+        "Fr": "Livraison locale: La réservation n'est pas complétée.",
+        "En": "Local delivery: The reservation is not completed."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "IsMultiline": true,
+      "IsHtml": true,
+      "Module": "EmailReservation",
+      "Code": "ReservationStateReadyLocalDeliveryMsg",
+      "Text": {
+        "Text": "<p><span style=\"font-weight: 400;\">Votre commande est sortie pour livraison locale.</span></p>",
+        "Fr": "<p><span style=\"font-weight: 400;\">Votre commande est sortie pour livraison locale.</span></p>",
+        "En": "<p><span style=\"font-weight: 400;\">Your order is ready for shipping.</span></p>"
+      },
+      "Description": {
+        "Text": "Livraison locale: La réservation est prête.",
+        "Fr": "Livraison locale: La réservation est prête.",
+        "En": "Local delivery: The reservation ready."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "IsMultiline": true,
+      "IsHtml": true,
+      "Module": "EmailReservation",
+      "Code": "ReservationStateReadyInStorePickupMsg",
+      "Text": {
+        "Text": "<span style=\"font-weight: 400;\">Votre commande est prête. Veuillez vous présenter en magasin pour la récupérer.</span>",
+        "Fr": "<span style=\"font-weight: 400;\">Votre commande est prête. Veuillez vous présenter en magasin pour la récupérer.</span>",
+        "En": "Your order is ready, please come to the store for collection."
+      },
+      "Description": {
+        "Text": "Récupérer en magasin: La réservation n'est pas complété.",
+        "Fr": "Récupérer en magasin: La réservation n'est pas complété.",
+        "En": "Pickup in store: The reservation is not completed."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "IsMultiline": true,
+      "IsHtml": true,
+      "Module": "EmailReservation",
+      "Code": "ReservationStatePreparationShipByMailMsg",
+      "Text": {
+        "Text": "<span style=\"font-weight: 400;\">Votre commande est en préparation. Nous vous informerons lorsque la commande sera expédiée</span>",
+        "Fr": "<span style=\"font-weight: 400;\">Votre commande est en préparation. Nous vous informerons lorsque la commande sera expédiée</span>",
+        "En": "Your order is in preparation. You will be contacted when it will be shipped"
+      },
+      "Description": {
+        "Text": "Livraison par la porte: La commande est en préparation et n'est pas prête.",
+        "Fr": "Livraison par la porte: La commande est en préparation et n'est pas prête.",
+        "En": "Livraison par la porte: La commande est en préparation et n'est pas prête. Ship by email: The order is in preparation but not ready."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "IsMultiline": true,
+      "IsHtml": true,
+      "Module": "EmailReservation",
+      "Code": "ReservationStatePreparationInStorePickupMsg",
+      "Text": {
+        "Text": "<span style=\"font-weight: 400;\">Votre commande est en préparation. Nous vous informerons lorsque la commande sera prête à être récupérée.</span>",
+        "Fr": "<span style=\"font-weight: 400;\">Votre commande est en préparation. Nous vous informerons lorsque la commande sera prête à être récupérée.</span>",
+        "En": "Your order is in preparation. You will be contacted when it is ready for in-store pickup."
+      },
+      "Description": {
+        "Text": "Récupéré en magasin: La commande est en préparation et n'est pas prête.",
+        "Fr": "Récupéré en magasin: La commande est en préparation et n'est pas prête.",
+        "En": "Pickup in store: The order is in preparation but not ready."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "EmailReservation",
+      "Code": "ReservationStateUpdate",
+      "Text": {
+        "Text": "Mise à jour",
+        "Fr": "Mise à jour",
+        "En": "Update"
+      },
+      "Description": {
+        "Text": "Lorsque vous écrivez un message aux clients.",
+        "Fr": "Lorsque vous écrivez un message aux clients.",
+        "En": "When you write a message to the customer."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "Send",
+      "Text": {
+        "Text": "Envoyer",
+        "Fr": "Envoyer",
+        "En": "Send"
+      },
+      "Description": {
+        "Text": "",
+        "Fr": "",
+        "En": ""
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "EmailReservation",
+      "Code": "LeaveMessage",
+      "Text": {
+        "Text": "Appuyez ici pour répondre à ce message",
+        "Fr": "Appuyez ici pour répondre à ce message",
+        "En": "Click here to replay to this message"
+      },
+      "Description": {
+        "Text": "Liens dans le courriel pour que le client puisse répondre à la conversation dans sa réservation.",
+        "Fr": "Liens dans le courriel pour que le client puisse répondre à la conversation dans sa réservation.",
+        "En": "Link in the email for the customer to reply to the conversation in the reservation."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "EmailReservation",
+      "Code": "ItemWaiting",
+      "Text": {
+        "Text": "En attente",
+        "Fr": "En attente",
+        "En": "Waiting"
+      },
+      "Description": {
+        "Text": "Lorsque le produit n'est pas en inventaire (à commander ou transféré d'un autre magasin)",
+        "Fr": "Lorsque le produit n'est pas en inventaire (à commander ou transféré d'un autre magasin)",
+        "En": "When the item is not in stock (to be ordered or transfer from another store)"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "EmailReservation",
+      "Code": "ItemPreparing",
+      "Text": {
+        "Text": "En préparation",
+        "Fr": "En préparation",
+        "En": "Preparing"
+      },
+      "Description": {
+        "Text": "Les articles qui n'ont pas été mis de côté, mais disponible en inventaire.",
+        "Fr": "Les articles qui n'ont pas été mis de côté, mais disponible en inventaire.",
+        "En": "Articles that have not be put aside but in stock."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "EmailReservation",
+      "Code": "Communication",
+      "Text": {
+        "Text": "Communication",
+        "Fr": "Communication",
+        "En": "Communication"
+      },
+      "Description": {
+        "Text": "Titre de la section des messages du clients et des employés",
+        "Fr": "Titre de la section des messages du clients et des employés",
+        "En": "Title of the section of messages between customer and employees."
+      }
+    },
+    {
+      "ForComelin": true,
+      "Module": "Configuration",
+      "Code": "Lock",
+      "Text": {
+        "Text": "Vérouillé",
+        "Fr": "Vérouillé",
+        "En": ""
+      },
+      "Description": {
+        "Text": "Locked",
+        "Fr": "Locked",
+        "En": ""
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "IsMultiline": true,
+      "IsHtml": true,
+      "Module": "EmailReservation",
+      "Code": "ReservationStatePreparationMsg",
+      "Text": {
+        "Text": "<p>Vous commande est en préparation vous allez recevoir un autre courriel lorsqu'elle sera complété.</p>",
+        "Fr": "<p>Vous commande est en préparation vous allez recevoir un autre courriel lorsqu'elle sera complété.</p>",
+        "En": "<p>Your order is currently being prepared, another email will be send when the order is complete.</p>"
+      },
+      "Description": {
+        "Text": "Message affiché dans le haut des communications pour les réservations qui ne sont pas complété.",
+        "Fr": "Message affiché dans le haut des communications pour les réservations qui ne sont pas complété.",
+        "En": "Message displayed at the top of th communication for order that are not completed."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "EmailReservation",
+      "Code": "ReservationStateReceived",
+      "Text": {
+        "Text": "Reçu",
+        "Fr": "Reçu",
+        "En": "Received"
+      },
+      "Description": {
+        "Text": "La réservation est bien reçu mais aucune article n'a été mis de côté pour le client.",
+        "Fr": "La réservation est bien reçu mais aucune article n'a été mis de côté pour le client.",
+        "En": "The order has been received but none of the article has been put in reservation for the customer."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "EmailReservation",
+      "Code": "ReservationStateReady",
+      "Text": {
+        "Text": "Préparé",
+        "Fr": "Préparé",
+        "En": "Ready"
+      },
+      "Description": {
+        "Text": "Lorsque la préparation de la commande est complète (tous les articles cochés)",
+        "Fr": "Lorsque la préparation de la commande est complète (tous les articles cochés)",
+        "En": "When the reservation preparation is complete (all items checked)"
+      }
+    },
+    {
+      "ForComelin": true,
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "EmailReservation",
+      "Code": "ReservationStateShipped",
+      "Text": {
+        "Text": "Expédié",
+        "Fr": "Expédié",
+        "En": "Shipped"
+      },
+      "Description": {
+        "Text": "Lorsque la réservation a été expédié par la poste (ou du moins un # de suivi est disponible)",
+        "Fr": "Lorsque la réservation a été expédié par la poste (ou du moins un # de suivi est disponible)",
+        "En": "When the order is shipped (or at least when a tracking number is available)."
+      }
+    },
+    {
+      "Module": "EmailReservation",
+      "Code": "ReservationStatePreparation",
+      "Text": {
+        "Text": "Préparation",
+        "Fr": "Préparation",
+        "En": "Preparing"
+      },
+      "Description": {
+        "Text": "Etat du panier lorsqu'il est vient d'être confirmé par le client.",
+        "Fr": "Etat du panier lorsqu'il est vient d'être confirmé par le client.",
+        "En": "State of the cart when the cart has just been confirmed by the customer."
+      }
+    },
+    {
+      "Module": "EmailReservation",
+      "Code": "ReservationStateCart",
+      "Text": {
+        "Text": "Panier",
+        "Fr": "Panier",
+        "En": "Cart"
+      },
+      "Description": {
+        "Text": "Lorsque le panier d'achat n'est toujours pas confirmé.",
+        "Fr": "Lorsque le panier d'achat n'est toujours pas confirmé.",
+        "En": "When the cart is still not confirmed."
+      }
+    },
+    {
+      "Module": "EmailReservation",
+      "Code": "ReservationState",
+      "Text": {
+        "Text": "État de la commande",
+        "Fr": "État de la commande",
+        "En": "Order status"
+      },
+      "Description": {
+        "Text": "Titre qui précède l'état de réservation (en préparation, complété, expédié...)",
+        "Fr": "Titre qui précède l'état de réservation (en préparation, complété, expédié...)",
+        "En": "Title that precede the state of the reservation (preparing, completed, shipped...)"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Web",
+      "Code": "Login",
+      "Text": {
+        "Text": "Se connecter",
+        "Fr": "Se connecter",
+        "En": "Login"
+      },
+      "Description": {
+        "Text": "Lien pour que le client puisse se connecter à son compte client.",
+        "Fr": "Lien pour que le client puisse se connecter à son compte client.",
+        "En": "Link so the customer can connect to his account."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "IsMultiline": true,
+      "IsHtml": true,
+      "Module": "Web",
+      "Code": "TopBanner",
+      "Text": {
+        "Text": "<p>Livraison gratuite à l'achat de {0} et plus!</p>",
+        "Fr": "<p>Livraison gratuite à l'achat de {0} et plus!</p>",
+        "En": "<p>Free shipping with minimum purchase of {0}.</p>"
+      },
+      "Description": {
+        "Text": "Visible en haut complètement du site web. {0} sera remplacé par le montant pour la livraison gratuite.",
+        "Fr": "Visible en haut complètement du site web. {0} sera remplacé par le montant pour la livraison gratuite.",
+        "En": "Visible on top of the web site. {0} will be replace with the amount for free shipping."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "Remove",
+      "Text": {
+        "Text": "Enlever",
+        "Fr": "Enlever",
+        "En": "Remove"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "LogginUserNotFound",
+      "Text": {
+        "Text": "Aucun compte client n’existe avec le courriel: \"{0}\".",
+        "Fr": "Aucun compte client n’existe avec le courriel: \"{0}\".",
+        "En": "No account with the email address \"{0}\" have been found."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "LogginNoPassword",
+      "Text": {
+        "Text": "Ce compte client n'a pas de mots de passe. Il faut remplir tous les champs.",
+        "Fr": "Ce compte client n'a pas de mots de passe. Il faut remplir tous les champs.",
+        "En": "The account have no password, you need to fill all the fields."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "LogginWrongPassword",
+      "Text": {
+        "Text": "Le mot de passe ne correspond pas.",
+        "Fr": "Le mot de passe ne correspond pas.",
+        "En": "Wrong Password"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "LogginResendPassword",
+      "Text": {
+        "Text": "Un courriel a été envoyé avec un lien pour assigner un mot de passe.",
+        "Fr": "Un courriel a été envoyé avec un lien pour assigner un mot de passe.",
+        "En": "An email has been sent with a link to assign a password."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "EmailSendError",
+      "Text": {
+        "Text": "Erreur lors de l'envoi du courriel",
+        "Fr": "Erreur lors de l'envoi du courriel",
+        "En": "Error while sending the email"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "ForgotPassword",
+      "Text": {
+        "Text": "J'ai oublié mon mot de passe",
+        "Fr": "J'ai oublié mon mot de passe",
+        "En": "I've forgot my password"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "Logon",
+      "Text": {
+        "Text": "Se connecter",
+        "Fr": "Se connecter",
+        "En": "Logon"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "PasswordReset",
+      "Text": {
+        "Text": "Lien invalide ou déjà utilisé pour changer le mot de passe.",
+        "Fr": "Lien invalide ou déjà utilisé pour changer le mot de passe.",
+        "En": "Link invalid or already use to change your password."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "CartQuantity",
+      "Text": {
+        "Text": "Quantité",
+        "Fr": "Quantité",
+        "En": "Quantity"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "CartPrice",
+      "Text": {
+        "Text": "Prix",
+        "Fr": "Prix",
+        "En": "Price"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "CartUnitPrice",
+      "Text": {
+        "Text": "Prix unitaire",
+        "Fr": "Prix unitaire",
+        "En": "Unit price"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "CartSubTotal",
+      "Text": {
+        "Text": "Sous-total",
+        "Fr": "Sous-total",
+        "En": "Subtotal"
+      }
+    },
+    {
+      "ForComelin": true,
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "Shipping",
+      "Text": {
+        "Text": "Livraison",
+        "Fr": "Livraison",
+        "En": "Shipping"
+      },
+      "Description": {
+        "Text": "Texte afficher pour indiquer si les produits seront livrés.",
+        "Fr": "Texte afficher pour indiquer si les produits seront livrés.",
+        "En": "Text to indicate if the product will be shipped."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "Carrier",
+      "Text": {
+        "Text": "Mon transporteur",
+        "Fr": "Mon transporteur",
+        "En": "My carrier"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "CartSpecifyCountry",
+      "Text": {
+        "Text": "Spécifier le pays",
+        "Fr": "Spécifier le pays",
+        "En": "Specify the country"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "CartWillBeConfirm",
+      "Text": {
+        "Text": "Sera confirmé par téléphone",
+        "Fr": "Sera confirmé par téléphone",
+        "En": "Will be confirmed by phone"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "Total",
+      "Text": {
+        "Text": "Total",
+        "Fr": "Total",
+        "En": "Total"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "DropLocation",
+      "Text": {
+        "Text": "Point de chute",
+        "Fr": "Point de chute",
+        "En": "Drop location"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "IsMultiline": true,
+      "IsHtml": true,
+      "Code": "CartNotInStock",
+      "Text": {
+        "Text": "Pas en inventaire - Il y aura un délai de commande",
+        "Fr": "Pas en inventaire - Il y aura un délai de commande",
+        "En": "Not in stock - There will be an extra delay"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "CartEventNoPlaceAvailable",
+      "Text": {
+        "Text": "Complètement vendu",
+        "Fr": "Complètement vendu",
+        "En": "Sold out."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "CartNotInStockCannotBeAdded",
+      "Text": {
+        "Text": "En rupture de stock",
+        "Fr": "En rupture de stock",
+        "En": "Sorry! Out of stock."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "CartNotInStockShort",
+      "Text": {
+        "Text": "en rupture de stock",
+        "Fr": "en rupture de stock",
+        "En": "out of stock."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Listing",
+      "Code": "InStock",
+      "Text": {
+        "Text": "En inventaire",
+        "Fr": "En inventaire",
+        "En": "In stock"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "CartNotInStockQuestion",
+      "Text": {
+        "Text": "Ajouter au panier?",
+        "Fr": "Ajouter au panier?",
+        "En": "Add to cart?"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "CartNew",
+      "Text": {
+        "Text": "Nouveau",
+        "Fr": "Nouveau",
+        "En": "New"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "CartFractionAvailable",
+      "Text": {
+        "Text": "Disponible en quantité plus petite",
+        "Fr": "Disponible en quantité plus petite",
+        "En": "Available in smaller quantity"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Product",
+      "Code": "AddToCart",
+      "Text": {
+        "Text": "Ajouter",
+        "Fr": "Ajouter",
+        "En": "Add"
+      },
+      "Description": {
+        "Text": "Ajouter au panier",
+        "Fr": "Ajouter au panier",
+        "En": "Add to cart"
+      }
+    },
+    {
+      "ForComelin": true,
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Product",
+      "Code": "PreOrder",
+      "Text": {
+        "Text": "Pré-Commande",
+        "Fr": "Pré-Commande",
+        "En": "Pre-Order"
+      },
+      "Description": {
+        "Text": "Produit qui est nouveau et qui n'est pas encore disponible mais le sera à une date précise.",
+        "Fr": "Produit qui est nouveau et qui n'est pas encore disponible mais le sera à une date précise.",
+        "En": "Product that is new and not yet available but will be in a know date."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "CartReadyOn",
+      "Text": {
+        "Text": "Disponible à partir du {0}",
+        "Fr": "Disponible à partir du {0}",
+        "En": "Available on {0}"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "CartProductRemovedTitle",
+      "Text": {
+        "Text": "Produit retiré du panier",
+        "Fr": "Produit retiré du panier",
+        "En": "Product remove from cart"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "CartProductRemoved",
+      "Text": {
+        "Text": "{0} a été retiré de votre panier puisqu'il n'est pas disponible.",
+        "Fr": "{0} a été retiré de votre panier puisqu'il n'est pas disponible.",
+        "En": "{0} has been removed from your cart because the item is not available."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "CartLimitedQuantityTitle",
+      "Text": {
+        "Text": "Quantité limitée",
+        "Fr": "Quantité limitée",
+        "En": "Limited Quantity"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "CartLimitedQuantity",
+      "Text": {
+        "Text": "Un maximum de {1} peut être commandé.",
+        "Fr": "Un maximum de {1} peut être commandé.",
+        "En": "A maximum of {1} can be ordered."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "CartProductRemovedSuggestion",
+      "Text": {
+        "Text": "Trouver un produit alternatif",
+        "Fr": "Trouver un produit alternatif",
+        "En": "Find a substitution product"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "CartExtraShippingFees",
+      "Text": {
+        "Text": "Frais de transport additionnel de {0:c}",
+        "Fr": "Frais de transport additionnel de {0:c}",
+        "En": "Extra shipping fees of {0:c}"
+      },
+      "Description": {
+        "Text": "{0:c} sera replacé par le montant.",
+        "Fr": "{0:c} sera replacé par le montant.",
+        "En": "Will be replaced by the amount."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "CartNotCountingForFreeShipping",
+      "Text": {
+        "Text": "Pas pris en considération pour obtenir la poste gratuite.",
+        "Fr": "Pas pris en considération pour obtenir la poste gratuite.",
+        "En": "Not counted to get free shipping"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "CartFreeShipping",
+      "Text": {
+        "Text": "Livraison gratuite!",
+        "Fr": "Livraison gratuite!",
+        "En": "Free Shipping!"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "CartNoShipping",
+      "Text": {
+        "Text": "Pas de livraison, récupérez en magasin.",
+        "Fr": "Pas de livraison, récupérez en magasin.",
+        "En": "No shipping, pickup in store."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "CartLocalDelivery",
+      "Text": {
+        "Text": "Livraison locale",
+        "Fr": "Livraison locale",
+        "En": "Local delivery"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "CartEmpty",
+      "Text": {
+        "Text": "Votre panier est vide",
+        "Fr": "Votre panier est vide",
+        "En": "The cart is empty"
+      }
+    },
+    {
+      "ForComelin": true,
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "CartTotalToPay",
+      "Text": {
+        "Text": "Montant total à payer",
+        "Fr": "Montant total à payer",
+        "En": "Total amount to paid"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "CartApplyPromoCode",
+      "Text": {
+        "Text": "Appliquer code promotion",
+        "Fr": "Appliquer code promotion",
+        "En": "Apply promo code"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "PromotionCode",
+      "Text": {
+        "Text": "code promotionnel",
+        "Fr": "code promotionnel",
+        "En": "promo code"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "Apply",
+      "Text": {
+        "Text": "Appliquer",
+        "Fr": "Appliquer",
+        "En": "Apply"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "PromotionLiquidation",
+      "Text": {
+        "Text": "Liquidation",
+        "Fr": "Liquidation",
+        "En": "Sale"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "PromotionDiscount",
+      "Text": {
+        "Text": "Solde",
+        "Fr": "Solde",
+        "En": "Discount"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "PromotionRebate",
+      "Text": {
+        "Text": "Promotion",
+        "Fr": "Promotion",
+        "En": "Promotion"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "PromotionUntil",
+      "Text": {
+        "Text": "Jusqu'au",
+        "Fr": "Jusqu'au",
+        "En": "Until"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "PromotionTimeframe",
+      "Text": {
+        "Text": "Du {0} jusqu’au {1}",
+        "Fr": "Du {0} jusqu’au {1}",
+        "En": "From {0} to {1}"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "PromotionInStoreOnly",
+      "Text": {
+        "Text": "en magasin seulement",
+        "Fr": "en magasin seulement",
+        "En": "in store only"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "PromotionOnlineOnly",
+      "Text": {
+        "Text": "en ligne seulement",
+        "Fr": "en ligne seulement",
+        "En": "en ligne seulement"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "EmailInUseTitle",
+      "Text": {
+        "Text": "Courriel en utilisation",
+        "Fr": "Courriel en utilisation",
+        "En": "Email already in use"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "EmailInUseText",
+      "Text": {
+        "Text": "Le courriel {0} est déjà en utilisation. <a href='Mot-Passe-Oublie.aspx?email={0}'>Je désire recevoir un nouveau mot de passe.</a>",
+        "Fr": "Le courriel {0} est déjà en utilisation. <a href='Mot-Passe-Oublie.aspx?email={0}'>Je désire recevoir un nouveau mot de passe.</a>",
+        "En": "The email {0} is already in used. <a href='Mot-Passe-Oublie.aspx?email={0}'>I would like to receive a new password.</a>"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "CartPayment",
+      "Text": {
+        "Text": "Paiement",
+        "Fr": "Paiement",
+        "En": "Payment"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Payment",
+      "Code": "CartPayPal",
+      "Text": {
+        "Text": "Effectuer votre paiement PayPal",
+        "Fr": "Effectuer votre paiement PayPal",
+        "En": "Do your PayPal payment"
+      },
+      "Description": {
+        "Text": "Bouton avant la redirection vers le site de PayPal",
+        "Fr": "Bouton avant la redirection vers le site de PayPal"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "GiftCard",
+      "Text": {
+        "Text": "Carte Cadeau",
+        "Fr": "Carte Cadeau",
+        "En": "Gift Card"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "GiftCardInvalid",
+      "Text": {
+        "Text": "Le numéro de votre carte cadeau est incorrect.",
+        "Fr": "Le numéro de votre carte cadeau est incorrect.",
+        "En": "The gift card number is invalid."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "GiftCardDoNotExist",
+      "Text": {
+        "Text": "La carte-cadeau est inexistante.",
+        "Fr": "La carte-cadeau est inexistante.",
+        "En": "No Gift card exist with this number."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "GiftCardExpired",
+      "Text": {
+        "Text": "La carte-cadeau est expirée depuis le {0}.",
+        "Fr": "La carte-cadeau est expirée depuis le {0}.",
+        "En": "The gift card is expired since {0}."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "GiftCardNotActive",
+      "Text": {
+        "Text": "La carte-cadeau sera valide à partir du {0}.",
+        "Fr": "La carte-cadeau sera valide à partir du {0}.",
+        "En": "The gift card will be valid from {0}."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "GiftCardEmpty",
+      "Text": {
+        "Text": "La carte-cadeau a été utilisée en totalité et est vide.",
+        "Fr": "La carte-cadeau a été utilisée en totalité et est vide.",
+        "En": "The gift card has been used and is not empty."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "GiftCardOk",
+      "Text": {
+        "Text": "La carte-cadeau a un solde de {0:c}.",
+        "Fr": "La carte-cadeau a un solde de {0:c}.",
+        "En": "The gift card has a balance of {0:c}."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "GiftCardCheckInStore",
+      "Text": {
+        "Text": "La carte-cadeau sera validée en magasin.",
+        "Fr": "La carte-cadeau sera validée en magasin.",
+        "En": "The gift card will be validate in store."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "GiftCardAlreadyAdded",
+      "Text": {
+        "Text": "La carte-cadeau {0} est déjà assignée.",
+        "Fr": "La carte-cadeau {0} est déjà assignée.",
+        "En": "The gift card {0} is already assigned"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "SummaryFreeShippingOk",
+      "Text": {
+        "Text": "Votre achat contient plus de {0:c} d'articles à prix régulier. Vous obtenez la livraison gratuite.",
+        "Fr": "Votre achat contient plus de {0:c} d'articles à prix régulier. Vous obtenez la livraison gratuite.",
+        "En": "Your order qualifies for free shipping."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "SummaryFreeShippingCondition",
+      "Text": {
+        "Text": "Un achat de {0:c} d'articles vous éviterait les frais de livraison de base. Présentement, vous avez {1:c} admissible.",
+        "Fr": "Un achat de {0:c} d'articles vous éviterait les frais de livraison de base. Présentement, vous avez {1:c} admissible.",
+        "En": "Your order would qualify for free shipping with {0:c} before taxes.  You currently have {1:c}."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "SummaryFreeShippingMessage",
+      "Text": {
+        "Text": "Obtenez la livraison gratuite à l'achat de {0:c} d'articles à prix régulier.",
+        "Fr": "Obtenez la livraison gratuite à l'achat de {0:c} d'articles à prix régulier.",
+        "En": "Get free shipping when purchase for {0:c} or more."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "SummaryFreeShippingExtra",
+      "Text": {
+        "Text": "Certaines surcharges demeurent à cause du volume ou de poids des articles.",
+        "Fr": "Certaines surcharges demeurent à cause du volume ou de poids des articles.",
+        "En": "The extra shipping cost is still billed because of the size of some items."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "SummaryFreePreparationFee",
+      "Text": {
+        "Text": "Obtenez les frais de préparation gratuit à l'achat de {0:c} d'articles à prix régulier.",
+        "Fr": "Obtenez les frais de préparation gratuit à l'achat de {0:c} d'articles à prix régulier.",
+        "En": "Get free preparation fee when purchase for {0:c} or more."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "TextFree",
+      "Text": {
+        "Text": "Gratuit",
+        "Fr": "Gratuit",
+        "En": "Free"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "Newsletter",
+      "Text": {
+        "Text": "Infolettre",
+        "Fr": "Infolettre",
+        "En": "Newsletter"
+      },
+      "Description": {
+        "Text": "Titre pour le bulletin / journal / infolettre / journal",
+        "Fr": "Titre pour le bulletin / journal / infolettre / journal",
+        "En": "Name use for the newsletter"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "NewsletterSubscribe",
+      "Text": {
+        "Text": "Vous êtes inscrite à l'infolettre.",
+        "Fr": "Vous êtes inscrite à l'infolettre.",
+        "En": "Your are subscribe to the newsletter."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "NewsletterUnsubscribe",
+      "Text": {
+        "Text": "Vous n'êtes pas inscrite à l'infolettre.",
+        "Fr": "Vous n'êtes pas inscrite à l'infolettre.",
+        "En": "Your are not subscribe to the newsletter. "
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "AccountUpdated",
+      "Text": {
+        "Text": "Votre information à été mise à jour.",
+        "Fr": "Votre information à été mise à jour.",
+        "En": "Your information has been updated."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "AccountSetPassword",
+      "Text": {
+        "Text": "Votre compte n'a pas de mot de passe. Svp complétez vos informations.",
+        "Fr": "Votre compte n'a pas de mot de passe. Svp complétez vos informations.",
+        "En": "This account do not have password. Please complete your information."
+      },
+      "Description": {
+        "Text": "",
+        "Fr": ""
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "WishListLoginRequired",
+      "Text": {
+        "Text": "Vous devez être authentifié pour créer votre liste cadeau.",
+        "Fr": "Vous devez être authentifié pour créer votre liste cadeau.",
+        "En": "You must login to use the wish list."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "WishList",
+      "Text": {
+        "Text": "Liste cadeau",
+        "Fr": "Liste cadeau",
+        "En": "Wish List"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "WishListPurchased",
+      "Text": {
+        "Text": "Cet article a été acheté!",
+        "Fr": "Cet article a été acheté!",
+        "En": "This item as been purchased!"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "WishListHowTo",
+      "Text": {
+        "Text": "Vous êtes en mode édition de liste cadeau. Vous pouvez naviguer le site et ajouter des articles.",
+        "Fr": "Vous êtes en mode édition de liste cadeau. Vous pouvez naviguer le site et ajouter des articles.",
+        "En": "You are in wish list mode. You can browse the web site and add items to your chart."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "WishListComplete",
+      "Text": {
+        "Text": "J'ai terminé ma liste cadeau.",
+        "Fr": "J'ai terminé ma liste cadeau.",
+        "En": "I've complete my wish list."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "SummaryPromotionalCodeNotFound",
+      "Text": {
+        "Text": "Aucune promotion avec le code '{0}' n'est présentement valide.",
+        "Fr": "Aucune promotion avec le code '{0}' n'est présentement valide.",
+        "En": "There is currently no valid promotional code '{0}'"
+      },
+      "Description": {
+        "Text": "Message afficher lorsque le client entre un code promotionnel non valide.  {0} sera remplacé par le code que le client à entré.",
+        "Fr": "Message afficher lorsque le client entre un code promotionnel non valide.  {0} sera remplacé par le code que le client à entré.",
+        "En": "Message display when the customer enter an invalid promo code. {0} will be replaced with the promo code the customer entered."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "PickupInStore",
+      "Text": {
+        "Text": "Cueillette en magasin",
+        "Fr": "Cueillette en magasin",
+        "En": "Pick up"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "PickupIn",
+      "Text": {
+        "Text": "Récupérer à",
+        "Fr": "Récupérer à",
+        "En": "Pick up at"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "PriceInCad",
+      "Text": {
+        "Text": "Prix en dollars canadiens",
+        "Fr": "Prix en dollars canadiens",
+        "En": "All prices in Canadian dollars"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "CategoryPagePrevious",
+      "Text": {
+        "Text": "Page Précédente",
+        "Fr": "Page Précédente",
+        "En": "Previous Page"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "CategoryPageNext",
+      "Text": {
+        "Text": "Page Suivante",
+        "Fr": "Page Suivante",
+        "En": "Next Page"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "CategoryPageXOfY",
+      "Text": {
+        "Text": "Page {0} de {1}",
+        "Fr": "Page {0} de {1}",
+        "En": "Page {0} of {1}"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "CategoryViewMore",
+      "Text": {
+        "Text": "Voir davantage",
+        "Fr": "Voir davantage",
+        "En": "View more"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "CategoryXofYProductDisplayed",
+      "Text": {
+        "Text": "{0} des {1} produits affichés",
+        "Fr": "{0} des {1} produits affichés",
+        "En": "{0} of {1} products displayed"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "CategoryViewAll",
+      "Text": {
+        "Text": "Tous les produits",
+        "Fr": "Tous les produits",
+        "En": "View all products"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "CategoryNew",
+      "Text": {
+        "Text": "Nouveautés",
+        "Fr": "Nouveautés",
+        "En": "New Products"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "GlobalProducts",
+      "Text": {
+        "Text": "Produits",
+        "Fr": "Produits",
+        "En": "Products"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "GlobalProduct",
+      "Text": {
+        "Text": "Produit",
+        "Fr": "Produit",
+        "En": "Product"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "GlobalFree",
+      "Text": {
+        "Text": "Gratuit",
+        "Fr": "Gratuit",
+        "En": "Free"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "GlobalProductCode",
+      "Text": {
+        "Text": "Code de produit",
+        "Fr": "Code de produit",
+        "En": "Product code"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "GlobalBarcode",
+      "Text": {
+        "Text": "Code à barres",
+        "Fr": "Code à barres",
+        "En": "Barcode"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "SupplierCode",
+      "Text": {
+        "Text": "Code fournisseur",
+        "Fr": "Code fournisseur",
+        "En": "Supplier code"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "GlobalPromotion",
+      "Text": {
+        "Text": "Nos Promotions",
+        "Fr": "Nos Promotions",
+        "En": "Our Promotions"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "CartToConfirm",
+      "Text": {
+        "Text": "à confirmer",
+        "Fr": "à confirmer",
+        "En": "to be confirmed"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "ProductAvailability",
+      "Text": {
+        "Text": "Disponibilité",
+        "Fr": "Disponibilité",
+        "En": "Availability"
+      },
+      "Description": {
+        "Text": "Terme pour définir l'inventaire disponible",
+        "Fr": "Terme pour définir l'inventaire disponible",
+        "En": "Term to define available inventory."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "ProductAvailabilityNoneInventory",
+      "Text": {
+        "Text": "Ce produit n'est pas inventorié et considéré toujours disponible.",
+        "Fr": "Ce produit n'est pas inventorié et considéré toujours disponible.",
+        "En": "This product is not inventoried and consider always in stock."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "ProductAvailabilityDelay",
+      "Text": {
+        "Text": "transfert sur demande",
+        "Fr": "transfert sur demande",
+        "En": "transfer on demand"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "ProductAvailabilityOnline",
+      "Text": {
+        "Text": "En ligne",
+        "Fr": "En ligne",
+        "En": "Online"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "ProductAvailabilityTransport",
+      "Text": {
+        "Text": "Transport entre magasins",
+        "Fr": "Transport entre magasins",
+        "En": "In transit between stores"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "ProductAvailabilityDelayToConfirm",
+      "Text": {
+        "Text": "Délai à confirmer",
+        "Fr": "Délai à confirmer",
+        "En": "Delay to be confirmed"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "ProductAvailabilityOrdered",
+      "Text": {
+        "Text": "En commande du fournisseur",
+        "Fr": "En commande du fournisseur",
+        "En": "In order from the supplier"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "ReferenceWelcome",
+      "Text": {
+        "Text": "Bienvenue aux clients de {0}! Bon magasinage!",
+        "Fr": "Bienvenue aux clients de {0}! Bon magasinage!",
+        "En": "Welcome to customers of {0}! Happy Shopping!"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Listing",
+      "Code": "FilterByBrand",
+      "Text": {
+        "Text": "Par Marque",
+        "Fr": "Par Marque",
+        "En": "By Brand"
+      },
+      "Description": {
+        "Text": "Filtre dans le menu de gauche par marque de produit.",
+        "Fr": "Filtre dans le menu de gauche par marque de produit.",
+        "En": "Left menu filter for products by brand."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "FilterByPrice",
+      "Text": {
+        "Text": "Par Prix",
+        "Fr": "Par Prix",
+        "En": "By Price"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "FilterViewAll",
+      "Text": {
+        "Text": "Plus…",
+        "Fr": "Plus…",
+        "En": "More…"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "PriceRangeLessThan",
+      "Text": {
+        "Text": "Moins de ",
+        "Fr": "Moins de ",
+        "En": "Less than "
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "PriceRangeMoreThan",
+      "Text": {
+        "Text": "Plus de ",
+        "Fr": "Plus de ",
+        "En": "More than "
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "PriceRangeTo",
+      "Text": {
+        "Text": " à ",
+        "Fr": " à ",
+        "En": " to "
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "FilterAll",
+      "Text": {
+        "Text": "Tout",
+        "Fr": "Tout",
+        "En": "All"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "SearchResult",
+      "Text": {
+        "Text": "Résultats de recherche",
+        "Fr": "Résultats de recherche",
+        "En": "Search Results"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "OnlineShop",
+      "Text": {
+        "Text": "Boutique en ligne",
+        "Fr": "Boutique en ligne",
+        "En": "Online shop"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "Template-WishList-Purchased-True",
+      "Text": {
+        "Text": "Déjà acheté!",
+        "Fr": "Déjà acheté!",
+        "En": "Already bought"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "GlobalFor",
+      "Text": {
+        "Text": "pour",
+        "Fr": "pour",
+        "En": "for"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Code": "SpecialOrder",
+      "Text": {
+        "Text": "Commande spéciale",
+        "Fr": "Commande spéciale",
+        "En": "Special order"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Code": "QtyMaxPerClient",
+      "Text": {
+        "Text": "Qté maximale par client",
+        "Fr": "Qté maximale par client",
+        "En": "Max quantity per client"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "Configuration",
+      "Code": "Store",
+      "Text": {
+        "Text": "Magasin",
+        "Fr": "Magasin",
+        "En": "Store"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "Configuration",
+      "Code": "ComputerName",
+      "Text": {
+        "Text": "Nom de l'ordinateur",
+        "Fr": "Nom de l'ordinateur",
+        "En": "Computer Name"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "Configuration",
+      "Code": "SetupConfigureInvoice",
+      "Text": {
+        "Text": "Configuration des factures",
+        "Fr": "Configuration des factures",
+        "En": "Customized Invoices"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "Configuration",
+      "Code": "Printers",
+      "Text": {
+        "Text": "Imprimantes",
+        "Fr": "Imprimantes",
+        "En": "Printers"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "Configuration",
+      "Code": "PrinterInvoice3inch",
+      "Text": {
+        "Text": "Imprimante Facture (3\" large)",
+        "Fr": "Imprimante Facture (3\" large)",
+        "En": "Invoice Printer (3\" wide)"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "Configuration",
+      "Code": "PrinterFullSize",
+      "Text": {
+        "Text": "Imprimante (8.5\" x 11\")",
+        "Fr": "Imprimante (8.5\" x 11\")",
+        "En": "Printer (8.5\" x 11\")"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "Configuration",
+      "Code": "PrinterSticker",
+      "Text": {
+        "Text": "Imprimante à étiquettes (2\" large)",
+        "Fr": "Imprimante à étiquettes (2\" large)",
+        "En": "Sticker Printer (2\" wide)"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "Configuration",
+      "Code": "Sticker",
+      "Text": {
+        "Text": "Étiquettes",
+        "Fr": "Étiquettes",
+        "En": "Stickers"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "Configuration",
+      "Code": "Other",
+      "Text": {
+        "Text": "Autre",
+        "Fr": "Autre",
+        "En": "Other"
+      }
+    },
+    {
+      "ForComelin": true,
+      "ForWebsite": true,
+      "Module": "TopMenu",
+      "Code": "ButtonLogin1",
+      "Text": {
+        "Text": "Connection",
+        "Fr": "Connection",
+        "En": "Connexion"
+      }
+    },
+    {
+      "ForComelin": true,
+      "ForWebsite": true,
+      "Module": "TopMenu",
+      "Code": "ButtonLoginForEmploye",
+      "Text": {
+        "Text": "pour employé",
+        "Fr": "pour employé",
+        "En": "for employee"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "TopMenu",
+      "Code": "Employes",
+      "Text": {
+        "Text": "employés",
+        "Fr": "employés",
+        "En": "employes"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "TopMenu",
+      "Code": "PurchaseOrders",
+      "Text": {
+        "Text": "Réservations",
+        "Fr": "Réservations",
+        "En": "POs"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "TopMenu",
+      "Code": "NewOrder",
+      "Text": {
+        "Text": "Nouvelle Facture",
+        "Fr": "Nouvelle Facture",
+        "En": "Start new invoice"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "TopMenu",
+      "Code": "NewProduct",
+      "Text": {
+        "Text": "Nouveau Produit",
+        "Fr": "Nouveau Produit",
+        "En": "New Product"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "TopMenu",
+      "Code": "Restock",
+      "Text": {
+        "Text": "Réception de marchandises",
+        "Fr": "Réception de marchandises",
+        "En": "Restock Inventory"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "TopMenu",
+      "Code": "SalesSummary",
+      "Text": {
+        "Text": "Sommaire de ventes",
+        "Fr": "Sommaire de ventes",
+        "En": "Sales Summary"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "TopMenu",
+      "Code": "TransferStore",
+      "Text": {
+        "Text": "Transfert de Magasin",
+        "Fr": "Transfert de Magasin",
+        "En": "Transfer to another store"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "TopMenu",
+      "Code": "ProductToOrder",
+      "Text": {
+        "Text": "Produits à Commander",
+        "Fr": "Produits à Commander",
+        "En": "Products to order"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "TopMenu",
+      "Code": "Promotions",
+      "Text": {
+        "Text": "Promotions et rabais",
+        "Fr": "Promotions et rabais",
+        "En": "Promotions and rebate"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "TopMenu",
+      "Code": "TransactionHistory",
+      "Text": {
+        "Text": "Historique Transactions",
+        "Fr": "Historique Transactions",
+        "En": "Transactions History"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "TopMenu",
+      "Code": "SupplierOrder",
+      "Text": {
+        "Text": "Commande fournisseur",
+        "Fr": "Commande fournisseur",
+        "En": "Supplier Order"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "Tool menu",
+      "Code": "OptionsAndConfiguration",
+      "Text": {
+        "Text": "Options && configuration",
+        "Fr": "Options && configuration",
+        "En": "Options && configurations"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "Tool menu",
+      "Code": "EmergencyContact",
+      "Text": {
+        "Text": "Contact d'urgence",
+        "Fr": "Contact d'urgence",
+        "En": "Emergency contact"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "Tool menu",
+      "Code": "Search",
+      "Text": {
+        "Text": "Recherche",
+        "Fr": "Recherche",
+        "En": "Search"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "Tool menu",
+      "Code": "Popular",
+      "Text": {
+        "Text": "Populaires",
+        "Fr": "Populaires",
+        "En": "Popular"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "Tool menu",
+      "Code": "Print",
+      "Text": {
+        "Text": "Imprimer",
+        "Fr": "Imprimer",
+        "En": "Print"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "Tool menu",
+      "Code": "Cancel",
+      "Text": {
+        "Text": "Annuler",
+        "Fr": "Annuler",
+        "En": "Cancel"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "Tool menu",
+      "Code": "PurchaseOrder",
+      "Text": {
+        "Text": "Bon de commande",
+        "Fr": "Bon de commande",
+        "En": "Purchase Order"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "Tool menu",
+      "Code": "Billing",
+      "Text": {
+        "Text": "Facturer",
+        "Fr": "Facturer",
+        "En": "Billing"
+      }
+    },
+    {
+      "ForComelin": true,
+      "ForWebsite": true,
+      "Module": "Reservation",
+      "Code": "StatusComplete",
+      "Text": {
+        "Text": "Complété",
+        "Fr": "Complété",
+        "En": "Completed"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "Tool menu",
+      "Code": "Rebate",
+      "Text": {
+        "Text": "Rabais",
+        "Fr": "Rabais",
+        "En": "Discount"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "Tool menu",
+      "Code": "Deleted",
+      "Text": {
+        "Text": "effacé",
+        "Fr": "effacé",
+        "En": "deleted"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "ucSales ",
+      "Code": "FilterByDate",
+      "Text": {
+        "Text": "Filtre par date",
+        "Fr": "Filtre par date",
+        "En": "Filter by date"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "ucSales ",
+      "Code": "Customer",
+      "Text": {
+        "Text": "Client",
+        "Fr": "Client",
+        "En": "Customer"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "ucSales ",
+      "Code": "From",
+      "Text": {
+        "Text": "Depuis le",
+        "Fr": "Depuis le",
+        "En": "From"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "ucSales ",
+      "Code": "To",
+      "Text": {
+        "Text": "Au",
+        "Fr": "Au",
+        "En": "To"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "ucSales ",
+      "Code": "FilterByCustomerGroup",
+      "Text": {
+        "Text": "Filter par groupe de clients",
+        "Fr": "Filter par groupe de clients",
+        "En": "Filter by customer group"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "ucSales ",
+      "Code": "UpdateSalesSummary",
+      "Text": {
+        "Text": "Actualiser Sommaire",
+        "Fr": "Actualiser Sommaire",
+        "En": "Update Summary"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "ucSales ",
+      "Code": "SalesBeforeDiscount",
+      "Text": {
+        "Text": "Vente avant rabais",
+        "Fr": "Vente avant rabais",
+        "En": "Sales before discount"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "ucSales ",
+      "Code": "NetSales",
+      "Text": {
+        "Text": "Vente Net",
+        "Fr": "Vente Net",
+        "En": "Net Sales"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "ucSales ",
+      "Code": "PettyCast",
+      "Text": {
+        "Text": "Petite Caisse",
+        "Fr": "Petite Caisse",
+        "En": "Petty Cash"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "ucSales ",
+      "Code": "PrintSales",
+      "Text": {
+        "Text": "Imprimer les ventes",
+        "Fr": "Imprimer les ventes",
+        "En": "Print Sales"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "ucSales ",
+      "Code": "ExportExcel",
+      "Text": {
+        "Text": "Exporter sur Excel",
+        "Fr": "Exporter sur Excel",
+        "En": "Export to Excel"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "ucSales ",
+      "Code": "PreparationFee",
+      "Text": {
+        "Text": "Frais de préparation",
+        "Fr": "Frais de préparation",
+        "En": "Preparation fee"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "Print",
+      "Code": "Invoice",
+      "Text": {
+        "Text": "Facture",
+        "Fr": "Facture",
+        "En": "Invoice"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "Print",
+      "Code": "PurchaseOrderAbb",
+      "Text": {
+        "Text": "Réser",
+        "Fr": "Réser",
+        "En": "PO"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "Print",
+      "Code": "ShippingAddress",
+      "Text": {
+        "Text": "Adresse de livraison",
+        "Fr": "Adresse de livraison",
+        "En": "Shipping Address"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "Print",
+      "Code": "InvoiceGift",
+      "Text": {
+        "Text": "Facture Cadeau",
+        "Fr": "Facture Cadeau",
+        "En": "Invoice Gift"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "Print",
+      "Code": "TotalItems",
+      "Text": {
+        "Text": "Nombre total d'articles",
+        "Fr": "Nombre total d'articles",
+        "En": "Total number of items"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "Print",
+      "Code": "TotalRebate",
+      "Text": {
+        "Text": "Rabais total",
+        "Fr": "Rabais total",
+        "En": "Total rebate"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "Search window",
+      "Code": "Title",
+      "Text": {
+        "Text": "Titre",
+        "Fr": "Titre",
+        "En": "Title"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "",
+      "Code": "Brand",
+      "Text": {
+        "Text": "Marque",
+        "Fr": "Marque",
+        "En": "Brand"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "",
+      "Code": "Category",
+      "Text": {
+        "Text": "Catégorie",
+        "Fr": "Catégorie",
+        "En": "Category"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "Search window",
+      "Code": "Supplier",
+      "Text": {
+        "Text": "Fournisseur",
+        "Fr": "Fournisseur",
+        "En": "Supplier"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "Search window",
+      "Code": "BreadcrumbHome",
+      "Text": {
+        "Text": "Accueil",
+        "Fr": "Accueil",
+        "En": "Home"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Search window",
+      "Code": "StarProduct",
+      "Text": {
+        "Text": "Coups de coeur",
+        "Fr": "Coups de coeur",
+        "En": "Favorite"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "Search window",
+      "Code": "AvailableInStore",
+      "Text": {
+        "Text": "Disponible en magasin",
+        "Fr": "Disponible en magasin",
+        "En": "Available in store"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "Search window",
+      "Code": "WarningProductShippedWhenAllAvailable",
+      "Text": {
+        "Text": "La commande sera postée que lorsque TOUS les articles seront disponibles seulement.",
+        "Fr": "La commande sera postée que lorsque TOUS les articles seront disponibles seulement.",
+        "En": "The order will be shipped when all items will be available only."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "View transaction",
+      "Code": "ShippingCart",
+      "Text": {
+        "Text": "Panier d'achat",
+        "Fr": "Panier d'achat",
+        "En": "Shopping cart"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "View transaction",
+      "Code": "AssignTo",
+      "Text": {
+        "Text": "Assigné à",
+        "Fr": "Assigné à",
+        "En": "Assign to"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "View transaction",
+      "Code": "ServedBy",
+      "Text": {
+        "Text": "Servi par",
+        "Fr": "Servi par",
+        "En": "Served by"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "View transaction",
+      "Code": "PreparedBy",
+      "Text": {
+        "Text": "Préparé par",
+        "Fr": "Préparé par",
+        "En": "Prepared by"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "View transaction",
+      "Code": "BilledBy",
+      "Text": {
+        "Text": "Facturé par",
+        "Fr": "Facturé par",
+        "En": "Billed by"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "View transaction",
+      "Code": "SecurityDespositMade",
+      "Text": {
+        "Text": "Dépôt déjà fait",
+        "Fr": "Dépôt déjà fait",
+        "En": "Deposit made"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "View transaction",
+      "Code": "SecurityDeposit",
+      "Text": {
+        "Text": "Dépôt de sécurité",
+        "Fr": "Dépôt de sécurité",
+        "En": "Security deposit"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "View transaction",
+      "Code": "ModificationSinceSignature",
+      "Text": {
+        "Text": "Modification(s) depuis la signature",
+        "Fr": "Modification(s) depuis la signature",
+        "En": "Modification(s) since signature"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "View transaction",
+      "Code": "SupplierOrderTitle",
+      "Text": {
+        "Text": "Numéro de Commande",
+        "Fr": "Numéro de Commande",
+        "En": "Purchase Order Number"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "View transaction",
+      "Code": "SalesTitle",
+      "Text": {
+        "Text": "Facture",
+        "Fr": "Facture",
+        "En": "Invoice"
+      }
+    },
+    {
+      "ForComelin": true,
+      "ForWebsite": true,
+      "Module": "View transaction",
+      "Code": "AdjustementTitle",
+      "Text": {
+        "Text": "Ajustement d'inventaire",
+        "Fr": "Ajustement d'inventaire",
+        "En": "Inventory adjustment"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "View transaction",
+      "Code": "ReStockTitle",
+      "Text": {
+        "Text": "Réception de marchandises",
+        "Fr": "Réception de marchandises",
+        "En": "Restock inventory"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "View transaction",
+      "Code": "TransferTitle",
+      "Text": {
+        "Text": "Transfert entre magasins",
+        "Fr": "Transfert entre magasins",
+        "En": "Transfers between stores"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "View transaction",
+      "Code": "PettyCashTitle",
+      "Text": {
+        "Text": "Transaction petite caisse",
+        "Fr": "Transaction petite caisse",
+        "En": "Petty cash transaction"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "View transaction",
+      "Code": "InventoryTitle",
+      "Text": {
+        "Text": "Décompte d'inventaire",
+        "Fr": "Décompte d'inventaire",
+        "En": "Inventory recount"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "View transaction",
+      "Code": "RmaTitle",
+      "Text": {
+        "Text": "Retour de marchandises au fabricant",
+        "Fr": "Retour de marchandises au fabricant",
+        "En": "RMA / Return"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "View transaction",
+      "Code": "CreativityTitle",
+      "Text": {
+        "Text": "Créations",
+        "Fr": "Créations",
+        "En": "Creation"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "View transaction",
+      "Code": "InternetOrderTitle",
+      "Text": {
+        "Text": "Accusé Réception",
+        "Fr": "Accusé Réception",
+        "En": "Order Acknowledgement"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "points",
+      "Code": "CartStamps",
+      "Text": {
+        "Text": "Points",
+        "Fr": "Points",
+        "En": "Points"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "points",
+      "Code": "CartNoPoints",
+      "Text": {
+        "Text": "Ne donne pas de points",
+        "Fr": "Ne donne pas de points",
+        "En": "Doesn't give points"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "points",
+      "Code": "PointsGranted",
+      "Text": {
+        "Text": "Points accumulées",
+        "Fr": "Points accumulées",
+        "En": "Points accumulated"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "points",
+      "Code": "PointsSpended",
+      "Text": {
+        "Text": "Points utilisées",
+        "Fr": "Points utilisées",
+        "En": "Points spend"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "points",
+      "Code": "PointsBalance",
+      "Text": {
+        "Text": "Solde des points",
+        "Fr": "Solde des points",
+        "En": "Points balance"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "points",
+      "Code": "CartItem",
+      "Text": {
+        "Text": "Article",
+        "Fr": "Article",
+        "En": "Item"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "points",
+      "Code": "Cost",
+      "Text": {
+        "Text": "Coût",
+        "Fr": "Coût",
+        "En": "Cost"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "points",
+      "Code": "CostMaterial",
+      "Text": {
+        "Text": "Coût d'achat",
+        "Fr": "Coût d'achat",
+        "En": "Purchase cost"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "points",
+      "Code": "CostMaterialTT",
+      "Text": {
+        "Text": "Coût du produit lorsqu'il est acheter d'un fournisseur",
+        "Fr": "Coût du produit lorsqu'il est acheter d'un fournisseur",
+        "En": "Cost of the product when buying from a supplier"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "points",
+      "Code": "CostShipping",
+      "Text": {
+        "Text": "Coût du transport",
+        "Fr": "Coût du transport",
+        "En": "Shipping cost"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "points",
+      "Code": "CostShippingTT",
+      "Text": {
+        "Text": "Les frais de transport moyen que votre entreprise paie pour acheter le produit",
+        "Fr": "Les frais de transport moyen que votre entreprise paie pour acheter le produit",
+        "En": "Average shipping cost that your company pay to buy the product"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "points",
+      "Code": "CostCustoms",
+      "Text": {
+        "Text": "Coût de douane",
+        "Fr": "Coût de douane",
+        "En": "Customs cost"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "points",
+      "Code": "CostCustomsTT",
+      "Text": {
+        "Text": "Frais de douane si le produit est acheter d'un autre pays",
+        "Fr": "Frais de douane si le produit est acheter d'un autre pays",
+        "En": "Customs cost if the product is purchased from another country"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "points",
+      "Code": "CostBuild",
+      "Text": {
+        "Text": "Coût fabrication",
+        "Fr": "Coût fabrication",
+        "En": "Manufacturing cost"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "points",
+      "Code": "CostBuildTT",
+      "Text": {
+        "Text": "Si vous fabriquer le produit, frais de vos matière première",
+        "Fr": "Si vous fabriquer le produit, frais de vos matière première",
+        "En": "If you build the produit, price of your raw material"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "points",
+      "Code": "CostLabor",
+      "Text": {
+        "Text": "Coût main d'oeuvre",
+        "Fr": "Coût main d'oeuvre",
+        "En": "Labor cost"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "points",
+      "Code": "CostLaborTT",
+      "Text": {
+        "Text": "Si vous fabriquer le produit, frais de votre main d'oeuvre",
+        "Fr": "Si vous fabriquer le produit, frais de votre main d'oeuvre",
+        "En": "If you build the product, price of your labor"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "points",
+      "Code": "CostTotal",
+      "Text": {
+        "Text": "Coût total",
+        "Fr": "Coût total",
+        "En": "Total cost"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "points",
+      "Code": "CostTotalTT",
+      "Text": {
+        "Text": "Coût d'achat + transport + douane + fabrication + main d'oeuvre",
+        "Fr": "Coût d'achat + transport + douane + fabrication + main d'oeuvre",
+        "En": "Purchase cost + shipping + customs + manufacture + labor"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "points",
+      "Code": "ChargedManually",
+      "Text": {
+        "Text": "Aucun montant n'est facturé automatiquement sur la carte de crédit, la facture finale sera émise lorsque la commande sera complète.",
+        "Fr": "Aucun montant n'est facturé automatiquement sur la carte de crédit, la facture finale sera émise lorsque la commande sera complète.",
+        "En": "No amount will be billed automatically on the credit card, the final invoice wil lbe send when the order is complete."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "payment system",
+      "Code": "PaymentVisa",
+      "Text": {
+        "Text": "Visa",
+        "Fr": "Visa",
+        "En": "Visa"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "payment system",
+      "Code": "PaymentMasterCard",
+      "Text": {
+        "Text": "MasterCard",
+        "Fr": "MasterCard",
+        "En": "MasterCard"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "payment system",
+      "Code": "PaymentInterac",
+      "Text": {
+        "Text": "Débit",
+        "Fr": "Débit",
+        "En": "Debit"
+      }
+    },
+    {
+      "ForComelin": true,
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "payment system",
+      "Code": "PaymentInteracTransfer",
+      "Text": {
+        "Text": "Virement Interac",
+        "Fr": "Virement Interac",
+        "En": "Interac e-Transfer"
+      }
+    },
+    {
+      "ForComelin": true,
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "payment system",
+      "Code": "PaymentCash",
+      "Text": {
+        "Text": "Comptant",
+        "Fr": "Comptant",
+        "En": "Cash"
+      }
+    },
+    {
+      "ForComelin": true,
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "payment system",
+      "Code": "PaymentChange",
+      "Text": {
+        "Text": "Change",
+        "Fr": "Change",
+        "En": "Change"
+      }
+    },
+    {
+      "ForComelin": true,
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "payment system",
+      "Code": "PaymentAmex",
+      "Text": {
+        "Text": "American Express",
+        "Fr": "American Express",
+        "En": "American Express"
+      }
+    },
+    {
+      "ForComelin": true,
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "payment system",
+      "Code": "PaymentGeneric1",
+      "Text": {
+        "Text": "À configuré",
+        "Fr": "À configuré",
+        "En": "To be configure"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "payment system",
+      "Code": "PaymentPayPal",
+      "Text": {
+        "Text": "PayPal",
+        "Fr": "PayPal",
+        "En": "PayPal"
+      },
+      "Description": {
+        "Text": "Nom du mot de paiement PayPal pour la comptabilité",
+        "Fr": "Nom du mot de paiement PayPal pour la comptabilité"
+      }
+    },
+    {
+      "ForComelin": true,
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "payment system",
+      "Code": "PaymentCheck",
+      "Text": {
+        "Text": "Chèque",
+        "Fr": "Chèque",
+        "En": "Check"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "payment system",
+      "Code": "PaymentGiftCard",
+      "Text": {
+        "Text": "Carte Cadeau",
+        "Fr": "Carte Cadeau",
+        "En": "Gift Card"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "payment system",
+      "Code": "PaymentFidelityPoints",
+      "Text": {
+        "Text": "Points fidélité",
+        "Fr": "Points fidélité",
+        "En": "Fidelity points"
+      }
+    },
+    {
+      "ForComelin": true,
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "payment system",
+      "Code": "PaymentOther",
+      "Text": {
+        "Text": "Autre",
+        "Fr": "Autre",
+        "En": "Other"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "payment system",
+      "Code": "PaymentPenny",
+      "Text": {
+        "Text": "Arrondissement",
+        "Fr": "Arrondissement",
+        "En": "Rounding"
+      }
+    },
+    {
+      "ForComelin": true,
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "payment system",
+      "Code": "PaymentCredit",
+      "Text": {
+        "Text": "Compte Client",
+        "Fr": "Compte Client",
+        "En": "Credit"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "payment system",
+      "Code": "PaymentCreditNote",
+      "Text": {
+        "Text": "Notes de crédit",
+        "Fr": "Notes de crédit",
+        "En": "Credit notes"
+      }
+    },
+    {
+      "ForComelin": true,
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "payment system",
+      "Code": "PaymentNone",
+      "Text": {
+        "Text": "Non défini",
+        "Fr": "Non défini",
+        "En": "Not defined"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "payment system",
+      "Code": "PaymentNet30Days",
+      "Text": {
+        "Text": "Net 30 jours",
+        "Fr": "Net 30 jours",
+        "En": "Net 30 days"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "payment system",
+      "Code": "PaymentSquare",
+      "Text": {
+        "Text": "Square",
+        "Fr": "Square",
+        "En": "Square"
+      }
+    },
+    {
+      "ForComelin": true,
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "payment system",
+      "Code": "PaymentFirstData",
+      "Text": {
+        "Text": "En ligne",
+        "Fr": "En ligne",
+        "En": "Online"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "payment system",
+      "Code": "PaymentTip",
+      "Text": {
+        "Text": "Pourboire",
+        "Fr": "Pourboire",
+        "En": "Tip"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "payment system",
+      "Code": "PaymentMonerisOnline",
+      "Text": {
+        "Text": "Moneris en ligne",
+        "Fr": "Moneris en ligne",
+        "En": "Moneris online"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "payment system",
+      "Code": "ExpirationDate",
+      "Text": {
+        "Text": "Date d'expiration",
+        "Fr": "Date d'expiration",
+        "En": "Expiration date"
+      },
+      "Description": {
+        "Text": "carte de crédit",
+        "Fr": "carte de crédit",
+        "En": "credit card"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "payment system",
+      "Code": "PaymentInteracTransferMsg_2",
+      "Text": {
+        "Text": "Il est de votre responsabilité de faire le virement à <b>{0}</b> au montant de <b>{1}</b>. <br /> Lors du virement, utiliser votre numéro de commande <code>{2}</code> comme réponse à la question.",
+        "Fr": "Il est de votre responsabilité de faire le virement à <b>{0}</b> au montant de <b>{1}</b>. <br /> Lors du virement, utiliser votre numéro de commande <code>{2}</code> comme réponse à la question.",
+        "En": "It's your responsability to do a wire transfer of <b>{1}</b> to <b>{0}</b>. In the transfert, use the order number <code>{2}</code> as answers to the question."
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "payment system",
+      "Code": "StorePrimary",
+      "Text": {
+        "Text": "Magasin par défaut",
+        "Fr": "Magasin par défaut",
+        "En": "Primary Store"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "payment system",
+      "Code": "InventoryForShipping",
+      "Text": {
+        "Text": "Effectue de la livraison par la poste",
+        "Fr": "Effectue de la livraison par la poste",
+        "En": "Do online shipping"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "Module": "payment system",
+      "Code": "InventoryForPickup",
+      "Text": {
+        "Text": "Le client peut collecter en magasin",
+        "Fr": "Le client peut collecter en magasin",
+        "En": "Customer can pick-up at store"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "payment system",
+      "Code": "Select",
+      "Text": {
+        "Text": "Sélectionner",
+        "Fr": "Sélectionner",
+        "En": "Select"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "payment system",
+      "Code": "OptionNotAvailable",
+      "Text": {
+        "Text": "Option not disponible",
+        "Fr": "Option not disponible",
+        "En": "Option not available"
+      }
+    },
+    {
+      "ForWebsite": true,
+      "CanBeEditByUser": true,
+      "Module": "payment system",
+      "Code": "YouMustSelectAStore",
+      "Text": {
+        "Text": "Vous devez sélectionner un magasin",
+        "Fr": "Vous devez sélectionner un magasin",
+        "En": "You must select a store"
+      }
+    }
+  ]
+}

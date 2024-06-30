@@ -1,0 +1,69 @@
+{
+  "ObjType": 4,
+  "Id": 0,
+  "IdCustomer": 0,
+  "IdPOS": 3,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "ad7b0c1e-bdb3-4c28-b998-612f460cec82",
+  "TypeInt": 1,
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0,
+  "DateCreated": "2024-06-03T14:23:50.1034256-04:00",
+  "Employee": "Leila",
+  "Stamps": 0,
+  "StampsUsed": 0,
+  "Tax1": 0.48,
+  "Tax2": 0.96,
+  "Total": 11.03,
+  "CostTotal": 9.89,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "Cash": 87.0,
+      "Penny": -0.02,
+      "Change": -75.95
+    }
+  },
+  "Lines": [
+    {
+      "Id": 0,
+      "IdProduct": 338,
+      "ProductCode": "874244000085",
+      "Desc": "Oneka - Gel Douche Hydraste & Agrumes 500 ml",
+      "Qty": 1.0,
+      "UnitPrice": 15.99,
+      "Discount": 6.40,
+      "TaxCode": "S",
+      "Tax1": 0.48,
+      "Tax2": 0.96,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PromotionalCodeUsed": "Manual",
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 0,
+  "PreparationFee": 0.0,
+  "GlobalDiscount": 0.0,
+  "AmountPayWithPoints": 0.0,
+  "DeliveryOption": 1,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": true,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 0,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": true,
+  "CreditNoteBefore": 0.0,
+  "CashierName": "",
+  "Ext": {
+    "NbItems": 1
+  }
+}

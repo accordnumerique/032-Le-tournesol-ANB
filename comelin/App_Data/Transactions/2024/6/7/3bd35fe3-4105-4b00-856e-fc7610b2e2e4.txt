@@ -1,0 +1,83 @@
+{
+  "ObjType": 4,
+  "Id": 0,
+  "IdCustomer": 0,
+  "IdPOS": 3,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "3bd35fe3-4105-4b00-856e-fc7610b2e2e4",
+  "TypeInt": 1,
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0,
+  "DateCreated": "2024-06-07T17:40:42.3173673-04:00",
+  "Employee": "Edouard",
+  "Stamps": 0,
+  "StampsUsed": 0,
+  "Tax1": 0.70,
+  "Tax2": 1.40,
+  "Total": 16.08,
+  "CostTotal": 7.40,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "Visa": 14.08,
+      "Cash": 2.0
+    }
+  },
+  "Lines": [
+    {
+      "Id": 0,
+      "IdProduct": 2366,
+      "ProductCode": "063667511005",
+      "Desc": "natura soya lait non sucre 946ml",
+      "Qty": 1.0,
+      "UnitPrice": 3.99,
+      "Discount": 0.0,
+      "TaxCode": "S",
+      "Tax1": 0.20,
+      "Tax2": 0.40,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    },
+    {
+      "Id": 0,
+      "IdProduct": 3211,
+      "ProductCode": "068958017488",
+      "Desc": "Natural Factors - Enzymes de papaye avec amylase et broméline 60 comprimés",
+      "Qty": 1.0,
+      "UnitPrice": 9.99,
+      "Discount": 0.0,
+      "TaxCode": "S",
+      "Tax1": 0.50,
+      "Tax2": 1.00,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 0,
+  "PreparationFee": 0.0,
+  "GlobalDiscount": 0.0,
+  "AmountPayWithPoints": 0.0,
+  "DeliveryOption": 1,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": true,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 0,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": true,
+  "CreditNoteBefore": 0.0,
+  "CashierName": "",
+  "Ext": {
+    "NbItems": 2
+  }
+}

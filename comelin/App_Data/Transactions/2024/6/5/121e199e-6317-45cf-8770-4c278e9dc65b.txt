@@ -1,0 +1,66 @@
+{
+  "ObjType": 4,
+  "Id": 0,
+  "IdCustomer": 291,
+  "IdPOS": 3,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "121e199e-6317-45cf-8770-4c278e9dc65b",
+  "TypeInt": 1,
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0,
+  "DateCreated": "2024-06-05T17:40:13.609408-04:00",
+  "Employee": "Leila",
+  "Stamps": 1,
+  "StampsUsed": 0,
+  "Tax1": 1.70,
+  "Tax2": 3.39,
+  "Total": 39.08,
+  "CostTotal": 16.95,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "Interac": 39.08
+    }
+  },
+  "Lines": [
+    {
+      "Id": 0,
+      "IdProduct": 2409,
+      "ProductCode": "621141001017",
+      "Desc": "landart chloro menthe 500 ml",
+      "Qty": 1.0,
+      "UnitPrice": 33.99,
+      "Discount": 0.0,
+      "TaxCode": "S",
+      "Tax1": 1.70,
+      "Tax2": 3.39,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 21,
+  "PreparationFee": 0.0,
+  "GlobalDiscount": 0.0,
+  "AmountPayWithPoints": 0.0,
+  "DeliveryOption": 1,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": true,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 1,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": true,
+  "CreditNoteBefore": 0.0,
+  "CashierName": "",
+  "Ext": {
+    "NbItems": 1
+  }
+}

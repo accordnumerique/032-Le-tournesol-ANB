@@ -1,0 +1,67 @@
+{
+  "ObjType": 4,
+  "Id": 0,
+  "IdCustomer": 0,
+  "IdPOS": 3,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "77821faa-82bd-44b0-be58-8b0bada68665",
+  "TypeInt": 1,
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0,
+  "DateCreated": "2024-06-05T14:34:53.7038716-04:00",
+  "Employee": "Leila",
+  "Stamps": 3,
+  "StampsUsed": 0,
+  "Tax1": 4.27,
+  "Tax2": 8.52,
+  "Total": 98.24,
+  "CostTotal": 0.0,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "Interac": 98.24
+    }
+  },
+  "Lines": [
+    {
+      "Id": 0,
+      "IdProduct": 4,
+      "ProductCode": "DiversTaxable",
+      "Desc": "phyto sante",
+      "Qty": 5.0,
+      "UnitPrice": 18.99,
+      "Discount": 9.50,
+      "TaxCode": "S",
+      "Tax1": 4.27,
+      "Tax2": 8.52,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PromotionalCodeUsed": "Manual",
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 0,
+  "PreparationFee": 0.0,
+  "GlobalDiscount": 0.0,
+  "AmountPayWithPoints": 0.0,
+  "DeliveryOption": 1,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": true,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 3,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": true,
+  "CreditNoteBefore": 0.0,
+  "CashierName": "",
+  "Ext": {
+    "NbItems": 5
+  }
+}

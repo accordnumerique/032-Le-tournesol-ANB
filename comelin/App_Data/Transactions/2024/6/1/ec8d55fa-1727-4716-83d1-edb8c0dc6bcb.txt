@@ -1,0 +1,67 @@
+{
+  "ObjType": 4,
+  "Id": 0,
+  "IdCustomer": 0,
+  "IdPOS": 3,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "ec8d55fa-1727-4716-83d1-edb8c0dc6bcb",
+  "TypeInt": 1,
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0,
+  "DateCreated": "2024-06-01T13:26:49.9203645-04:00",
+  "Employee": "Leila",
+  "Stamps": 1,
+  "StampsUsed": 0,
+  "Tax1": 2.07,
+  "Tax2": 4.13,
+  "Total": 47.58,
+  "CostTotal": 23.00,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "Interac": 47.58
+    }
+  },
+  "Lines": [
+    {
+      "Id": 0,
+      "IdProduct": 1614,
+      "ProductCode": "697026131230",
+      "Desc": "Clef des champs - Millepertuis 50 ml",
+      "Qty": 2.0,
+      "UnitPrice": 22.99,
+      "Discount": 4.60,
+      "TaxCode": "S",
+      "Tax1": 2.07,
+      "Tax2": 4.13,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PromotionalCodeUsed": "Manual",
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 0,
+  "PreparationFee": 0.0,
+  "GlobalDiscount": 0.0,
+  "AmountPayWithPoints": 0.0,
+  "DeliveryOption": 1,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": true,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 1,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": true,
+  "CreditNoteBefore": 0.0,
+  "CashierName": "",
+  "Ext": {
+    "NbItems": 2
+  }
+}

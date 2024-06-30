@@ -1,0 +1,82 @@
+{
+  "ObjType": 4,
+  "Id": 0,
+  "IdCustomer": 0,
+  "IdPOS": 3,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "4eb161eb-7a0c-4d05-87ce-abef7844f258",
+  "TypeInt": 1,
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0,
+  "DateCreated": "2024-06-09T14:59:46.4758872-04:00",
+  "Employee": "Leila",
+  "Stamps": 1,
+  "StampsUsed": 0,
+  "Tax1": 2.00,
+  "Tax2": 3.98,
+  "Total": 45.96,
+  "CostTotal": 9.71,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "Interac": 45.96
+    }
+  },
+  "Lines": [
+    {
+      "Id": 0,
+      "IdProduct": 3425,
+      "ProductCode": "058854001261",
+      "Desc": "A.Vogel - Sommeil profond 50ml",
+      "Qty": 1.0,
+      "UnitPrice": 19.99,
+      "Discount": 0.0,
+      "TaxCode": "S",
+      "Tax1": 1.00,
+      "Tax2": 1.99,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    },
+    {
+      "Id": 0,
+      "IdProduct": 2371,
+      "ProductCode": "068958011202",
+      "Desc": "Natural Factors - Complexe B Haute Efficacité 50mg",
+      "Qty": 1.0,
+      "UnitPrice": 19.99,
+      "Discount": 0.0,
+      "TaxCode": "S",
+      "Tax1": 1.00,
+      "Tax2": 1.99,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 0,
+  "PreparationFee": 0.0,
+  "GlobalDiscount": 0.0,
+  "AmountPayWithPoints": 0.0,
+  "DeliveryOption": 1,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": true,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 1,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": true,
+  "CreditNoteBefore": 0.0,
+  "CashierName": "",
+  "Ext": {
+    "NbItems": 2
+  }
+}

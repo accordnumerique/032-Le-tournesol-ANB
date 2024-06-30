@@ -1,0 +1,6 @@
+﻿7:13:48 AM Check for certificate...
+7:13:48 AM Nouveau certificat trouvé. Expiration: 8/13/2024 8:55:55 AM
+7:13:50 AM WebSocketUrl: wss://tournesolalimentsnaturelsetbiologiques.comelin.com:34159
+7:13:50 AM stop websocket because not listening
+7:13:51 AM Websocket secure SslConfiguration certificate: [IIS] TournesolAlimentsnaturelsetbiologiques, (any host) @ 2024/5/15 9:55:51
+7:13:51 AM IsListening: True IsSecure True, Port:34159, Domain:tournesolalimentsnaturelsetbiologiques.comelin.com, IsSiteSecure: True, WebSocketUrl:wss://tournesolalimentsnaturelsetbiologiques.comelin.com:34159

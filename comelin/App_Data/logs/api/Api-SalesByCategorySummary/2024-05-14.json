@@ -1,0 +1,15 @@
+﻿{"Url":"/Api/SalesByCategorySummary","Date":"2024-05-14T10:06:57.6143701-04:00","SendLength":10626,"ElapseMs":212,"DateTime":"2024-05-14T14:06:57.8268264Z"}
+{"Url":"/Api/SalesByCategorySummary?from=2024-05-01&to=2024-05-14","Date":"2024-05-14T10:07:24.7906197-04:00","SendLength":10626,"ElapseMs":53,"DateTime":"2024-05-14T14:07:24.8444018Z"}
+{"Url":"/Api/SalesByCategorySummary?from=2024-04-14&to=2024-05-14","Date":"2024-05-14T10:07:48.3531154-04:00","SendLength":10695,"ElapseMs":51,"DateTime":"2024-05-14T14:07:48.4040068Z"}
+{"Url":"/Api/SalesByCategorySummary","Date":"2024-05-14T10:16:19.4035026-04:00","SendLength":10626,"ElapseMs":17,"DateTime":"2024-05-14T14:16:19.4210216Z"}
+{"Url":"/Api/SalesByCategorySummary?from=2024-01-01&to=2024-01-31","Date":"2024-05-14T10:16:37.8101755-04:00","SendLength":10597,"ElapseMs":46,"DateTime":"2024-05-14T14:16:37.8560529Z"}
+{"Url":"/Api/SalesByCategorySummary?from=2024-02-01&to=2024-02-29","Date":"2024-05-14T10:19:43.2015371-04:00","SendLength":10583,"ElapseMs":53,"DateTime":"2024-05-14T14:19:43.2553938Z"}
+{"Url":"/Api/SalesByCategorySummary?from=2024-03-01&to=2024-03-31","Date":"2024-05-14T10:20:27.0118198-04:00","SendLength":10604,"ElapseMs":52,"DateTime":"2024-05-14T14:20:27.0636807Z"}
+{"Url":"/Api/SalesByCategorySummary?from=2024-03-01&to=2024-03-30","Date":"2024-05-14T10:20:39.6039482-04:00","SendLength":10604,"ElapseMs":14,"DateTime":"2024-05-14T14:20:39.618908Z"}
+{"Url":"/Api/SalesByCategorySummary?from=2024-04-01&to=2024-04-30","Date":"2024-05-14T10:21:03.1004956-04:00","SendLength":10677,"ElapseMs":47,"DateTime":"2024-05-14T14:21:03.1473695Z"}
+{"Url":"/Api/SalesByCategorySummary?from=2024-03-01&to=2024-03-31","Date":"2024-05-14T10:21:54.1053319-04:00","SendLength":10604,"ElapseMs":75,"DateTime":"2024-05-14T14:21:54.1801328Z"}
+{"Url":"/Api/SalesByCategorySummary?from=2024-02-01&to=2024-02-29","Date":"2024-05-14T10:22:02.5847296-04:00","SendLength":10583,"ElapseMs":14,"DateTime":"2024-05-14T14:22:02.5997174Z"}
+{"Url":"/Api/SalesByCategorySummary?from=2024-01-01&to=2024-01-31","Date":"2024-05-14T10:22:10.993202-04:00","SendLength":10597,"ElapseMs":14,"DateTime":"2024-05-14T14:22:11.0081624Z"}
+{"Url":"/Api/SalesByCategorySummary?from=2023-12-01&to=2023-12-31","Date":"2024-05-14T10:22:17.9922526-04:00","SendLength":10508,"ElapseMs":64,"DateTime":"2024-05-14T14:22:18.0560834Z"}
+{"Url":"/Api/SalesByCategorySummary?from=2023-11-01&to=2023-11-30","Date":"2024-05-14T10:22:26.86893-04:00","SendLength":10061,"ElapseMs":14,"DateTime":"2024-05-14T14:22:26.8829197Z"}
+{"Url":"/Api/SalesByCategorySummary?from=2024-01-01&to=2024-01-31","Date":"2024-05-14T10:23:06.8729526-04:00","SendLength":10597,"ElapseMs":48,"DateTime":"2024-05-14T14:23:06.920797Z"}

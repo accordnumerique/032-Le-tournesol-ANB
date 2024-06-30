@@ -1,0 +1,81 @@
+{
+  "ObjType": 4,
+  "Id": 0,
+  "IdCustomer": 0,
+  "IdPOS": 3,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "3877b240-638f-483c-a8d1-9225a47b3f42",
+  "TypeInt": 1,
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0,
+  "DateCreated": "2024-06-14T11:06:10.825681-04:00",
+  "Employee": "Leila",
+  "Stamps": 0,
+  "StampsUsed": 0,
+  "Tax1": 0.40,
+  "Tax2": 0.80,
+  "Total": 9.18,
+  "CostTotal": 4.28,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "Interac": 9.18
+    }
+  },
+  "Lines": [
+    {
+      "Id": 0,
+      "IdProduct": 2723,
+      "Desc": "Pro Bar - probar.pate.biscuits",
+      "Qty": 1.0,
+      "UnitPrice": 3.99,
+      "Discount": 0.0,
+      "TaxCode": "S",
+      "Tax1": 0.20,
+      "Tax2": 0.40,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    },
+    {
+      "Id": 0,
+      "IdProduct": 676,
+      "ProductCode": "627843602705",
+      "Desc": "Maple.3.Eau.d'Erable.355 ml",
+      "Qty": 1.0,
+      "UnitPrice": 3.99,
+      "Discount": 0.0,
+      "TaxCode": "S",
+      "Tax1": 0.20,
+      "Tax2": 0.40,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 0,
+  "PreparationFee": 0.0,
+  "GlobalDiscount": 0.0,
+  "AmountPayWithPoints": 0.0,
+  "DeliveryOption": 1,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": true,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 0,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": true,
+  "CreditNoteBefore": 0.0,
+  "CashierName": "",
+  "Ext": {
+    "NbItems": 2
+  }
+}

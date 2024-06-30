@@ -1,0 +1,66 @@
+{
+  "ObjType": 4,
+  "Id": 0,
+  "IdCustomer": 0,
+  "IdPOS": 3,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "15c454e4-cf26-4810-983f-315a897bc52c",
+  "TypeInt": 1,
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0,
+  "DateCreated": "2024-06-12T15:25:24.8003816-04:00",
+  "Employee": "Leila",
+  "Stamps": 0,
+  "StampsUsed": 0,
+  "Tax1": 0.40,
+  "Tax2": 0.80,
+  "Total": 9.18,
+  "CostTotal": 4.8,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "Interac": 9.18
+    }
+  },
+  "Lines": [
+    {
+      "Id": 0,
+      "IdProduct": 3690,
+      "ProductCode": "853152800666",
+      "Desc": "Pro Bar - Barre chocolat et noix de coco 85g",
+      "Qty": 2.0,
+      "UnitPrice": 3.99,
+      "Discount": 0.0,
+      "TaxCode": "S",
+      "Tax1": 0.40,
+      "Tax2": 0.80,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 0,
+  "PreparationFee": 0.0,
+  "GlobalDiscount": 0.0,
+  "AmountPayWithPoints": 0.0,
+  "DeliveryOption": 1,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": true,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 0,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": true,
+  "CreditNoteBefore": 0.0,
+  "CashierName": "",
+  "Ext": {
+    "NbItems": 2
+  }
+}

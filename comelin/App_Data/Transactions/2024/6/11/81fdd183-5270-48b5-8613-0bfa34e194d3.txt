@@ -1,0 +1,82 @@
+{
+  "ObjType": 4,
+  "Id": 0,
+  "IdCustomer": 731,
+  "IdPOS": 3,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "81fdd183-5270-48b5-8613-0bfa34e194d3",
+  "TypeInt": 1,
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0,
+  "DateCreated": "2024-06-11T16:37:47.4218346-04:00",
+  "Employee": "Leila",
+  "Stamps": 0,
+  "StampsUsed": 0,
+  "Tax1": 0.87,
+  "Tax2": 1.75,
+  "Total": 20.11,
+  "CostTotal": 9.53,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "Interac": 20.11
+    }
+  },
+  "Lines": [
+    {
+      "Id": 0,
+      "IdProduct": 1182,
+      "ProductCode": "851093004303",
+      "Desc": "Gim.Alg.S.Mer.30 g",
+      "Qty": 1.0,
+      "UnitPrice": 10.99,
+      "Discount": 0.0,
+      "TaxCode": "S",
+      "Tax1": 0.55,
+      "Tax2": 1.10,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    },
+    {
+      "Id": 0,
+      "IdProduct": 852,
+      "ProductCode": "8114",
+      "Desc": "B.Sesame Cajun1130 g",
+      "Qty": 2.0,
+      "UnitPrice": 3.25,
+      "Discount": 0.0,
+      "TaxCode": "S",
+      "Tax1": 0.32,
+      "Tax2": 0.65,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 10,
+  "PreparationFee": 0.0,
+  "GlobalDiscount": 0.0,
+  "AmountPayWithPoints": 0.0,
+  "DeliveryOption": 1,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": true,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 0,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": true,
+  "CreditNoteBefore": 0.0,
+  "CashierName": "",
+  "Ext": {
+    "NbItems": 3
+  }
+}

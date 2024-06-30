@@ -1,0 +1,66 @@
+{
+  "ObjType": 4,
+  "Id": 0,
+  "IdCustomer": 0,
+  "IdPOS": 3,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "c2d7d4b8-9b74-4e82-a2b8-61f37259e300",
+  "TypeInt": 1,
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0,
+  "DateCreated": "2024-06-08T13:30:32.7840877-04:00",
+  "Employee": "Leila",
+  "Stamps": 0,
+  "StampsUsed": 0,
+  "Tax1": 0.30,
+  "Tax2": 0.60,
+  "Total": 6.89,
+  "CostTotal": 2.25,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "Interac": 6.89
+    }
+  },
+  "Lines": [
+    {
+      "Id": 0,
+      "IdProduct": 1946,
+      "ProductCode": "8768",
+      "Desc": "Framboisier 40 g",
+      "Qty": 1.0,
+      "UnitPrice": 5.99,
+      "Discount": 0.0,
+      "TaxCode": "S",
+      "Tax1": 0.30,
+      "Tax2": 0.60,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 0,
+  "PreparationFee": 0.0,
+  "GlobalDiscount": 0.0,
+  "AmountPayWithPoints": 0.0,
+  "DeliveryOption": 1,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": true,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 0,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": true,
+  "CreditNoteBefore": 0.0,
+  "CashierName": "",
+  "Ext": {
+    "NbItems": 1
+  }
+}

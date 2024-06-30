@@ -1,0 +1,69 @@
+{
+  "ObjType": 4,
+  "Id": 0,
+  "IdCustomer": 0,
+  "IdPOS": 3,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "49b6f93e-0c60-447b-be7e-d297cb8f3638",
+  "TypeInt": 1,
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0,
+  "DateCreated": "2024-06-12T16:00:35.0802108-04:00",
+  "Employee": "Leila",
+  "Stamps": 2,
+  "StampsUsed": 0,
+  "Tax1": 2.90,
+  "Tax2": 5.79,
+  "Total": 66.71,
+  "CostTotal": 45.00,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "Cash": 80.0,
+      "Penny": 0.01,
+      "Change": -13.30
+    }
+  },
+  "Lines": [
+    {
+      "Id": 0,
+      "IdProduct": 673,
+      "ProductCode": "627843487180",
+      "Desc": "Herbe Ble 18 x",
+      "Qty": 3.0,
+      "UnitPrice": 21.49,
+      "Discount": 6.45,
+      "TaxCode": "S",
+      "Tax1": 2.90,
+      "Tax2": 5.79,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PromotionalCodeUsed": "Manual",
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 0,
+  "PreparationFee": 0.0,
+  "GlobalDiscount": 0.0,
+  "AmountPayWithPoints": 0.0,
+  "DeliveryOption": 1,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": true,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 2,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": true,
+  "CreditNoteBefore": 0.0,
+  "CashierName": "",
+  "Ext": {
+    "NbItems": 3
+  }
+}

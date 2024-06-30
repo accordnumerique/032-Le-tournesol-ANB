@@ -1,0 +1,67 @@
+{
+  "ObjType": 4,
+  "Id": 0,
+  "IdCustomer": 0,
+  "IdPOS": 3,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "0ba5bb2a-9819-4d05-88f5-2946dfb04a3e",
+  "TypeInt": 1,
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0,
+  "DateCreated": "2024-06-04T17:05:42.6897959-04:00",
+  "Employee": "Leila",
+  "Stamps": 0,
+  "StampsUsed": 0,
+  "Tax1": 0.24,
+  "Tax2": 0.48,
+  "Total": 5.51,
+  "CostTotal": 3.95,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "Interac": 5.51
+    }
+  },
+  "Lines": [
+    {
+      "Id": 0,
+      "IdProduct": 3644,
+      "ProductCode": "679339000403",
+      "Desc": "Lentilles - Sel Marin",
+      "Qty": 1.0,
+      "UnitPrice": 5.99,
+      "Discount": 1.20,
+      "TaxCode": "S",
+      "Tax1": 0.24,
+      "Tax2": 0.48,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PromotionalCodeUsed": "Manual",
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 0,
+  "PreparationFee": 0.0,
+  "GlobalDiscount": 0.0,
+  "AmountPayWithPoints": 0.0,
+  "DeliveryOption": 1,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": true,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 0,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": true,
+  "CreditNoteBefore": 0.0,
+  "CashierName": "",
+  "Ext": {
+    "NbItems": 1
+  }
+}

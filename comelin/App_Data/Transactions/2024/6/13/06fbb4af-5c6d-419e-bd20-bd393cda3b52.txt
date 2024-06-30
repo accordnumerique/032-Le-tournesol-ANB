@@ -1,0 +1,67 @@
+{
+  "ObjType": 4,
+  "Id": 0,
+  "IdCustomer": 0,
+  "IdPOS": 3,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "06fbb4af-5c6d-419e-bd20-bd393cda3b52",
+  "TypeInt": 1,
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0,
+  "DateCreated": "2024-06-13T11:32:02.9750853-04:00",
+  "Employee": "Leila",
+  "Stamps": 0,
+  "StampsUsed": 0,
+  "Tax1": 0.60,
+  "Tax2": 1.20,
+  "Total": 13.79,
+  "CostTotal": 6.08,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "Cash": 20.0,
+      "Penny": -0.01,
+      "Change": -6.20
+    }
+  },
+  "Lines": [
+    {
+      "Id": 0,
+      "IdProduct": 2299,
+      "Desc": "LILY.OF.THE.DESSERT.GEL.ALOES.228.G",
+      "Qty": 1.0,
+      "UnitPrice": 11.99,
+      "Discount": 0.0,
+      "TaxCode": "S",
+      "Tax1": 0.60,
+      "Tax2": 1.20,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 0,
+  "PreparationFee": 0.0,
+  "GlobalDiscount": 0.0,
+  "AmountPayWithPoints": 0.0,
+  "DeliveryOption": 1,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": true,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 0,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": true,
+  "CreditNoteBefore": 0.0,
+  "CashierName": "",
+  "Ext": {
+    "NbItems": 1
+  }
+}

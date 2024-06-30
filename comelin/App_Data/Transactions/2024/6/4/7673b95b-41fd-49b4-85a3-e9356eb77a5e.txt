@@ -1,0 +1,68 @@
+{
+  "ObjType": 4,
+  "Id": 0,
+  "IdCustomer": 0,
+  "IdPOS": 3,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "7673b95b-41fd-49b4-85a3-e9356eb77a5e",
+  "TypeInt": 1,
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0,
+  "DateCreated": "2024-06-04T17:47:22.9638265-04:00",
+  "Employee": "Leila",
+  "Stamps": 0,
+  "StampsUsed": 0,
+  "Tax1": 0.17,
+  "Tax2": 0.35,
+  "Total": 4.01,
+  "CostTotal": 2.01,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "Cash": 5.0,
+      "Penny": 0.01,
+      "Change": -1.00
+    }
+  },
+  "Lines": [
+    {
+      "Id": 0,
+      "IdProduct": 710,
+      "ProductCode": "628176654058",
+      "Desc": "Mate.Libre.Origi.250 ml",
+      "Qty": 1.0,
+      "UnitPrice": 3.49,
+      "Discount": 0.0,
+      "TaxCode": "S",
+      "Tax1": 0.17,
+      "Tax2": 0.35,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 0,
+  "PreparationFee": 0.0,
+  "GlobalDiscount": 0.0,
+  "AmountPayWithPoints": 0.0,
+  "DeliveryOption": 1,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": true,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 0,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": true,
+  "CreditNoteBefore": 0.0,
+  "CashierName": "",
+  "Ext": {
+    "NbItems": 1
+  }
+}

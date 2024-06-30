@@ -1,0 +1,81 @@
+{
+  "ObjType": 4,
+  "Id": 0,
+  "IdCustomer": 0,
+  "IdPOS": 3,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "cb5b086e-7c52-4d7f-aa9d-e19219a5c88e",
+  "TypeInt": 1,
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0,
+  "DateCreated": "2024-06-10T13:31:46.2964969-04:00",
+  "Employee": "Leila",
+  "Stamps": 0,
+  "StampsUsed": 0,
+  "Tax1": 0.41,
+  "Tax2": 0.82,
+  "Total": 18.27,
+  "CostTotal": 6.00,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "Interac": 18.27
+    }
+  },
+  "Lines": [
+    {
+      "Id": 0,
+      "IdProduct": 2311,
+      "Desc": "merveilles.sans.gluten.grenoble",
+      "Qty": 1.0,
+      "UnitPrice": 8.79,
+      "Discount": 0.0,
+      "TaxCode": "Z",
+      "Tax1": 0.0,
+      "Tax2": 0.0,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    },
+    {
+      "Id": 0,
+      "IdProduct": 1166,
+      "ProductCode": "811136000341",
+      "Desc": "Pain Rustiq S/G",
+      "Qty": 1.0,
+      "UnitPrice": 8.25,
+      "Discount": 0.0,
+      "TaxCode": "S",
+      "Tax1": 0.41,
+      "Tax2": 0.82,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 0,
+  "PreparationFee": 0.0,
+  "GlobalDiscount": 0.0,
+  "AmountPayWithPoints": 0.0,
+  "DeliveryOption": 1,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": true,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 0,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": true,
+  "CreditNoteBefore": 0.0,
+  "CashierName": "",
+  "Ext": {
+    "NbItems": 2
+  }
+}

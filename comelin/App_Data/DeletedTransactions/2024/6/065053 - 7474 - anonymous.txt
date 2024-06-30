@@ -1,0 +1,66 @@
+{
+  "ObjType": 4,
+  "Id": 7474,
+  "IdCustomer": 0,
+  "IdPOS": 3,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "f5903d7d-6854-4978-8777-1f3e16f156bf",
+  "TypeInt": 1,
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0000,
+  "DateCreated": "2024-06-11T18:30:47.757",
+  "Employee": "Leila",
+  "Stamps": 0,
+  "StampsUsed": 0,
+  "Tax1": 0.1500,
+  "Tax2": 0.3000,
+  "Total": 3.4200,
+  "CostTotal": 2.2500,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "Interac": 3.42
+    }
+  },
+  "Lines": [
+    {
+      "Id": 15334,
+      "IdProduct": 986,
+      "ProductCode": "892701001260",
+      "Desc": "Gutsy.Kombu.Vitalite 355 ml",
+      "Qty": 1.0000,
+      "UnitPrice": 3.4900,
+      "Discount": 0.5200,
+      "TaxCode": "S",
+      "Tax1": 0.1500,
+      "Tax2": 0.3000,
+      "InvBefore": -3.0000,
+      "CalculatedDiscount": 0.0,
+      "PromotionalCodeUsed": "Manual",
+      "PointMultiplier": 1,
+      "Cost": 2.2500
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 0,
+  "PreparationFee": 0.0000,
+  "GlobalDiscount": 0.0000,
+  "AmountPayWithPoints": 0.0000,
+  "DeliveryOption": 1,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": false,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 0,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": false,
+  "CreditNoteBefore": 0.0,
+  "Ext": {
+    "NbItems": 1
+  }
+}

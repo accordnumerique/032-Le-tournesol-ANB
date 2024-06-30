@@ -1,0 +1,81 @@
+{
+  "ObjType": 4,
+  "Id": 0,
+  "IdCustomer": 0,
+  "IdPOS": 3,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "c5c49c47-3535-4305-9c52-21ff526fd683",
+  "TypeInt": 1,
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0,
+  "DateCreated": "2024-06-07T17:35:50.5481237-04:00",
+  "Employee": "Edouard",
+  "Stamps": 3,
+  "StampsUsed": 0,
+  "Tax1": 4.50,
+  "Tax2": 8.98,
+  "Total": 103.46,
+  "CostTotal": 44.95,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "MasterCard": 103.46
+    }
+  },
+  "Lines": [
+    {
+      "Id": 0,
+      "IdProduct": 3772,
+      "ProductCode": "3274271000114",
+      "Desc": "aurys - argile verte mixte concassee 3 kg",
+      "Qty": 1.0,
+      "UnitPrice": 44.99,
+      "Discount": 0.0,
+      "TaxCode": "S",
+      "Tax1": 2.25,
+      "Tax2": 4.49,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    },
+    {
+      "Id": 0,
+      "IdProduct": 3819,
+      "Desc": "aurys argile 3kg",
+      "Qty": 1.0,
+      "UnitPrice": 44.99,
+      "Discount": 0.0,
+      "TaxCode": "S",
+      "Tax1": 2.25,
+      "Tax2": 4.49,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 0,
+  "PreparationFee": 0.0,
+  "GlobalDiscount": 0.0,
+  "AmountPayWithPoints": 0.0,
+  "DeliveryOption": 1,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": true,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 3,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": true,
+  "CreditNoteBefore": 0.0,
+  "CashierName": "",
+  "Ext": {
+    "NbItems": 2
+  }
+}

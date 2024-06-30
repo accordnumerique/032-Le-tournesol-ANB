@@ -1,0 +1,1 @@
+﻿<%@ Application Inherits="WebSite.Global" Language="C#" %>

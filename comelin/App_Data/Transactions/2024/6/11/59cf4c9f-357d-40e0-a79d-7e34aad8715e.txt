@@ -1,0 +1,69 @@
+{
+  "ObjType": 4,
+  "Id": 0,
+  "IdCustomer": 0,
+  "IdPOS": 2,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "59cf4c9f-357d-40e0-a79d-7e34aad8715e",
+  "TypeInt": 1,
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0,
+  "DateCreated": "2024-06-11T14:49:17.0199109-04:00",
+  "Employee": "Edouard",
+  "Stamps": 0,
+  "StampsUsed": 0,
+  "Tax1": 0.13,
+  "Tax2": 0.26,
+  "Total": 2.98,
+  "CostTotal": 2.83,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "Cash": 84.3,
+      "Penny": -0.02,
+      "Change": -81.30
+    }
+  },
+  "Lines": [
+    {
+      "Id": 0,
+      "IdProduct": 3634,
+      "ProductCode": "628634733035",
+      "Desc": "Cru d`Abeille - Framboisier et Hibiscus",
+      "Qty": 1.0,
+      "UnitPrice": 3.99,
+      "Discount": 1.40,
+      "TaxCode": "S",
+      "Tax1": 0.13,
+      "Tax2": 0.26,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PromotionalCodeUsed": "Manual",
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 0,
+  "PreparationFee": 0.0,
+  "GlobalDiscount": 0.0,
+  "AmountPayWithPoints": 0.0,
+  "DeliveryOption": 1,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": true,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 0,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": true,
+  "CreditNoteBefore": 0.0,
+  "CashierName": "",
+  "Ext": {
+    "NbItems": 1
+  }
+}

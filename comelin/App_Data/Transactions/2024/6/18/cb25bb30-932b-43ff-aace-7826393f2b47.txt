@@ -1,0 +1,68 @@
+{
+  "ObjType": 4,
+  "Id": 0,
+  "IdCustomer": 0,
+  "IdPOS": 3,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "cb25bb30-932b-43ff-aace-7826393f2b47",
+  "TypeInt": 1,
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0,
+  "DateCreated": "2024-06-18T15:06:59.1888593-04:00",
+  "Employee": "Leila",
+  "Stamps": 0,
+  "StampsUsed": 0,
+  "Tax1": 0.15,
+  "Tax2": 0.30,
+  "Total": 3.50,
+  "CostTotal": 2.25,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "Cash": 25.5,
+      "Change": -22.00
+    }
+  },
+  "Lines": [
+    {
+      "Id": 0,
+      "IdProduct": 681,
+      "ProductCode": "627843837046",
+      "Desc": "Gutsy.Kombu.Remontant 355 ml",
+      "Qty": 1.0,
+      "UnitPrice": 4.69,
+      "Discount": 1.64,
+      "TaxCode": "S",
+      "Tax1": 0.15,
+      "Tax2": 0.30,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PromotionalCodeUsed": "Manual",
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 0,
+  "PreparationFee": 0.0,
+  "GlobalDiscount": 0.0,
+  "AmountPayWithPoints": 0.0,
+  "DeliveryOption": 1,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": true,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 0,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": true,
+  "CreditNoteBefore": 0.0,
+  "CashierName": "",
+  "Ext": {
+    "NbItems": 1
+  }
+}

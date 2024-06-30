@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>Integration for Category</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style id="csscode">
+		[v-cloak] { display: none; }
+		#categories span {display: block}
+	</style>
+</head>
+<body>
+<div class="container">
+	<h1>Integration with Comelin</h1>
+	<p>Sample script to retrieve category navigation.</p>
+	<h2>Vue JS script to display categories and sub categories</h2>
+	<div id="htmlCode">
+		<!-- Comelin works with Vue, Bootstrap 4 and jQuery -->
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
+		<link href="https://demo.comelin.com/css/comelin2018.min.css" rel="stylesheet" type="text/css" /><!-- this stylesheet is included because it's a style sheet used by the rest of the page so if a style is wrong, it can be overide -->
+
+		<script src="https://cdn.jsdelivr.net/combine/npm/jquery@3.3.1/dist/jquery.min.js,gh/twbs/bootstrap@4.1.3/dist/js/bootstrap.min.js,npm/vue@2.5.17/dist/vue.min.js"></script>
+		<script src="https://demo.comelin.com/js/comelin-integration.js"></script>
+
+		<!-- le id integrationComelin est utilisé pour initialisé le module Comelin, les tags à l'extérieur du div ne seront pas remplacé -->
+		<div id="integrationComelin">
+			<div id="categories">
+				<div v-for="cat in categories"><a :href="cat.Url">{{ cat.Title}}</a>
+					<div style="margin-left: 50px">
+						<!-- level 2 -->
+						<div v-for="cat2 in cat.SubCategories">
+							<a :href="cat2.Url">{{ cat2.Title}}</a>
+							<div style="margin-left: 100px">
+								<!-- level 3 -->
+								<div v-for="cat3 in cat2.SubCategories">
+									<a :href="cat3.Url">{{ cat3.Title}}</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script id="scriptcode">
+	var comelin = new Comelin({
+		id: 'integrationComelin',
+		website: 'https://demo.comelin.com',
+		categories: { level : 3 }
+	});
+</script>
+
+</body>
+</html>

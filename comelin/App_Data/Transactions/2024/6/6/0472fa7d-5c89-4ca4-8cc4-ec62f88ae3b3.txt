@@ -1,0 +1,63 @@
+{
+  "ObjType": 4,
+  "Id": 0,
+  "IdCustomer": 0,
+  "IdPOS": 3,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "0472fa7d-5c89-4ca4-8cc4-ec62f88ae3b3",
+  "TypeInt": 32,
+  "Notes": "facture no 7346 bjbju collier",
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0,
+  "DateCreated": "2024-06-06T15:05:55.6577993-04:00",
+  "Employee": "Leila",
+  "Stamps": 0,
+  "StampsUsed": 0,
+  "Tax1": 0.0,
+  "Tax2": 0.0,
+  "Total": -33.84,
+  "CostTotal": 0.0,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "Cash": -33.84
+    }
+  },
+  "Lines": [
+    {
+      "Id": 0,
+      "IdProduct": 0,
+      "Desc": "facture no 7346 bjbju collier",
+      "Qty": 1.0,
+      "UnitPrice": -33.84,
+      "Discount": 0.0,
+      "TaxCode": "\u0000",
+      "Tax1": 0.0,
+      "Tax2": 0.0,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "Cost": 0.0
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 0,
+  "PreparationFee": 0.0,
+  "GlobalDiscount": 0.0,
+  "AmountPayWithPoints": 0.0,
+  "DeliveryOption": 0,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": false,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 0,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": false,
+  "CreditNoteBefore": 0.0,
+  "CashierName": "",
+  "Ext": {}
+}

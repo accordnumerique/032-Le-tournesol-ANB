@@ -1,0 +1,93 @@
+﻿[v-cloak] { display: none; }
+#app-sticker {
+	margin:20px 0;
+	input[type=text], select{padding:3px; min-width:200px}
+	#lblDefaultSticker {padding:5px; i{margin-right:5px}}
+	#sticker-header{font-size:18px; margin-bottom:20px; font-weight:bold; 
+					input,select{padding:5px; width:300px}
+	}
+	#sticker-list {
+		padding: 10px;width:90%;border: 1px solid;border-radius: 5px;cursor: pointer;position:absolute;background-color:white; margin:5px;
+		a {line-height:40px; text-align:center;background-color:#ececec; border-radius:6px; padding:5px 20px;text-decoration: none;color: black;font-weight: bold;}
+		.duplicate {cursor:pointer; margin-left:10px}
+		.delete {cursor:pointer; margin-left:10px}
+	}
+	#preview {background-color:white;font-family:'Segoe UI'; transform:scale(1);transform-origin: top left;
+		.element{cursor:pointer}
+	}
+	#elements-list {
+		#add-element {text-align:right;
+			@media (max-width: 768px) { 
+				  span{display:none}
+			}
+			@media (min-width: 768px) { 
+				  i{display:none}
+			}
+		}
+		.element {
+			margin: 10px 0; width: 100%; 
+			&>div{ padding: 10px;
+				   img {max-width:100%; height:auto!important}
+			}
+			.elementId{border-top-right-radius:5px;}
+			border: 1px solid; border-radius: 5px;
+			cursor:pointer; 
+			.fa-times{float:right; display:none}
+			&:hover .fa-times { display:inherit}
+		}
+		&>.btn{ margin-bottom:10px}
+	}
+	#editSticker {
+		padding: 10px 0;
+		&>.row {
+			margin-bottom:10px;
+		}
+	}
+	.elementId{ padding: 3px 7px; background-color:#ff5b5b; color:white; float:right; border-bottom-left-radius:5px}
+	.row-head {width:200px; margin-right:30px; font-weight:bold; text-align:right}
+	#editElement {
+		border:1px solid; padding: 10px;border-radius: 5px;min-height:255px !important;display: flex;flex-direction: row;align-items: flex-start;justify-content: flex-start;
+		.elementId{border-radius:10px}
+		input[type=checkbox]{ transform: scale(2);  padding: 10px; margin: 0 15px;}
+		#groupAlign {margin-left:15px}
+		.form-inline {
+			margin-bottom:10px;
+			&>.col:first-child{max-width:200px}
+		}
+		#divPriceType {
+			input[type=number], select {min-width:80px; width:80px;}
+			input[type=number] {margin-left:5px}
+			#lstBulkUnit {min-width:100px; width:100px}
+		}
+		#conditions label {display:inline; margin-left:5px}
+		#divTitleOptions > div {display:flex}
+
+	}
+	.label {margin:5px 5px 5px }
+	.input-group {margin:0 5px;}
+	.input-length {
+		input {min-width:80px; width:80px; text-align:right; padding-right:10px;}
+		
+		}
+	.previewContainer {
+		margin:20px 0;
+		border: 2px solid black;
+		padding:5px;display:inline-block;border-radius:8px;
+		.selected {z-index:5}
+	}
+	.preview { display:inline-block; position:relative;
+		.element{overflow: hidden;text-overflow:ellipsis;position:absolute;
+				 .barcode {text-align: center;font-size: 30px;margin-top:-10px}
+		}
+	}
+	.bold {font-weight:bold}
+	.alignLeft{text-align:left}
+	.alignCenter{text-align:center}
+	.alignRight{text-align:right}
+
+	#cmdAddPreviewCode {margin-left:20px}
+	.stickerCtrls {display:inline-block; margin-right:30px;}
+	
+	.fa-print,.fa-times {cursor:pointer; margin:5px}
+	.fa-times{color:red}
+}

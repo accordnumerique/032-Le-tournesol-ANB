@@ -1,0 +1,83 @@
+{
+  "ObjType": 4,
+  "Id": 425,
+  "IdCustomer": 0,
+  "IdPOS": 3,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "34453db8-11bd-4c28-aea8-b842498bfb33",
+  "TypeInt": 1,
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0000,
+  "DateCreated": "2023-12-16T13:08:00.72",
+  "Employee": "Leila",
+  "Stamps": 2,
+  "StampsUsed": 0,
+  "Tax1": 0.0000,
+  "Tax2": 0.0000,
+  "Total": 69.4100,
+  "CostTotal": 53.0900,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "Penny": 0.01,
+      "Cash": 74.4,
+      "Change": -5.00
+    }
+  },
+  "Lines": [
+    {
+      "Id": 2722,
+      "IdProduct": 849,
+      "ProductCode": "810757003991",
+      "Desc": "Thon.Listao.S/S.117 g",
+      "Qty": 15.0000,
+      "UnitPrice": 4.9900,
+      "Discount": 11.2300,
+      "TaxCode": "Z",
+      "Tax1": 0.0000,
+      "Tax2": 0.0000,
+      "InvBefore": 24.0000,
+      "CalculatedDiscount": 0.0,
+      "PromotionalCodeUsed": "Manual",
+      "PointMultiplier": 1,
+      "Cost": 49.0500
+    },
+    {
+      "Id": 2723,
+      "IdProduct": 2059,
+      "Desc": "INEWA.PAIN.KAMUT.BRIOCHE.500G",
+      "Qty": 1.0000,
+      "UnitPrice": 5.7900,
+      "Discount": 0.0000,
+      "TaxCode": "Z",
+      "Tax1": 0.0000,
+      "Tax2": 0.0000,
+      "InvBefore": 2.0000,
+      "CalculatedDiscount": 0.0,
+      "PointMultiplier": 1,
+      "Cost": 4.0400
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 0,
+  "PreparationFee": 0.0000,
+  "GlobalDiscount": 0.0000,
+  "AmountPayWithPoints": 0.0000,
+  "DeliveryOption": 1,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": false,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 0,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": false,
+  "CreditNoteBefore": 0.0,
+  "Ext": {
+    "NbItems": 16
+  }
+}

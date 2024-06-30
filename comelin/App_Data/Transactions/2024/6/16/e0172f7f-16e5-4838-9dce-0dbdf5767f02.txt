@@ -1,0 +1,82 @@
+{
+  "ObjType": 4,
+  "Id": 0,
+  "IdCustomer": 0,
+  "IdPOS": 3,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "e0172f7f-16e5-4838-9dce-0dbdf5767f02",
+  "TypeInt": 1,
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0,
+  "DateCreated": "2024-06-16T12:35:39.9511343-04:00",
+  "Employee": "Leila",
+  "Stamps": 1,
+  "StampsUsed": 0,
+  "Tax1": 1.47,
+  "Tax2": 2.94,
+  "Total": 33.89,
+  "CostTotal": 18.65,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "Interac": 33.89
+    }
+  },
+  "Lines": [
+    {
+      "Id": 0,
+      "IdProduct": 3106,
+      "ProductCode": "039978364531",
+      "Desc": "SG Farine a patisserie 1 pour 1 1.8kg",
+      "Qty": 1.0,
+      "UnitPrice": 24.49,
+      "Discount": 0.0,
+      "TaxCode": "S",
+      "Tax1": 1.22,
+      "Tax2": 2.44,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    },
+    {
+      "Id": 0,
+      "IdProduct": 1123,
+      "ProductCode": "776622200585",
+      "Desc": "Nettoy.Tt.715 ml",
+      "Qty": 1.0,
+      "UnitPrice": 4.99,
+      "Discount": 0.0,
+      "TaxCode": "S",
+      "Tax1": 0.25,
+      "Tax2": 0.50,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 0,
+  "PreparationFee": 0.0,
+  "GlobalDiscount": 0.0,
+  "AmountPayWithPoints": 0.0,
+  "DeliveryOption": 1,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": true,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 1,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": true,
+  "CreditNoteBefore": 0.0,
+  "CashierName": "",
+  "Ext": {
+    "NbItems": 2
+  }
+}

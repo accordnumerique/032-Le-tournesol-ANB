@@ -1,0 +1,66 @@
+{
+  "ObjType": 4,
+  "Id": 0,
+  "IdCustomer": 0,
+  "IdPOS": 3,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "455aafeb-661f-4c4e-a656-b4ed586e843d",
+  "TypeInt": 1,
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0,
+  "DateCreated": "2024-06-10T14:38:03.9332457-04:00",
+  "Employee": "Leila",
+  "Stamps": 0,
+  "StampsUsed": 0,
+  "Tax1": 0.90,
+  "Tax2": 1.79,
+  "Total": 20.68,
+  "CostTotal": 8.87,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "Interac": 20.68
+    }
+  },
+  "Lines": [
+    {
+      "Id": 0,
+      "IdProduct": 3411,
+      "ProductCode": "628747121361",
+      "Desc": "gaba.avec.vitamine.B6.600.mg.60.capsules",
+      "Qty": 1.0,
+      "UnitPrice": 17.99,
+      "Discount": 0.0,
+      "TaxCode": "S",
+      "Tax1": 0.90,
+      "Tax2": 1.79,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 0,
+  "PreparationFee": 0.0,
+  "GlobalDiscount": 0.0,
+  "AmountPayWithPoints": 0.0,
+  "DeliveryOption": 1,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": true,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 0,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": true,
+  "CreditNoteBefore": 0.0,
+  "CashierName": "",
+  "Ext": {
+    "NbItems": 1
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "ObjType": 4,
+  "Id": 0,
+  "IdCustomer": 0,
+  "IdPOS": 3,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "026bfb10-51f3-4161-afc1-5cce3946d706",
+  "TypeInt": 1,
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0,
+  "DateCreated": "2024-06-11T12:40:15.8065086-04:00",
+  "Employee": "Leila",
+  "Stamps": 1,
+  "StampsUsed": 0,
+  "Tax1": 1.70,
+  "Tax2": 3.39,
+  "Total": 39.07,
+  "CostTotal": 17.16,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "Interac": 39.07
+    }
+  },
+  "Lines": [
+    {
+      "Id": 0,
+      "IdProduct": 2808,
+      "ProductCode": "829850619985",
+      "Desc": "Divine essence - Huile De Ricin 100ml",
+      "Qty": 1.0,
+      "UnitPrice": 8.99,
+      "Discount": 0.0,
+      "TaxCode": "S",
+      "Tax1": 0.45,
+      "Tax2": 0.90,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    },
+    {
+      "Id": 0,
+      "IdProduct": 3450,
+      "ProductCode": "032110766057",
+      "Desc": "shoyeido incense cones pine 5pcs  with a holder",
+      "Qty": 1.0,
+      "UnitPrice": 24.99,
+      "Discount": 0.0,
+      "TaxCode": "S",
+      "Tax1": 1.25,
+      "Tax2": 2.49,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 0,
+  "PreparationFee": 0.0,
+  "GlobalDiscount": 0.0,
+  "AmountPayWithPoints": 0.0,
+  "DeliveryOption": 1,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": true,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 1,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": true,
+  "CreditNoteBefore": 0.0,
+  "CashierName": "",
+  "Ext": {
+    "NbItems": 2
+  }
+}

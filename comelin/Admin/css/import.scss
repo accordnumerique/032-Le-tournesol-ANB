@@ -1,0 +1,20 @@
+﻿.importer {
+    .options { border: 1px lightblue dashed; padding: 5px 10px; margin: 10px 0;
+        input[type=checkbox] { margin-right: 5px; }
+        label { display: block }
+    }
+    .waiting { border: 1px solid black; background: white; color: #ccc; padding: 5px 20px; text-align: center; width: 400px }
+    .preview { text-align: center; font-size: 1.5em; font-family: sans-serif; text-transform: capitalize; background-color: #ffab2d; margin: 20px 100px; border: #d28800 2px solid; }
+    .import-stats .obj { white-space: nowrap;
+        .chart { width: 100%; display:flex}
+        & > div { display: inline-block; padding: 0 2px; text-align: center }
+        .added { background-color: greenyellow }
+        .modified { background-color: #ffff98 }
+        .skipped { background-color: #aeaeae }
+        .errors { background-color: red; cursor: pointer }
+        .view-errors { display: block; text-align: left; margin-top: 5px; border-bottom: 1px solid black; width: 100%;
+            .text { font-weight: bold }
+            .data { font-family: Consolas; }
+        }
+    }
+}

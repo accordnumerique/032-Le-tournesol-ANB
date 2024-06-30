@@ -1,0 +1,435 @@
+﻿-------------------------------------------REMI
+Exception occurred on 2024-01-24 15:55:02
+Type: System.NullReferenceException
+Failed to download email content https://TournesolAlimentsnaturelsetbiologiques.comelin.com/fr/emails/?idCustomer=5&idCommunication=8&lang=fr&id=062f5e5b65e948c2aed2eb1a50a5380a
+{
+  "ClassName": "System.NullReferenceException",
+  "Message": "Object reference not set to an instance of an object.",
+  "Data": null,
+  "InnerException": null,
+  "HelpURL": null,
+  "StackTraceString": "   at WebSite.SendEmail.GetMessage(String url, Guid idUnique) in C:\\dev\\pos\\WebSiteShareCode\\Email\\SendEmail.cs:line 342",
+  "RemoteStackTraceString": null,
+  "RemoteStackIndex": 0,
+  "ExceptionMethod": "8\nGetMessage\nWebSiteShareCode, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null\nWebSite.SendEmail\nSystem.Net.Mail.MailMessage GetMessage(System.String, System.Guid)",
+  "HResult": -2147467261,
+  "Source": "WebSiteShareCode",
+  "WatsonBuckets": null
+}
+GET from Web site: https://letournesolboutiquesante.com/fr/Mot-Passe-Oublie.aspx?email=djalil@epipresto.ca
+ RawUrl: /fr/Mot-Passe-Oublie.aspx?email=djalil@epipresto.ca
+Referral: https://letournesolboutiquesante.com/fr/Inscription.aspx
+UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+IP: 76.69.192.199
+Object reference not set to an instance of an object. [System.NullReferenceException]
+   at WebSite.SendEmail.GetMessage(String url, Guid idUnique) in C:\dev\pos\WebSiteShareCode\Email\SendEmail.cs:line 342
+-------------------------------------------REMI
+Exception occurred on 2024-01-24 16:06:11
+Type: System.NullReferenceException
+Failed to download email content https://TournesolAlimentsnaturelsetbiologiques.comelin.com/fr/emails/?idCustomer=6&idCommunication=1&lang=fr&amount=100&barcode=1234567890&from=Bob&message=Merci&id=036cc9ddfd04419b952b63b74eec53a6
+{
+  "ClassName": "System.NullReferenceException",
+  "Message": "Object reference not set to an instance of an object.",
+  "Data": null,
+  "InnerException": null,
+  "HelpURL": null,
+  "StackTraceString": "   at WebSite.SendEmail.GetMessage(String url, Guid idUnique) in C:\\dev\\pos\\WebSiteShareCode\\Email\\SendEmail.cs:line 342",
+  "RemoteStackTraceString": null,
+  "RemoteStackIndex": 0,
+  "ExceptionMethod": "8\nGetMessage\nWebSiteShareCode, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null\nWebSite.SendEmail\nSystem.Net.Mail.MailMessage GetMessage(System.String, System.Guid)",
+  "HResult": -2147467261,
+  "Source": "WebSiteShareCode",
+  "WatsonBuckets": null
+}
+GET from Web site: https://tournesolalimentsnaturelsetbiologiques.comelin.com/admin/AjaxCommunication.ashx?id=1&action=sendEmail&value=order@epipresto.ca&lang=fr
+ RawUrl: /admin/AjaxCommunication.ashx?id=1&action=sendEmail&value=order%40epipresto.ca&lang=fr
+Referral: https://tournesolalimentsnaturelsetbiologiques.comelin.com/admin/CommunicationEdit.aspx?id=1
+UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+IP: 76.69.192.199
+Object reference not set to an instance of an object. [System.NullReferenceException]
+   at WebSite.SendEmail.GetMessage(String url, Guid idUnique) in C:\dev\pos\WebSiteShareCode\Email\SendEmail.cs:line 342
+-------------------------------------------REMI
+Exception occurred on 2024-01-24 16:06:20
+Type: System.NullReferenceException
+Failed to download email content https://TournesolAlimentsnaturelsetbiologiques.comelin.com/fr/emails/?idCustomer=6&idCommunication=1&lang=fr&amount=100&barcode=1234567890&from=Bob&message=Merci&id=b23d078bc2044f6b9a46d54687878c03
+{
+  "ClassName": "System.NullReferenceException",
+  "Message": "Object reference not set to an instance of an object.",
+  "Data": null,
+  "InnerException": null,
+  "HelpURL": null,
+  "StackTraceString": "   at WebSite.SendEmail.GetMessage(String url, Guid idUnique) in C:\\dev\\pos\\WebSiteShareCode\\Email\\SendEmail.cs:line 342",
+  "RemoteStackTraceString": null,
+  "RemoteStackIndex": 0,
+  "ExceptionMethod": "8\nGetMessage\nWebSiteShareCode, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null\nWebSite.SendEmail\nSystem.Net.Mail.MailMessage GetMessage(System.String, System.Guid)",
+  "HResult": -2147467261,
+  "Source": "WebSiteShareCode",
+  "WatsonBuckets": null
+}
+GET from Web site: https://tournesolalimentsnaturelsetbiologiques.comelin.com/admin/AjaxCommunication.ashx?id=1&action=sendEmail&value=order@epipresto.ca&lang=fr
+ RawUrl: /admin/AjaxCommunication.ashx?id=1&action=sendEmail&value=order%40epipresto.ca&lang=fr
+Referral: https://tournesolalimentsnaturelsetbiologiques.comelin.com/admin/CommunicationEdit.aspx?id=1
+UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+IP: 76.69.192.199
+Object reference not set to an instance of an object. [System.NullReferenceException]
+   at WebSite.SendEmail.GetMessage(String url, Guid idUnique) in C:\dev\pos\WebSiteShareCode\Email\SendEmail.cs:line 342
+-------------------------------------------REMI
+Exception occurred on 2024-01-24 16:06:28
+Type: System.NullReferenceException
+Failed to download email content https://TournesolAlimentsnaturelsetbiologiques.comelin.com/fr/emails/?idCustomer=5&idCommunication=1&lang=fr&amount=100&barcode=1234567890&from=Bob&message=Merci&id=8ed40b8642ac4505901d5542bbe84dae
+{
+  "ClassName": "System.NullReferenceException",
+  "Message": "Object reference not set to an instance of an object.",
+  "Data": null,
+  "InnerException": null,
+  "HelpURL": null,
+  "StackTraceString": "   at WebSite.SendEmail.GetMessage(String url, Guid idUnique) in C:\\dev\\pos\\WebSiteShareCode\\Email\\SendEmail.cs:line 342",
+  "RemoteStackTraceString": null,
+  "RemoteStackIndex": 0,
+  "ExceptionMethod": "8\nGetMessage\nWebSiteShareCode, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null\nWebSite.SendEmail\nSystem.Net.Mail.MailMessage GetMessage(System.String, System.Guid)",
+  "HResult": -2147467261,
+  "Source": "WebSiteShareCode",
+  "WatsonBuckets": null
+}
+GET from Web site: https://tournesolalimentsnaturelsetbiologiques.comelin.com/admin/AjaxCommunication.ashx?id=1&action=sendEmail&value=djalil@epipresto.ca&lang=fr
+ RawUrl: /admin/AjaxCommunication.ashx?id=1&action=sendEmail&value=djalil%40epipresto.ca&lang=fr
+Referral: https://tournesolalimentsnaturelsetbiologiques.comelin.com/admin/CommunicationEdit.aspx?id=1
+UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+IP: 76.69.192.199
+Object reference not set to an instance of an object. [System.NullReferenceException]
+   at WebSite.SendEmail.GetMessage(String url, Guid idUnique) in C:\dev\pos\WebSiteShareCode\Email\SendEmail.cs:line 342
+-------------------------------------------REMI
+Exception occurred on 2024-01-24 16:06:34
+Type: System.NullReferenceException
+Failed to download email content https://TournesolAlimentsnaturelsetbiologiques.comelin.com/fr/emails/?idCustomer=5&idCommunication=1&lang=fr&amount=100&barcode=1234567890&from=Bob&message=Merci&id=86f6a2c41db94607b9cc0699b110f191
+{
+  "ClassName": "System.NullReferenceException",
+  "Message": "Object reference not set to an instance of an object.",
+  "Data": null,
+  "InnerException": null,
+  "HelpURL": null,
+  "StackTraceString": "   at WebSite.SendEmail.GetMessage(String url, Guid idUnique) in C:\\dev\\pos\\WebSiteShareCode\\Email\\SendEmail.cs:line 342",
+  "RemoteStackTraceString": null,
+  "RemoteStackIndex": 0,
+  "ExceptionMethod": "8\nGetMessage\nWebSiteShareCode, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null\nWebSite.SendEmail\nSystem.Net.Mail.MailMessage GetMessage(System.String, System.Guid)",
+  "HResult": -2147467261,
+  "Source": "WebSiteShareCode",
+  "WatsonBuckets": null
+}
+GET from Web site: https://tournesolalimentsnaturelsetbiologiques.comelin.com/admin/AjaxCommunication.ashx?id=1&action=sendEmail&value=djalil@epipresto.ca&lang=fr
+ RawUrl: /admin/AjaxCommunication.ashx?id=1&action=sendEmail&value=djalil%40epipresto.ca&lang=fr
+Referral: https://tournesolalimentsnaturelsetbiologiques.comelin.com/admin/CommunicationEdit.aspx?id=1
+UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+IP: 76.69.192.199
+Object reference not set to an instance of an object. [System.NullReferenceException]
+   at WebSite.SendEmail.GetMessage(String url, Guid idUnique) in C:\dev\pos\WebSiteShareCode\Email\SendEmail.cs:line 342
+-------------------------------------------REMI
+Exception occurred on 2024-02-16 14:03:38
+Type: Comelin.ComelinException
+Error on message Customer
+{
+  "ErrorMessageCode": "CustomerWithTransaction",
+  "Message": "Le compte ne peux pas être effacé puisqu'il a des transactions",
+  "Data": {},
+  "InnerException": null,
+  "StackTrace": "   at Comelin.Database.DatabaseSqlServer.Customers_OnDeleting(Customer currentElement) in C:\\dev\\pos\\WebSiteShareCode\\Database\\SqlServer\\DatabaseSqlServer.cs:line 80\r\n   at Comelin.Database.IDatabaseNotify`1.Notice.Invoke(T currentElement)\r\n   at Comelin.Database.DatabaseWithNotification`1.<.ctor>b__32_6(T element) in C:\\dev\\pos\\Common\\Database\\DatabaseWithNotification.cs:line 40\r\n   at Comelin.Database.DatabaseWithNotification`1.<.ctor>b__32_6(T element) in C:\\dev\\pos\\Common\\Database\\DatabaseWithNotification.cs:line 40\r\n   at Comelin.Database.SqlServer.SqlServerBaseAccess`1.InternalDelete(T element) in C:\\dev\\pos\\WebSiteShareCode\\Database\\SqlServer\\SqlServerBaseAccess.cs:line 56\r\n   at Comelin.Database.SqlServer.SqlServerBaseAccess`1.Delete(Int32 id) in C:\\dev\\pos\\WebSiteShareCode\\Database\\SqlServer\\SqlServerBaseAccess.cs:line 46\r\n   at Comelin.Database.DatabaseWithNotification`1.Delete(Int32 id) in C:\\dev\\pos\\Common\\Database\\DatabaseWithNotification.cs:line 50\r\n   at Comelin.DatabaseCustomer.Save(Customer customer) in C:\\dev\\pos\\Common\\Customer\\DatabaseCustomer.cs:line 57\r\n   at Pos.Shared.Customer.Save() in C:\\dev\\pos\\Common\\Customer\\Customer.cs:line 783\r\n   at WebSite.ConnectionData.OnBinaryMessage(Byte[] value) in C:\\dev\\pos\\WebSiteShareCode\\ConnectionData.cs:line 401",
+  "HelpLink": null,
+  "Source": "WebSiteShareCode",
+  "HResult": -2146233088
+}
+Le compte ne peux pas être effacé puisqu'il a des transactions [Comelin.ComelinException]
+   at Comelin.Database.DatabaseSqlServer.Customers_OnDeleting(Customer currentElement) in C:\dev\pos\WebSiteShareCode\Database\SqlServer\DatabaseSqlServer.cs:line 80
+   at Comelin.Database.IDatabaseNotify`1.Notice.Invoke(T currentElement)
+   at Comelin.Database.DatabaseWithNotification`1.<.ctor>b__32_6(T element) in C:\dev\pos\Common\Database\DatabaseWithNotification.cs:line 40
+   at Comelin.Database.DatabaseWithNotification`1.<.ctor>b__32_6(T element) in C:\dev\pos\Common\Database\DatabaseWithNotification.cs:line 40
+   at Comelin.Database.SqlServer.SqlServerBaseAccess`1.InternalDelete(T element) in C:\dev\pos\WebSiteShareCode\Database\SqlServer\SqlServerBaseAccess.cs:line 56
+   at Comelin.Database.SqlServer.SqlServerBaseAccess`1.Delete(Int32 id) in C:\dev\pos\WebSiteShareCode\Database\SqlServer\SqlServerBaseAccess.cs:line 46
+   at Comelin.Database.DatabaseWithNotification`1.Delete(Int32 id) in C:\dev\pos\Common\Database\DatabaseWithNotification.cs:line 50
+   at Comelin.DatabaseCustomer.Save(Customer customer) in C:\dev\pos\Common\Customer\DatabaseCustomer.cs:line 57
+   at Pos.Shared.Customer.Save() in C:\dev\pos\Common\Customer\Customer.cs:line 783
+   at WebSite.ConnectionData.OnBinaryMessage(Byte[] value) in C:\dev\pos\WebSiteShareCode\ConnectionData.cs:line 401
+-------------------------------------------REMI
+Exception occurred on 2024-02-16 14:08:09
+Type: Comelin.ComelinException
+Error on message Customer
+{
+  "ErrorMessageCode": "CustomerWithTransaction",
+  "Message": "Le compte ne peux pas être effacé puisqu'il a des transactions",
+  "Data": {},
+  "InnerException": null,
+  "StackTrace": "   at Comelin.Database.DatabaseSqlServer.Customers_OnDeleting(Customer currentElement) in C:\\dev\\pos\\WebSiteShareCode\\Database\\SqlServer\\DatabaseSqlServer.cs:line 80\r\n   at Comelin.Database.IDatabaseNotify`1.Notice.Invoke(T currentElement)\r\n   at Comelin.Database.DatabaseWithNotification`1.<.ctor>b__32_6(T element) in C:\\dev\\pos\\Common\\Database\\DatabaseWithNotification.cs:line 40\r\n   at Comelin.Database.DatabaseWithNotification`1.<.ctor>b__32_6(T element) in C:\\dev\\pos\\Common\\Database\\DatabaseWithNotification.cs:line 40\r\n   at Comelin.Database.SqlServer.SqlServerBaseAccess`1.InternalDelete(T element) in C:\\dev\\pos\\WebSiteShareCode\\Database\\SqlServer\\SqlServerBaseAccess.cs:line 56\r\n   at Comelin.Database.SqlServer.SqlServerBaseAccess`1.Delete(Int32 id) in C:\\dev\\pos\\WebSiteShareCode\\Database\\SqlServer\\SqlServerBaseAccess.cs:line 46\r\n   at Comelin.Database.DatabaseWithNotification`1.Delete(Int32 id) in C:\\dev\\pos\\Common\\Database\\DatabaseWithNotification.cs:line 50\r\n   at Comelin.DatabaseCustomer.Save(Customer customer) in C:\\dev\\pos\\Common\\Customer\\DatabaseCustomer.cs:line 57\r\n   at Pos.Shared.Customer.Save() in C:\\dev\\pos\\Common\\Customer\\Customer.cs:line 783\r\n   at WebSite.ConnectionData.OnBinaryMessage(Byte[] value) in C:\\dev\\pos\\WebSiteShareCode\\ConnectionData.cs:line 401",
+  "HelpLink": null,
+  "Source": "WebSiteShareCode",
+  "HResult": -2146233088
+}
+Le compte ne peux pas être effacé puisqu'il a des transactions [Comelin.ComelinException]
+   at Comelin.Database.DatabaseSqlServer.Customers_OnDeleting(Customer currentElement) in C:\dev\pos\WebSiteShareCode\Database\SqlServer\DatabaseSqlServer.cs:line 80
+   at Comelin.Database.IDatabaseNotify`1.Notice.Invoke(T currentElement)
+   at Comelin.Database.DatabaseWithNotification`1.<.ctor>b__32_6(T element) in C:\dev\pos\Common\Database\DatabaseWithNotification.cs:line 40
+   at Comelin.Database.DatabaseWithNotification`1.<.ctor>b__32_6(T element) in C:\dev\pos\Common\Database\DatabaseWithNotification.cs:line 40
+   at Comelin.Database.SqlServer.SqlServerBaseAccess`1.InternalDelete(T element) in C:\dev\pos\WebSiteShareCode\Database\SqlServer\SqlServerBaseAccess.cs:line 56
+   at Comelin.Database.SqlServer.SqlServerBaseAccess`1.Delete(Int32 id) in C:\dev\pos\WebSiteShareCode\Database\SqlServer\SqlServerBaseAccess.cs:line 46
+   at Comelin.Database.DatabaseWithNotification`1.Delete(Int32 id) in C:\dev\pos\Common\Database\DatabaseWithNotification.cs:line 50
+   at Comelin.DatabaseCustomer.Save(Customer customer) in C:\dev\pos\Common\Customer\DatabaseCustomer.cs:line 57
+   at Pos.Shared.Customer.Save() in C:\dev\pos\Common\Customer\Customer.cs:line 783
+   at WebSite.ConnectionData.OnBinaryMessage(Byte[] value) in C:\dev\pos\WebSiteShareCode\ConnectionData.cs:line 401
+-------------------------------------------REMI
+Exception occurred on 2024-02-16 14:08:16
+Type: Comelin.ComelinException
+Error on message Customer
+{
+  "ErrorMessageCode": "CustomerWithTransaction",
+  "Message": "Le compte ne peux pas être effacé puisqu'il a des transactions",
+  "Data": {},
+  "InnerException": null,
+  "StackTrace": "   at Comelin.Database.DatabaseSqlServer.Customers_OnDeleting(Customer currentElement) in C:\\dev\\pos\\WebSiteShareCode\\Database\\SqlServer\\DatabaseSqlServer.cs:line 80\r\n   at Comelin.Database.IDatabaseNotify`1.Notice.Invoke(T currentElement)\r\n   at Comelin.Database.DatabaseWithNotification`1.<.ctor>b__32_6(T element) in C:\\dev\\pos\\Common\\Database\\DatabaseWithNotification.cs:line 40\r\n   at Comelin.Database.DatabaseWithNotification`1.<.ctor>b__32_6(T element) in C:\\dev\\pos\\Common\\Database\\DatabaseWithNotification.cs:line 40\r\n   at Comelin.Database.SqlServer.SqlServerBaseAccess`1.InternalDelete(T element) in C:\\dev\\pos\\WebSiteShareCode\\Database\\SqlServer\\SqlServerBaseAccess.cs:line 56\r\n   at Comelin.Database.SqlServer.SqlServerBaseAccess`1.Delete(Int32 id) in C:\\dev\\pos\\WebSiteShareCode\\Database\\SqlServer\\SqlServerBaseAccess.cs:line 46\r\n   at Comelin.Database.DatabaseWithNotification`1.Delete(Int32 id) in C:\\dev\\pos\\Common\\Database\\DatabaseWithNotification.cs:line 50\r\n   at Comelin.DatabaseCustomer.Save(Customer customer) in C:\\dev\\pos\\Common\\Customer\\DatabaseCustomer.cs:line 57\r\n   at Pos.Shared.Customer.Save() in C:\\dev\\pos\\Common\\Customer\\Customer.cs:line 783\r\n   at WebSite.ConnectionData.OnBinaryMessage(Byte[] value) in C:\\dev\\pos\\WebSiteShareCode\\ConnectionData.cs:line 401",
+  "HelpLink": null,
+  "Source": "WebSiteShareCode",
+  "HResult": -2146233088
+}
+Le compte ne peux pas être effacé puisqu'il a des transactions [Comelin.ComelinException]
+   at Comelin.Database.DatabaseSqlServer.Customers_OnDeleting(Customer currentElement) in C:\dev\pos\WebSiteShareCode\Database\SqlServer\DatabaseSqlServer.cs:line 80
+   at Comelin.Database.IDatabaseNotify`1.Notice.Invoke(T currentElement)
+   at Comelin.Database.DatabaseWithNotification`1.<.ctor>b__32_6(T element) in C:\dev\pos\Common\Database\DatabaseWithNotification.cs:line 40
+   at Comelin.Database.DatabaseWithNotification`1.<.ctor>b__32_6(T element) in C:\dev\pos\Common\Database\DatabaseWithNotification.cs:line 40
+   at Comelin.Database.SqlServer.SqlServerBaseAccess`1.InternalDelete(T element) in C:\dev\pos\WebSiteShareCode\Database\SqlServer\SqlServerBaseAccess.cs:line 56
+   at Comelin.Database.SqlServer.SqlServerBaseAccess`1.Delete(Int32 id) in C:\dev\pos\WebSiteShareCode\Database\SqlServer\SqlServerBaseAccess.cs:line 46
+   at Comelin.Database.DatabaseWithNotification`1.Delete(Int32 id) in C:\dev\pos\Common\Database\DatabaseWithNotification.cs:line 50
+   at Comelin.DatabaseCustomer.Save(Customer customer) in C:\dev\pos\Common\Customer\DatabaseCustomer.cs:line 57
+   at Pos.Shared.Customer.Save() in C:\dev\pos\Common\Customer\Customer.cs:line 783
+   at WebSite.ConnectionData.OnBinaryMessage(Byte[] value) in C:\dev\pos\WebSiteShareCode\ConnectionData.cs:line 401
+-------------------------------------------REMI
+Exception occurred on 2024-02-16 14:08:40
+Type: Comelin.ComelinException
+Error on message Customer
+{
+  "ErrorMessageCode": "CustomerWithTransaction",
+  "Message": "Le compte ne peux pas être effacé puisqu'il a des transactions",
+  "Data": {},
+  "InnerException": null,
+  "StackTrace": "   at Comelin.Database.DatabaseSqlServer.Customers_OnDeleting(Customer currentElement) in C:\\dev\\pos\\WebSiteShareCode\\Database\\SqlServer\\DatabaseSqlServer.cs:line 80\r\n   at Comelin.Database.IDatabaseNotify`1.Notice.Invoke(T currentElement)\r\n   at Comelin.Database.DatabaseWithNotification`1.<.ctor>b__32_6(T element) in C:\\dev\\pos\\Common\\Database\\DatabaseWithNotification.cs:line 40\r\n   at Comelin.Database.DatabaseWithNotification`1.<.ctor>b__32_6(T element) in C:\\dev\\pos\\Common\\Database\\DatabaseWithNotification.cs:line 40\r\n   at Comelin.Database.SqlServer.SqlServerBaseAccess`1.InternalDelete(T element) in C:\\dev\\pos\\WebSiteShareCode\\Database\\SqlServer\\SqlServerBaseAccess.cs:line 56\r\n   at Comelin.Database.SqlServer.SqlServerBaseAccess`1.Delete(Int32 id) in C:\\dev\\pos\\WebSiteShareCode\\Database\\SqlServer\\SqlServerBaseAccess.cs:line 46\r\n   at Comelin.Database.DatabaseWithNotification`1.Delete(Int32 id) in C:\\dev\\pos\\Common\\Database\\DatabaseWithNotification.cs:line 50\r\n   at Comelin.DatabaseCustomer.Save(Customer customer) in C:\\dev\\pos\\Common\\Customer\\DatabaseCustomer.cs:line 57\r\n   at Pos.Shared.Customer.Save() in C:\\dev\\pos\\Common\\Customer\\Customer.cs:line 783\r\n   at WebSite.ConnectionData.OnBinaryMessage(Byte[] value) in C:\\dev\\pos\\WebSiteShareCode\\ConnectionData.cs:line 401",
+  "HelpLink": null,
+  "Source": "WebSiteShareCode",
+  "HResult": -2146233088
+}
+Le compte ne peux pas être effacé puisqu'il a des transactions [Comelin.ComelinException]
+   at Comelin.Database.DatabaseSqlServer.Customers_OnDeleting(Customer currentElement) in C:\dev\pos\WebSiteShareCode\Database\SqlServer\DatabaseSqlServer.cs:line 80
+   at Comelin.Database.IDatabaseNotify`1.Notice.Invoke(T currentElement)
+   at Comelin.Database.DatabaseWithNotification`1.<.ctor>b__32_6(T element) in C:\dev\pos\Common\Database\DatabaseWithNotification.cs:line 40
+   at Comelin.Database.DatabaseWithNotification`1.<.ctor>b__32_6(T element) in C:\dev\pos\Common\Database\DatabaseWithNotification.cs:line 40
+   at Comelin.Database.SqlServer.SqlServerBaseAccess`1.InternalDelete(T element) in C:\dev\pos\WebSiteShareCode\Database\SqlServer\SqlServerBaseAccess.cs:line 56
+   at Comelin.Database.SqlServer.SqlServerBaseAccess`1.Delete(Int32 id) in C:\dev\pos\WebSiteShareCode\Database\SqlServer\SqlServerBaseAccess.cs:line 46
+   at Comelin.Database.DatabaseWithNotification`1.Delete(Int32 id) in C:\dev\pos\Common\Database\DatabaseWithNotification.cs:line 50
+   at Comelin.DatabaseCustomer.Save(Customer customer) in C:\dev\pos\Common\Customer\DatabaseCustomer.cs:line 57
+   at Pos.Shared.Customer.Save() in C:\dev\pos\Common\Customer\Customer.cs:line 783
+   at WebSite.ConnectionData.OnBinaryMessage(Byte[] value) in C:\dev\pos\WebSiteShareCode\ConnectionData.cs:line 401
+-------------------------------------------REMI
+Exception occurred on 3/20/2024 12:36:44 PM
+Type: System.Web.HttpException
+Global error
+{
+  "ClassName": "System.Web.HttpException",
+  "Message": "The length of the URL for this request exceeds the configured maxUrlLength value.",
+  "Data": null,
+  "InnerException": null,
+  "HelpURL": null,
+  "StackTraceString": "   at System.Web.HttpRequest.ValidateInputIfRequiredByConfig()\r\n   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)",
+  "RemoteStackTraceString": null,
+  "RemoteStackIndex": 0,
+  "ExceptionMethod": "8\nValidateInputIfRequiredByConfig\nSystem.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\nSystem.Web.HttpRequest\nVoid ValidateInputIfRequiredByConfig()",
+  "HResult": -2147467259,
+  "Source": "System.Web",
+  "WatsonBuckets": null,
+  "_httpCode": 400
+}
+GET from Web site: http://www.letournesolboutiquesante.com/combine/npm/jquery@3.6,npm/popper.js@1,gh/twbs/bootstrap@4.3.1/dist/js/bootstrap.min.js,gh/twbs/bootstrap@4.3.1/dist/js/bootstrap.min.js,npm/moment@2.24,npm/moment@2.29.1/locale/fr-ca.js,npm/nouislider@8.5.1/distribute/nouislider.min.js,npm/vue@2.7,gh/jpillora/notifyjs/dist/notify.min.js
+ RawUrl: /combine/npm/jquery@3.6,npm/popper.js@1,gh/twbs/bootstrap@4.3.1/dist/js/bootstrap.min.js,gh/twbs/bootstrap@4.3.1/dist/js/bootstrap.min.js,npm/moment@2.24,npm/moment@2.29.1/locale/fr-ca.js,npm/nouislider@8.5.1/distribute/nouislider.min.js,npm/vue@2.7,gh/jpillora/notifyjs/dist/notify.min.js
+UserAgent: Go-http-client/1.1
+IP: 91.229.76.186
+The length of the URL for this request exceeds the configured maxUrlLength value. [System.Web.HttpException]
+   at System.Web.HttpRequest.ValidateInputIfRequiredByConfig()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+-------------------------------------------REMI
+Exception occurred on 2024-05-06 00:56:39
+Type: System.Data.SqlClient.SqlException
+DailyTask report Daily
+{
+  "Errors": [
+    {
+      "Source": ".Net SqlClient Data Provider",
+      "Number": -2,
+      "State": 0,
+      "Class": 11,
+      "Server": "localhost",
+      "Message": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=2379; handshake=509; [Login] initialization=0; authentication=1; [Post-Login] complete=11917; ",
+      "Procedure": "",
+      "LineNumber": 0
+    }
+  ],
+  "ClientConnectionId": "806a04a0-f7d8-4556-ba24-cc0198b2e4c4",
+  "ClassName": "System.Data.SqlClient.SqlException",
+  "Message": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=2379; handshake=509; [Login] initialization=0; authentication=1; [Post-Login] complete=11917; ",
+  "Data": {
+    "HelpLink.ProdName": "Microsoft SQL Server",
+    "HelpLink.EvtSrc": "MSSQLServer",
+    "HelpLink.EvtID": "-2",
+    "HelpLink.BaseHelpUrl": "http://go.microsoft.com/fwlink",
+    "HelpLink.LinkId": "20476"
+  },
+  "InnerException": {
+    "NativeErrorCode": 258,
+    "ClassName": "System.ComponentModel.Win32Exception",
+    "Message": "The wait operation timed out",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": null,
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2147467259,
+    "Source": null,
+    "WatsonBuckets": null
+  },
+  "HelpURL": null,
+  "StackTraceString": "   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)\r\n   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)\r\n   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)\r\n   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)\r\n   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)\r\n   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)\r\n   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)\r\n   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)\r\n   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)\r\n   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)\r\n   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)\r\n   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)\r\n   at System.Data.SqlClient.SqlConnection.Open()\r\n   at WebSite.Sql.GetConnection(String databaseName) in C:\\dev\\pos\\WebSiteShareCode\\Sql.cs:line 121\r\n   at WebSite.Report.LoadFromDatabase(DateTime date, ReportScope scope) in C:\\dev\\pos\\WebSiteShareCode\\Report.cs:line 191\r\n   at WebSite.Report.Load(DateTime date, ReportScope scope) in C:\\dev\\pos\\WebSiteShareCode\\Report.cs:line 174\r\n   at WebSite.Admin.DailyTask.CreateReportSaveAndSendEmail(ReportType type) in C:\\dev\\pos\\WebSiteShareCode\\Admin\\Api\\AdminDailyTask.cs:line 150",
+  "RemoteStackTraceString": null,
+  "RemoteStackIndex": 0,
+  "ExceptionMethod": "1\n.ctor\nSystem.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\nSystem.Data.SqlClient.SqlInternalConnectionTds\nVoid .ctor(System.Data.ProviderBase.DbConnectionPoolIdentity, System.Data.SqlClient.SqlConnectionString, System.Data.SqlClient.SqlCredential, System.Object, System.String, System.Security.SecureString, Boolean, System.Data.SqlClient.SqlConnectionString, System.Data.SqlClient.SessionData, System.Data.ProviderBase.DbConnectionPool, System.String, Boolean, System.Data.SqlClient.SqlAuthenticationProviderManager)",
+  "HResult": -2146232060,
+  "Source": ".Net SqlClient Data Provider",
+  "WatsonBuckets": null
+}
+GET from Web site: https://tournesolalimentsnaturelsetbiologiques.comelin.com/admin/dailyTask.ashx
+ RawUrl: /admin/dailyTask.ashx
+UserAgent: 
+IP: 51.222.151.145
+Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=2379; handshake=509; [Login] initialization=0; authentication=1; [Post-Login] complete=11917;  [System.Data.SqlClient.SqlException]
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at WebSite.Sql.GetConnection(String databaseName) in C:\dev\pos\WebSiteShareCode\Sql.cs:line 121
+   at WebSite.Report.LoadFromDatabase(DateTime date, ReportScope scope) in C:\dev\pos\WebSiteShareCode\Report.cs:line 191
+   at WebSite.Report.Load(DateTime date, ReportScope scope) in C:\dev\pos\WebSiteShareCode\Report.cs:line 174
+   at WebSite.Admin.DailyTask.CreateReportSaveAndSendEmail(ReportType type) in C:\dev\pos\WebSiteShareCode\Admin\Api\AdminDailyTask.cs:line 150
+[Inner exception]
+The wait operation timed out [System.ComponentModel.Win32Exception]
+-------------------------------------------REMI
+Exception occurred on 2024-05-07 22:17:46
+Type: System.Web.HttpException
+Global error
+{
+  "ClassName": "System.Web.HttpException",
+  "Message": "The file '/layouts/System/VisitorIdentification.aspx' does not exist.",
+  "Data": null,
+  "InnerException": null,
+  "HelpURL": null,
+  "StackTraceString": "   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)\r\n   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)\r\n   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)\r\n   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)\r\n   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)\r\n   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)\r\n   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)\r\n   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()\r\n   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)\r\n   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)",
+  "RemoteStackTraceString": null,
+  "RemoteStackIndex": 0,
+  "ExceptionMethod": "8\nCheckVirtualFileExists\nSystem.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\nSystem.Web.UI.Util\nVoid CheckVirtualFileExists(System.Web.VirtualPath)",
+  "HResult": -2147467259,
+  "Source": "System.Web",
+  "WatsonBuckets": null,
+  "_httpCode": 404
+}
+GET from Web site: https://www.letournesolboutiquesante.com/layouts/System/VisitorIdentification.aspx
+ RawUrl: /layouts/System/VisitorIdentification.aspx
+UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+IP: 52.203.23.91
+The file '/layouts/System/VisitorIdentification.aspx' does not exist. [System.Web.HttpException]
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-------------------------------------------REMI
+Exception occurred on 2024-05-11 00:56:44
+Type: System.Data.SqlClient.SqlException
+DailyTask report Daily
+{
+  "Errors": [
+    {
+      "Source": ".Net SqlClient Data Provider",
+      "Number": -2,
+      "State": 0,
+      "Class": 11,
+      "Server": "localhost",
+      "Message": "Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=8693; handshake=2327; ",
+      "Procedure": "",
+      "LineNumber": 0
+    }
+  ],
+  "ClientConnectionId": "2402956e-39c5-4685-9ea8-97dda9d18e63",
+  "ClassName": "System.Data.SqlClient.SqlException",
+  "Message": "Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=8693; handshake=2327; ",
+  "Data": {
+    "HelpLink.ProdName": "Microsoft SQL Server",
+    "HelpLink.EvtSrc": "MSSQLServer",
+    "HelpLink.EvtID": "-2",
+    "HelpLink.BaseHelpUrl": "http://go.microsoft.com/fwlink",
+    "HelpLink.LinkId": "20476"
+  },
+  "InnerException": {
+    "NativeErrorCode": 258,
+    "ClassName": "System.ComponentModel.Win32Exception",
+    "Message": "The wait operation timed out",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": null,
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2147467259,
+    "Source": null,
+    "WatsonBuckets": null
+  },
+  "HelpURL": null,
+  "StackTraceString": "   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)\r\n   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)\r\n   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)\r\n   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)\r\n   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)\r\n   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)\r\n   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)\r\n   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)\r\n   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)\r\n   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)\r\n   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)\r\n   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)\r\n   at System.Data.SqlClient.SqlConnection.Open()\r\n   at WebSite.Sql.GetConnection(String databaseName) in C:\\dev\\pos\\WebSiteShareCode\\Sql.cs:line 121\r\n   at WebSite.Report.LoadFromDatabase(DateTime date, ReportScope scope) in C:\\dev\\pos\\WebSiteShareCode\\Report.cs:line 191\r\n   at WebSite.Report.Load(DateTime date, ReportScope scope) in C:\\dev\\pos\\WebSiteShareCode\\Report.cs:line 174\r\n   at WebSite.Admin.DailyTask.CreateReportSaveAndSendEmail(ReportType type) in C:\\dev\\pos\\WebSiteShareCode\\Admin\\Api\\AdminDailyTask.cs:line 150",
+  "RemoteStackTraceString": null,
+  "RemoteStackIndex": 0,
+  "ExceptionMethod": "1\n.ctor\nSystem.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\nSystem.Data.SqlClient.SqlInternalConnectionTds\nVoid .ctor(System.Data.ProviderBase.DbConnectionPoolIdentity, System.Data.SqlClient.SqlConnectionString, System.Data.SqlClient.SqlCredential, System.Object, System.String, System.Security.SecureString, Boolean, System.Data.SqlClient.SqlConnectionString, System.Data.SqlClient.SessionData, System.Data.ProviderBase.DbConnectionPool, System.String, Boolean, System.Data.SqlClient.SqlAuthenticationProviderManager)",
+  "HResult": -2146232060,
+  "Source": ".Net SqlClient Data Provider",
+  "WatsonBuckets": null
+}
+GET from Web site: https://tournesolalimentsnaturelsetbiologiques.comelin.com/admin/dailyTask.ashx
+ RawUrl: /admin/dailyTask.ashx
+UserAgent: 
+IP: 51.222.151.145
+Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=8693; handshake=2327;  [System.Data.SqlClient.SqlException]
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at WebSite.Sql.GetConnection(String databaseName) in C:\dev\pos\WebSiteShareCode\Sql.cs:line 121
+   at WebSite.Report.LoadFromDatabase(DateTime date, ReportScope scope) in C:\dev\pos\WebSiteShareCode\Report.cs:line 191
+   at WebSite.Report.Load(DateTime date, ReportScope scope) in C:\dev\pos\WebSiteShareCode\Report.cs:line 174
+   at WebSite.Admin.DailyTask.CreateReportSaveAndSendEmail(ReportType type) in C:\dev\pos\WebSiteShareCode\Admin\Api\AdminDailyTask.cs:line 150
+[Inner exception]
+The wait operation timed out [System.ComponentModel.Win32Exception]

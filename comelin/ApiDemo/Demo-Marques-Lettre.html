@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Demo menu marques</title>
+	<meta charset="utf-8" />
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+</head>
+<body>
+	<h1>Cette page démontre la possibilité d'afficher les marques avec seulement du JavaScript. jQuery est nécessaire</h1>
+
+	<style>
+		.big-letter { background-color: black; color: white; padding: 5px; margin: 10px 0; display: inline-block; }
+		#menu-brand a { display: block; }
+		#menu-brand { columns: 300px 4; }
+	</style>
+	<div id="menu-brand"></div>
+
+	<script>
+
+	// For optimal performance this script should be call when the menu pop the first time only instead of the page load.
+	var numberOfBrandListing = 50;
+	var displayLang = 'fr'; // can be en for English
+	$.ajax('/api/brand-listing?limit=' + numberOfBrandListing + '&lang=' + displayLang).done(function (brands) {
+		var menuPlaceHolder = document.getElementById('menu-brand');
+		var firstLetter = '_'; // this is to add big letter between brand starting with the same letter
+		for (var i = 0; i < brands.length; i++) {
+			var brand = brands[i];
+
+			if (brand.Name[0] !== firstLetter) {
+				var bigLetter = document.createElement('div');
+				firstLetter = brand.Name[0];
+				bigLetter.innerText = firstLetter;
+				bigLetter.className = "big-letter";
+				menuPlaceHolder.appendChild(bigLetter);
+			}
+
+			var anchor = document.createElement('a');
+			anchor.id = "brand-" + brand.Id;
+			anchor.innerText = brand.Name;
+			anchor.href = brand.Url;
+			menuPlaceHolder.appendChild(anchor);
+		}
+	});
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Script qui affichage les logs des marques</title>
+</head>
+<body>
+<h1>Cette page démontre la possibilité d'afficher les logos des marques.</h1>
+<div>Le nombre d'articles par ligne est défini par la largeur du navigateur et la propriété CSS <code>grid-template-columns</code>.
+	
+</div>
+<a href="https://caniuse.com/#search=grid-template-columns">Ne fonctionne pas sur IE / Edge avant 2017</a> 
+
+	<style id="css-brand">
+		#brands-listing-image { 
+			width: 100%;
+			display: grid;
+			justify-content: space-between;
+			grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* max size here */
+			grid-gap: 3rem;
+		}
+		#brands-listing-image a {text-align: center}
+		#brands-listing-image a img {width: 100%}
+	</style>
+	<div id="brands-listing-image" class="row" data-class="brand">
+	
+	</div>
+
+<script id="scriptBrand">
+	var placeHolderBrands = document.getElementById('brands-listing-image');
+	if (placeHolderBrands) {
+		var displayLang = 'fr'; // can be 'en' for English
+		fetch('/Api/BrandImage?' + '&lang=' + displayLang).then(response => response.json())
+			.then(response => {
+				var brands = response;
+				for (var brand of brands) {
+					var anchor = document.createElement('a');
+					anchor.id = "brand-" + brand.Id;
+					anchor.href = brand.Url;
+					anchor.classList = placeHolderBrands.dataset['class'];
+					// image de la marque
+					var img = document.createElement('img');
+					img.src = brand.Image;
+					img.title = img.alt = brand.Title;
+					anchor.appendChild(img);
+
+				
+					// nom de la marque
+					var name = document.createElement('span');
+					name.className = 'brand-title';
+					name.innerText = brand.Title;
+					anchor.appendChild(name); 
+				
+					placeHolderBrands.appendChild(anchor);
+				}
+			});
+	}
+</script>
+
+
+</body>
+</html>

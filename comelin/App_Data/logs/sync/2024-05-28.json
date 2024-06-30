@@ -1,0 +1,6 @@
+﻿{"ComputerHash":"F320109E08C6BC2460F677CB7F6326FB","ServerSequentialId":37585,"ClientSequentialId":37586,"Text":"up to date","ClientRequestReason":null,"DateTime":"2024-05-28T11:43:29.1860508Z"}
+{"ComputerHash":"F320109E08C6BC2460F677CB7F6326FB","ServerSequentialId":37585,"ClientSequentialId":37586,"Text":"up to date","ClientRequestReason":null,"DateTime":"2024-05-28T12:51:53.9040101Z"}
+{"ComputerHash":"A4722EACD8E5E842F458480F9D005767","ServerSequentialId":37587,"ClientSequentialId":37546,"Text":"sending missing 41 updates","ClientRequestReason":null,"DateTime":"2024-05-28T13:23:23.2635535Z"}
+{"ComputerHash":"A4722EACD8E5E842F458480F9D005767","ServerSequentialId":37597,"ClientSequentialId":37588,"Text":"sending missing 9 updates","ClientRequestReason":null,"DateTime":"2024-05-28T15:29:43.6013367Z"}
+{"ComputerHash":"A4722EACD8E5E842F458480F9D005767","ServerSequentialId":37675,"ClientSequentialId":37670,"Text":"sending missing 5 updates","ClientRequestReason":null,"DateTime":"2024-05-28T22:10:55.3205387Z"}
+{"Text":"Cleanup","ServerSequentialId":37678,"DeleteLowerThan":-212322,"DateTime":"2024-05-29T03:55:19.7514835Z"}

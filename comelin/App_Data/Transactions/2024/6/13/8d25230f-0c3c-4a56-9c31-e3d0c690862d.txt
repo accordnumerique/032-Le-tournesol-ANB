@@ -1,0 +1,83 @@
+{
+  "ObjType": 4,
+  "Id": 0,
+  "IdCustomer": 664,
+  "IdPOS": 3,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "8d25230f-0c3c-4a56-9c31-e3d0c690862d",
+  "TypeInt": 1,
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0,
+  "DateCreated": "2024-06-13T10:18:42.9758518-04:00",
+  "Employee": "Leila",
+  "Stamps": 2,
+  "StampsUsed": 0,
+  "Tax1": 3.64,
+  "Tax2": 7.27,
+  "Total": 83.85,
+  "CostTotal": 40.60,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "Interac": 83.85
+    }
+  },
+  "Lines": [
+    {
+      "Id": 0,
+      "IdProduct": 3788,
+      "ProductCode": "8904234400020",
+      "Desc": "aurys - encens en bâtons fins nag shampa agarbatti 8 unités",
+      "Qty": 5.0,
+      "UnitPrice": 2.69,
+      "Discount": 0.0,
+      "TaxCode": "S",
+      "Tax1": 0.67,
+      "Tax2": 1.34,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    },
+    {
+      "Id": 0,
+      "IdProduct": 3178,
+      "ProductCode": "627765026283",
+      "Desc": "Natural Factors - Collagène marin corps entier et non aromatisé",
+      "Qty": 1.0,
+      "UnitPrice": 69.99,
+      "Discount": 10.50,
+      "TaxCode": "S",
+      "Tax1": 2.97,
+      "Tax2": 5.93,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PromotionalCodeUsed": "Manual",
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 6,
+  "PreparationFee": 0.0,
+  "GlobalDiscount": 0.0,
+  "AmountPayWithPoints": 0.0,
+  "DeliveryOption": 1,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": true,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 2,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": true,
+  "CreditNoteBefore": 0.0,
+  "CashierName": "",
+  "Ext": {
+    "NbItems": 6
+  }
+}

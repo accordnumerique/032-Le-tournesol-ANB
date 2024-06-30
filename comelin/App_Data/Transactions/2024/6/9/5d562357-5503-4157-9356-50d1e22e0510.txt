@@ -1,0 +1,68 @@
+{
+  "ObjType": 4,
+  "Id": 0,
+  "IdCustomer": 0,
+  "IdPOS": 3,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "5d562357-5503-4157-9356-50d1e22e0510",
+  "TypeInt": 1,
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0,
+  "DateCreated": "2024-06-09T14:47:51.6659069-04:00",
+  "Employee": "Leila",
+  "Stamps": 0,
+  "StampsUsed": 0,
+  "Tax1": 0.95,
+  "Tax2": 1.89,
+  "Total": 21.83,
+  "CostTotal": 9.78,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "Penny": -0.02,
+      "Cash": 51.75,
+      "Change": -29.90
+    }
+  },
+  "Lines": [
+    {
+      "Id": 0,
+      "IdProduct": 2807,
+      "ProductCode": "829850612931",
+      "Desc": "Divine essence - Huile De Beauté Rose Musquée 100ml",
+      "Qty": 1.0,
+      "UnitPrice": 18.99,
+      "Discount": 0.0,
+      "TaxCode": "S",
+      "Tax1": 0.95,
+      "Tax2": 1.89,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 0,
+  "PreparationFee": 0.0,
+  "GlobalDiscount": 0.0,
+  "AmountPayWithPoints": 0.0,
+  "DeliveryOption": 1,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": true,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 0,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": true,
+  "CreditNoteBefore": 0.0,
+  "CashierName": "",
+  "Ext": {
+    "NbItems": 1
+  }
+}

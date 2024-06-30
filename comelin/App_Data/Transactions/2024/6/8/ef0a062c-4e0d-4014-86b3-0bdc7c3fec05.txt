@@ -1,0 +1,82 @@
+{
+  "ObjType": 4,
+  "Id": 0,
+  "IdCustomer": 0,
+  "IdPOS": 3,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "ef0a062c-4e0d-4014-86b3-0bdc7c3fec05",
+  "TypeInt": 1,
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0,
+  "DateCreated": "2024-06-08T16:18:56.8360744-04:00",
+  "Employee": "Leila",
+  "Stamps": 0,
+  "StampsUsed": 0,
+  "Tax1": 0.40,
+  "Tax2": 0.79,
+  "Total": 14.14,
+  "CostTotal": 6.88,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "Interac": 14.14
+    }
+  },
+  "Lines": [
+    {
+      "Id": 0,
+      "IdProduct": 980,
+      "ProductCode": "8901370000015",
+      "Desc": "Chandrika.Ayurvedic.",
+      "Qty": 4.0,
+      "UnitPrice": 1.99,
+      "Discount": 0.0,
+      "TaxCode": "S",
+      "Tax1": 0.40,
+      "Tax2": 0.79,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    },
+    {
+      "Id": 0,
+      "IdProduct": 1174,
+      "ProductCode": "833125004130",
+      "Desc": "Rizo.Fusili.Sauv.S/G.454 g",
+      "Qty": 1.0,
+      "UnitPrice": 4.99,
+      "Discount": 0.0,
+      "TaxCode": "Z",
+      "Tax1": 0.0,
+      "Tax2": 0.0,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 0,
+  "PreparationFee": 0.0,
+  "GlobalDiscount": 0.0,
+  "AmountPayWithPoints": 0.0,
+  "DeliveryOption": 1,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": true,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 0,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": true,
+  "CreditNoteBefore": 0.0,
+  "CashierName": "",
+  "Ext": {
+    "NbItems": 5
+  }
+}

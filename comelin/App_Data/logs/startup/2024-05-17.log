@@ -1,0 +1,44 @@
+﻿8:23:28 AM Application_End. Stop websocket
+8:29:58 AM Creating Settings
+8:29:59 AM Creating DB instance
+8:29:59 AM profotbuf pre-loading
+8:29:59 AM Preloading attrib
+8:29:59 AM EnsureDefaultGroupExist
+8:29:59 AM default controller assigned
+8:29:59 AM taxes ok
+8:29:59 AM category loaded
+8:29:59 AM Création des produits de base...
+8:29:59 AM Code de taxes de base...
+8:29:59 AM Registering routes... 
+8:29:59 AM Generic pages... 
+8:29:59 AM scheduler started
+8:29:59 AM Register modules Comelin.DailyTask
+8:29:59 AM Register modules Comelin.Modules.ModuleCustomerCreditProperty
+8:29:59 AM Register modules Comelin.Modules.ModuleTransactionDrop
+8:29:59 AM Register modules Comelin.Modules.MailChimp.MailChimpCustomerSync
+8:29:59 AM Register modules Comelin.Modules.Favicon.FaviconModule
+8:29:59 AM Register modules Comelin.Modules.MenotteReporting.MenotteReportingModule
+8:37:05 AM Application_End. Stop websocket
+8:45:37 AM Creating Settings
+8:45:37 AM Creating DB instance
+8:45:37 AM profotbuf pre-loading
+8:45:37 AM Preloading attrib
+8:45:37 AM EnsureDefaultGroupExist
+8:45:38 AM default controller assigned
+8:45:38 AM taxes ok
+8:45:38 AM category loaded
+8:45:38 AM Création des produits de base...
+8:45:38 AM Code de taxes de base...
+8:45:38 AM Registering routes... 
+8:45:39 AM [CsvHelper, Version=30.0.0.0, Culture=neutral, PublicKeyToken=8c4959082be5c823] failed to register route Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+8:45:39 AM [MySql.Data, Version=8.3.0.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d] failed to register route Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+8:45:39 AM Generic pages... 
+8:45:39 AM scheduler started
+8:45:39 AM Register modules [CsvHelper, Version=30.0.0.0, Culture=neutral, PublicKeyToken=8c4959082be5c823] [Comelin.Modules.IComelinModule] failed to enumerate typesUnable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+8:45:39 AM Register modules [MySql.Data, Version=8.3.0.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d] [Comelin.Modules.IComelinModule] failed to enumerate typesUnable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+8:45:39 AM Register modules Comelin.DailyTask
+8:45:39 AM Register modules Comelin.Modules.ModuleCustomerCreditProperty
+8:45:39 AM Register modules Comelin.Modules.ModuleTransactionDrop
+8:45:39 AM Register modules Comelin.Modules.MailChimp.MailChimpCustomerSync
+8:45:39 AM Register modules Comelin.Modules.Favicon.FaviconModule
+8:45:39 AM Register modules Comelin.Modules.MenotteReporting.MenotteReportingModule

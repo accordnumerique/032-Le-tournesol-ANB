@@ -1,0 +1,12 @@
+﻿7:13:49 AM Check for certificate...
+8:23:28 AM Stop websocket
+8:23:28 AM WebSocketUrl: wss://tournesolalimentsnaturelsetbiologiques.comelin.com:34159
+8:23:29 AM Websocket secure SslConfiguration certificate: [IIS] TournesolAlimentsnaturelsetbiologiques, (any host) @ 2024/5/15 9:55:51
+8:23:29 AM IsListening: True IsSecure True, Port:34159, Domain:tournesolalimentsnaturelsetbiologiques.comelin.com, IsSiteSecure: True, WebSocketUrl:wss://tournesolalimentsnaturelsetbiologiques.comelin.com:34159
+8:29:59 AM WebSocketUrl: wss://tournesolalimentsnaturelsetbiologiques.comelin.com:34159
+8:29:59 AM Websocket secure SslConfiguration certificate: [IIS] TournesolAlimentsnaturelsetbiologiques, (any host) @ 2024/5/15 9:55:51
+8:29:59 AM IsListening: True IsSecure True, Port:34159, Domain:tournesolalimentsnaturelsetbiologiques.comelin.com, IsSiteSecure: True, WebSocketUrl:wss://tournesolalimentsnaturelsetbiologiques.comelin.com:34159
+8:37:05 AM Stop websocket
+8:45:38 AM WebSocketUrl: wss://tournesolalimentsnaturelsetbiologiques.comelin.com:34159
+8:45:38 AM Websocket secure SslConfiguration certificate: [IIS] TournesolAlimentsnaturelsetbiologiques, (any host) @ 2024/5/15 9:55:51
+8:45:38 AM IsListening: True IsSecure True, Port:34159, Domain:tournesolalimentsnaturelsetbiologiques.comelin.com, IsSiteSecure: True, WebSocketUrl:wss://tournesolalimentsnaturelsetbiologiques.comelin.com:34159

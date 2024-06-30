@@ -1,0 +1,67 @@
+{
+  "ObjType": 4,
+  "Id": 0,
+  "IdCustomer": 0,
+  "IdPOS": 3,
+  "IdStore": 1,
+  "IdStoreTransferTo": 0,
+  "IdCommit": "5b9fe6eb-bab5-4581-9a78-13c21c152c35",
+  "TypeInt": 1,
+  "TaxCode": "S",
+  "IdInternetOrder": 0,
+  "ShippingCost": 0.0,
+  "DateCreated": "2024-06-11T16:27:03.2747656-04:00",
+  "Employee": "Leila",
+  "Stamps": 1,
+  "StampsUsed": 0,
+  "Tax1": 1.30,
+  "Tax2": 2.60,
+  "Total": 29.99,
+  "CostTotal": 15.00,
+  "Payment": {
+    "ObjType": 250,
+    "Amounts": {
+      "Interac": 29.99
+    }
+  },
+  "Lines": [
+    {
+      "Id": 0,
+      "IdProduct": 2626,
+      "ProductCode": "628176567020",
+      "Desc": "anokian  brume 4 herbes sacrees 270ml",
+      "Qty": 1.0,
+      "UnitPrice": 28.99,
+      "Discount": 2.90,
+      "TaxCode": "S",
+      "Tax1": 1.30,
+      "Tax2": 2.60,
+      "InvBefore": 0.0,
+      "CalculatedDiscount": 0.0,
+      "PromotionalCodeUsed": "Manual",
+      "PointMultiplier": 1,
+      "Cost": 0.0
+    }
+  ],
+  "IsWeb": false,
+  "VirtualInvoice": false,
+  "IdReferrer": 0,
+  "ShipSticker": false,
+  "RemoveQtyOrdered": false,
+  "StampsBalanceBefore": 0,
+  "PreparationFee": 0.0,
+  "GlobalDiscount": 0.0,
+  "AmountPayWithPoints": 0.0,
+  "DeliveryOption": 1,
+  "IsDeleted": false,
+  "DebugSettingPointsEnable": true,
+  "DebugSettingPointsNotGivenIfPaiementWithPoints": false,
+  "DebugNbPointsCalculated": 1,
+  "DebugPointsNotEligiable": 0,
+  "DebugCanHavePoint": true,
+  "CreditNoteBefore": 0.0,
+  "CashierName": "",
+  "Ext": {
+    "NbItems": 1
+  }
+}
