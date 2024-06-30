@@ -1,59 +1,154 @@
+:root {
+    --contain-max-width: 1500px;
+    --color-yellow: #F4D548;
+    --color-yellow2: #ffb72e;
+    --color-black: #313320;
+    --color-green: #548B4F;
+}
+
+
+
+/** Elements to hide */
+#mNPL,
+#top-logo,
+#topbar .container .divSearch,
+#topbar .container .divSignIn,
+#menu-top {
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+
+/** COMMUN */
 body {
     font-family: "Inter", sans-serif;
 }
 
+body.text-hide-fr .tbs-hide-fr {
+    display: none;
+}
+
+body.text-hide-en .tbs-hide-en {
+    display: none;
+}
+
+.page-home h1,
+.page-home h2,
+.page-home h2 a,
+.page-home h2 a:hover,
+.page-home h3 {
+    font-weight: 900;
+    color: var(--color-black);
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 2px;
+    text-decoration: none;
+    padding: 36px;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#footer h2,
+#footer h3 {
+    text-align: initial;
+    padding: initial;
+}
+
+#footer {
+    background-color: var(--color-green);
+    color: #fff;
+}
+
+#footer a {
+    color: #fff;
+}
+
+#footer #sections {
+    padding-top: 10px;
+}
+
+#footer .zone-infolettre {
+    background-color: var(--color-yellow);
+}
+
+#footer #categories a {
+    padding-bottom: 4px;
+    display: block;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active {
+    background-color: var(--color-yellow2) !important;
+    border: 0 !important;
+    color:var(--color-black);
+}
+.btn-primary:hover {
+    background-color: var(--color-yellow2) !important;
+    border: 0 !important;
+    color: #fff;
+}
+
+
+/** TOP BAR */
 #topbar {
-    background-color: #313320;
+    background-color: var(--color-black);
     color: #fff;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 0.1em;
     font-size: 1.3em;
 }
-#topbar .container .divSearch {
-    display: none;
-}
-#topbar .container .divSignIn {
-    display: none;
-}
 
-
-
+/** MENU */
+.tbs-menu-container {}
 
 .tbs-menu {
     display: flex;
     justify-content: space-between;
-    max-width: 1200px;
+    max-width: var(--contain-max-width);
     margin: 0 auto;
-    gap:2em;
+    gap: 2em;
 }
+
 .tbs-menu .tbs-logo {
     flex: 1;
     max-height: 114px;
-}
-.tbs-menu .tbs-logo img {
-    width:100%
-}
-.tbs-menu .tbs-menuitem {
-    flex:4;
     text-align: center;
 }
+
+.tbs-menu .tbs-logo img {
+    width: auto;
+    max-height: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.tbs-menu .tbs-menuitem {
+    flex: 4;
+    text-align: center;
+    margin: auto;
+}
+
 .tbs-menu .tbs-menuitem .navbar-nav {
     display: inline;
 }
+
 .tbs-menu .tbs-menuitem .navbar-nav .nav-item {
     display: inline;
     padding-right: 20px;
     padding-left: 20px;
 }
 
-
-
-
 .tbs-menu .tbs-connect {
     flex: 1;
+    margin: auto;
 }
-.tbs-menu .tbs-connect a {
+
+.tbs-menu .tbs-connect a .Login {
     background-image: url(/Tournesol_custom/images/icon8-user.png);
     background-repeat: no-repeat;
     display: block;
@@ -61,4 +156,279 @@ body {
     font-weight: bolder;
     color: #548B4F;
     padding-left: 32px;
+}
+
+
+.tbs-menu .divSignIn a:hover {
+    text-decoration: none;
+}
+
+/** HERO */
+.tbs-hero-container {
+    background-color: var(--color-yellow);
+    margin-top: 125px;
+}
+
+.tbs-hero {
+    display: flex;
+    justify-content: space-between;
+    max-width: var(--contain-max-width);
+    margin: 0 auto;
+    gap: 2em;
+    color: var(--color-black);
+}
+
+.tbs-hero .tbs-hero-picture {
+    flex: 1;
+    background-image: url(/Tournesol_custom/images/home-picture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    background-position: bottom;
+}
+
+.tbs-hero .tbs-hero-picture img {
+    width: 100%;
+}
+
+.tbs-hero .tbs-hero-text {
+    flex: 1;
+    padding-top: 29px;
+    padding-bottom: 29px;
+}
+
+.tbs-hero .tbs-hero-text .tbs-hero-text-tournesol {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 3em;
+}
+
+.tbs-hero .tbs-hero-text .tbs-hero-text-aliment {
+    font-weight: 800;
+    font-size: 4em;
+    line-height: 0.9;
+    margin-top: 0.2em;
+    margin-bottom: 0.4em;
+}
+
+.tbs-hero .tbs-hero-text .tbs-hero-text-detail {
+    font-size: 1.1em;
+}
+
+
+/** RECHERCHE */
+.tbs-recherche-container {
+    margin-top: 300px;
+    margin-bottom: 300px;
+    background-color: var(--color-green);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.tbs-recherche {
+    display: flex;
+    justify-content: space-between;
+    max-width: var(--contain-max-width);
+    margin: 0 auto;
+    gap: 2em;
+}
+
+.tbs-recherche .tbs-recherche-text {
+    flex: 1;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 1em;
+}
+
+.tbs-recherche .tbs-recherche-control {
+    flex: 1;
+}
+
+.tbs-recherche .tbs-recherche-control #search-top {
+    display: block;
+    border-radius: 100px;
+    border: 0px;
+    font-size: 1em;
+    padding: 18px 71px 22px 35px;
+    background-image: url(/Tournesol_custom/images/icons8-search-50.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    background-size: 42px;
+    background-position-x: 96%;
+    width: 100%;
+}
+
+/** CATÉGORIES */
+
+
+.tbs-category-container {
+    margin-top: 300px;
+    margin-bottom: 300px;
+    background-color: #E9EFDE;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.tbs-category {
+    display: flex;
+    justify-content: space-between;
+    max-width: var(--contain-max-width);
+    margin: 0 auto;
+    gap: 2em;
+}
+
+.tbs-category .tbs-category-item {
+    flex: 1;
+    text-align: center;
+    font-size: 600;
+}
+
+.tbs-category .tbs-category-item .categorie-image {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    padding: 13px;
+    background-color: #E9EFDE;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 75%;
+    margin: auto;
+    margin-bottom: 17px;
+}
+
+.tbs-category .tbs-category-item a {
+    color: var(--color-black);
+    font-weight: 800;
+}
+
+.tbs-category .tbs-category-item a:hover {
+    text-decoration: none;
+}
+
+.tbs-category .tbs-category-item.produits .categorie-image {
+    background-image: url(/Tournesol_custom/images/categorie-produits.png);
+    background-color: #d1e1b5;
+}
+
+.tbs-category .tbs-category-item.sante .categorie-image {
+    background-image: url(/Tournesol_custom/images/categorie-sante.png);
+    background-color: #b6c74e;
+}
+
+.tbs-category .tbs-category-item.cosmetiques .categorie-image {
+    background-image: url(/Tournesol_custom/images/categorie-cosmetiques.png);
+    background-color: #73bd3f;
+}
+
+.tbs-category .tbs-category-item.epicerie .categorie-image {
+    background-image: url(/Tournesol_custom/images/categorie-epicerie.png);
+    background-color: #548b4f;
+    background-size: 55%;
+}
+
+
+/** PRODUITS ACCUEIL */
+.customProduct {
+    border-radius: 8px;
+    padding: 14px;
+    -webkit-box-shadow: 8px 2px 7px -4px rgba(199, 199, 199, 0.73);
+    box-shadow: 6px 6px 5px -4px rgba(199, 199, 199, 0.73);
+    border: solid 2px #e8e8e8;
+}
+
+.customProduct:hover {
+    border: solid 2px var(--color-yellow);
+}
+
+.customProduct .titre {
+    font-weight: 600;
+    padding-top: 15px
+}
+
+.customProduct .produit-image {}
+
+.customProduct .prix {
+    padding-top: 24px;
+}
+
+.customProduct img.product-image-primary {
+    border: 0;
+}
+
+
+
+/** PRODUITS LISTING */
+.single-product-flex {
+    border-radius: 8px;
+    padding: 14px;
+    -webkit-box-shadow: 8px 2px 7px -4px rgba(199, 199, 199, 0.73);
+    box-shadow: 6px 6px 5px -4px rgba(199, 199, 199, 0.73);
+    border: solid 2px #e8e8e8;
+    padding-top: 45px;
+}
+
+.single-product-flex:hover {
+    border: solid 2px var(--color-yellow);
+}
+
+.single-product-flex:hover .product-add-to-cart {
+    background-color: var(--color-yellow2);
+}
+
+.single-product-flex a {
+    color: var(--color-black);
+    text-decoration: none;
+}
+
+.single-product-flex .titre {
+    font-weight: 600;
+    padding-top: 15px
+}
+
+.single-product-flex .product-brand {
+    font-size: 0.9em;
+
+}
+
+.single-product-flex .prix {
+    padding-top: 24px;
+}
+
+.single-product-flex img {
+    border: 0;
+}
+
+.listing-produits>div {
+    margin-bottom: 52px;
+}
+
+.single-product-flex .product-add-to-cart {
+    background-image: url(/Tournesol_custom/images/icons8-caddie-96.png);
+    background-color: var(--color-green);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 68%;
+    background-position-x: 6px;
+    background-position-y: 6px;
+    height: 33px;
+    width: 33px;
+    border-radius: 33px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+
+.single-product-flex .proIcon {
+    z-index: auto;
+    left: 5px;
+    right: auto;
+}
+
+.single-product-flex .proIcon .proMsg {
+    width: 75px;
+    text-wrap: wrap;
 }

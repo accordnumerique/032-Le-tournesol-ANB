@@ -1,10 +1,26 @@
-<div class="tbs-menu">
-    <div class="tbs-logo">
+<div class="tbs-menu-container">
+    <div class="tbs-menu">
+        <div class="tbs-logo">
+            <a href="javascript:document.location=window.location.pathname.substr(0,3)"><img src="/Tournesol_custom/images/logo-200.webp" /></a>
+        </div>
+        <div class="tbs-menuitem">
+            <span class="items"></span>
 
-        <a href="javascript:document.location=window.location.pathname.substr(0,3)"><img src="/Tournesol_custom/images/logo-200.webp" /></a>
-    </div>
-    <div class="tbs-menuitem"></div>
-    <div class="tbs-connect">
-        <a href="/fr/Login.aspx">Se connecter</a>
+            <span class="tbs-hide-en">
+                <span><a href="/fr/Nouveautes" class="TextNouveaute"><i aria-hidden="true" class="fa fa-star-o"></i>Nouveautés</a></span>
+                <span><a href="/fr/Rabais" class="TextPromotion"><i aria-hidden="true" class="fa fa-clock-o"></i>Promotions</a></span>
+                <span><a href="/fr/Liquidation" class="TextLiqudation"><i aria-hidden="true" class="fa fa-gift"></i>Liquidations</a></span>
+            </span>
+            <span class="tbs-hide-fr">
+                <span><a href="/en/Latest" class="TextNouveaute"><i aria-hidden="true" class="fa fa-star-o"></i>New products</a></span>
+                <span><a href="/en/Discount" class="TextPromotion"><i aria-hidden="true" class="fa fa-clock-o"></i>Discount</a></span>
+                <span><a href="/en/Liquidation" class="TextLiqudation"><i aria-hidden="true" class="fa fa-gift"></i>Sale</a></span>
+            </span>
+        </div>
+        <div class="tbs-connect">
+            <span id="divSignIn-move"></span>
+            <span id="lnkWishlist-move"></span>
+            <span id="lnkViewCart-move"></span>
+        </div>
     </div>
 </div>
