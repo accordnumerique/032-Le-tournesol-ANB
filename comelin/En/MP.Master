@@ -11,9 +11,29 @@
 		<meta name="theme-color" content="#DF660B">
 		<asp:ContentPlaceHolder ID="head" runat="server">
 		</asp:ContentPlaceHolder>
+
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-MCR5655B');</script>
+		<!-- End Google Tag Manager -->
+		<script src="/tournesol_custom/tournesol.js"></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 	</head>
 
 	<body>
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-MCR5655B');</script>
+		<!-- End Google Tag Manager -->
+
 		<form id="form1" runat="server">
 			<asp:ScriptManager ID="ScriptManager1" runat="server" EnableCdn="true" ScriptMode="Release">
 			</asp:ScriptManager>
@@ -342,6 +362,7 @@
 				<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"
 					defer>
 				<asp:Literal runat="server" EnableViewState="False" ID="customCSS"></asp:Literal>
+				<link href="/tournesol_custom/tournesol.css" rel="stylesheet" type="text/css">
 		</form>
 	</body>
 

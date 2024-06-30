@@ -1,0 +1,64 @@
+body {
+    font-family: "Inter", sans-serif;
+}
+
+#topbar {
+    background-color: #313320;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    font-size: 1.3em;
+}
+#topbar .container .divSearch {
+    display: none;
+}
+#topbar .container .divSignIn {
+    display: none;
+}
+
+
+
+
+.tbs-menu {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap:2em;
+}
+.tbs-menu .tbs-logo {
+    flex: 1;
+    max-height: 114px;
+}
+.tbs-menu .tbs-logo img {
+    width:100%
+}
+.tbs-menu .tbs-menuitem {
+    flex:4;
+    text-align: center;
+}
+.tbs-menu .tbs-menuitem .navbar-nav {
+    display: inline;
+}
+.tbs-menu .tbs-menuitem .navbar-nav .nav-item {
+    display: inline;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+
+
+.tbs-menu .tbs-connect {
+    flex: 1;
+}
+.tbs-menu .tbs-connect a {
+    background-image: url(/Tournesol_custom/images/icon8-user.png);
+    background-repeat: no-repeat;
+    display: block;
+    background-size: contain;
+    font-weight: bolder;
+    color: #548B4F;
+    padding-left: 32px;
+}
