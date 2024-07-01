@@ -8,12 +8,18 @@
 
 
 
-/** Elements to hide */
+/** Elements to hide 
+
 #mNPL,
 #top-logo,
+#menu-top
+
+*/
+
 #topbar .container .divSearch,
-#topbar .container .divSignIn,
-#menu-top {
+#topbar .container .divSignIn
+ {
+    display: none;
 }
 
 .container-fluid {
@@ -104,63 +110,8 @@ body.text-hide-en .tbs-hide-en {
 }
 
 /** MENU */
-.tbs-menu-container {}
-
-.tbs-menu {
-    display: flex;
-    justify-content: space-between;
-    max-width: var(--contain-max-width);
-    margin: 0 auto;
-    gap: 2em;
-}
-
-.tbs-menu .tbs-logo {
-    flex: 1;
-    max-height: 114px;
-    text-align: center;
-}
-
-.tbs-menu .tbs-logo img {
-    width: auto;
-    max-height: 100%;
-    max-width: 100%;
-    height: auto;
-}
-
-.tbs-menu .tbs-menuitem {
-    flex: 4;
-    text-align: center;
-    margin: auto;
-}
-
-.tbs-menu .tbs-menuitem .navbar-nav {
-    display: inline;
-}
-
-.tbs-menu .tbs-menuitem .navbar-nav .nav-item {
-    display: inline;
-    padding-right: 20px;
-    padding-left: 20px;
-}
-
-.tbs-menu .tbs-connect {
-    flex: 1;
-    margin: auto;
-}
-
-.tbs-menu .tbs-connect a .Login {
-    background-image: url(/Tournesol_custom/images/icon8-user.png);
-    background-repeat: no-repeat;
-    display: block;
-    background-size: contain;
-    font-weight: bolder;
-    color: #548B4F;
-    padding-left: 32px;
-}
-
-
-.tbs-menu .divSignIn a:hover {
-    text-decoration: none;
+.navbar .navbar-nav li.nav-item  {
+    border:0;
 }
 
 /** HERO */
