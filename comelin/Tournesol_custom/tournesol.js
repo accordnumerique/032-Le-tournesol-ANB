@@ -2,35 +2,23 @@
 {
     function onDOMContentLoaded()
     {
-        var currentLang = window.location.pathname.substring(0, 3) || "fr";
-        document.getElementsByTagName("body")[0].classList.add("text-hide-" + (currentLang == "fr" ? "en" : "fr"));
+        $("#tbs-search").keyup(function(e){
+            if(e.keyCode == 13)
+            {
+                document.location = window.location.pathname.substring(0, 3) + "/" + e.currentTarget.value + "-q";
+            }
+        });
+
+        var currentLang = window.location.pathname.substring(1, 3) || "fr";
+        $("body").addClass("text-hide-" + (currentLang == "fr" ? "en" : "fr"));
+
 
         if (window.location.pathname.toLocaleLowerCase() === "/fr/" ||
             window.location.pathname.toLocaleLowerCase() === "/en/")
         { 
-            document.getElementsByTagName("body")[0].classList.add("page-home");
+            $("body").addClass("page-home");
         }
-
-        document.getElementById("search-top").autofocus = false;
-        moveElement("#search-top", "#search-top-move");
-        moveElement("#lnkWishlist", "#lnkWishlist-move");
-        moveElement("#lnkViewCart", "#lnkViewCart-move");
     } // onDOMContentLoaded
-
-    function moveElement(selectorOrigin, selectorDestination) {
-        var elementOrigin = document.querySelector(selectorOrigin);
-        if (!elementOrigin)
-        {
-            return;
-        }
-
-        var elementDestination = document.querySelector(selectorDestination);
-        if (!elementDestination)
-        {
-            return;
-        }
-        elementDestination.appendChild(elementOrigin);
-    }
 
     document.addEventListener('DOMContentLoaded', onDOMContentLoaded);
 }());

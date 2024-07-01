@@ -14,13 +14,12 @@
 #top-logo,
 #menu-top
 
-*/
-
 #topbar .container .divSearch,
 #topbar .container .divSignIn
  {
     display: none;
 }
+*/
 
 .container-fluid {
     padding: 0;
@@ -63,23 +62,6 @@ body.text-hide-en .tbs-hide-en {
     padding: initial;
 }
 
-#footer {
-    background-color: var(--color-green);
-    color: #fff;
-}
-
-#footer a {
-    color: #fff;
-}
-
-#footer #sections {
-    padding-top: 10px;
-}
-
-#footer .zone-infolettre {
-    background-color: var(--color-yellow);
-}
-
 #footer #categories a {
     padding-bottom: 4px;
     display: block;
@@ -90,8 +72,9 @@ body.text-hide-en .tbs-hide-en {
 .btn-primary:active {
     background-color: var(--color-yellow2) !important;
     border: 0 !important;
-    color:var(--color-black);
+    color: var(--color-black);
 }
+
 .btn-primary:hover {
     background-color: var(--color-yellow2) !important;
     border: 0 !important;
@@ -109,9 +92,81 @@ body.text-hide-en .tbs-hide-en {
     font-size: 1.3em;
 }
 
+#topbar .container .divSearch {
+    color: #fff;
+    font-size: 10px;
+    letter-spacing: normal;
+    text-wrap: nowrap;
+}
+
+#topbar .container .divSignIn .Login {
+    color: #fff;
+    font-size: 10px;
+    letter-spacing: normal;
+    text-wrap: nowrap;
+}
+
+/** FOOTER */
+
+
+
+#footer {
+    background-color: var(--color-green);
+    color: #fff;
+    margin-top: 30vh;
+}
+
+#footer a {
+    color: #fff;
+}
+
+#footer #sections {
+    padding-top: 10px;
+}
+
+#footer .zone-infolettre {
+    background-color: var(--color-yellow);
+}
+
+@media (max-width: 1200px) {
+
+    #footer #infolettre .newsletter {
+        display: block;
+    }
+
+    #footer .zone-infolettre #media-sociaux {
+        margin-top: 5vh;
+        float: none;
+    }
+}
+
+@media (max-width: 770px) {
+
+    #footer #infolettre .newsletter .btn-ok {
+        margin-top: 16px;
+        margin-left: 5px;
+        display: block;
+        width: fit-content;
+    }
+}
+
 /** MENU */
-.navbar .navbar-nav li.nav-item  {
-    border:0;
+.navbar .navbar-nav li.nav-item {
+    border: 0;
+}
+
+.navbar .dropdown-menu .dropdown-item {
+    color: #b6c74e;
+}
+
+/** PAGES */
+#breadcrumb {
+    padding-top: 50px;
+    padding-bottom: 22px;
+}
+
+#menu-left h3 {
+    font-size: 16px;
 }
 
 /** HERO */
@@ -122,6 +177,8 @@ body.text-hide-en .tbs-hide-en {
 
 .tbs-hero {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-between;
     max-width: var(--contain-max-width);
     margin: 0 auto;
@@ -166,6 +223,18 @@ body.text-hide-en .tbs-hide-en {
     font-size: 1.1em;
 }
 
+@media (max-width: 700px) {
+    .tbs-hero {
+        flex-wrap: wrap-reverse;
+    }
+
+    .tbs-hero .tbs-hero-text,
+    .tbs-hero .tbs-hero-picture {
+        flex: 1 1 100%;
+        /* Make each item take full width on small screens */
+    }
+}
+
 
 /** RECHERCHE */
 .tbs-recherche-container {
@@ -174,10 +243,14 @@ body.text-hide-en .tbs-hide-en {
     background-color: var(--color-green);
     padding-top: 100px;
     padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .tbs-recherche {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-between;
     max-width: var(--contain-max-width);
     margin: 0 auto;
@@ -197,7 +270,7 @@ body.text-hide-en .tbs-hide-en {
     flex: 1;
 }
 
-.tbs-recherche .tbs-recherche-control #search-top {
+.tbs-recherche .tbs-recherche-control #tbs-search {
     display: block;
     border-radius: 100px;
     border: 0px;
@@ -212,9 +285,19 @@ body.text-hide-en .tbs-hide-en {
     width: 100%;
 }
 
+@media (max-width: 700px) {
+    .tbs-recherche {
+        flex-wrap: wrap;
+    }
+
+    .tbs-recherche .tbs-recherche-control,
+    .tbs-recherche .tbs-recherche-text {
+        flex: 1 1 100%;
+        /* Make each item take full width on small screens */
+    }
+}
+
 /** CATÉGORIES */
-
-
 .tbs-category-container {
     margin-top: 300px;
     margin-bottom: 300px;
@@ -225,6 +308,8 @@ body.text-hide-en .tbs-hide-en {
 
 .tbs-category {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-between;
     max-width: var(--contain-max-width);
     margin: 0 auto;
@@ -278,6 +363,17 @@ body.text-hide-en .tbs-hide-en {
     background-image: url(/Tournesol_custom/images/categorie-epicerie.png);
     background-color: #548b4f;
     background-size: 55%;
+}
+
+@media (max-width: 700px) {
+    .tbs-category {
+        flex-wrap: wrap;
+    }
+
+    .tbs-category .tbs-category-item {
+        flex: 1 1 30%;
+        /* Make each item take full width on small screens */
+    }
 }
 
 
