@@ -27,7 +27,7 @@
 
 
 /** COMMUN */
-body {
+body.tbs-body {
     font-family: "Inter", sans-serif;
 }
 
@@ -37,6 +37,14 @@ body.text-hide-fr .tbs-hide-fr {
 
 body.text-hide-en .tbs-hide-en {
     display: none;
+}
+
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Inter", sans-serif;
 }
 
 .page-home h1,
@@ -233,6 +241,107 @@ body.text-hide-en .tbs-hide-en {
         flex: 1 1 100%;
         /* Make each item take full width on small screens */
     }
+}
+
+
+/** MENU V2 */
+.tbs-menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: var(--contain-max-width);
+    margin: 0 auto;
+    gap: 2em;
+}
+
+.tbs-logo {
+    flex: 1;
+}
+
+.tbs-logo img {
+    max-height: 100px;
+    margin: 1vw;
+}
+
+.tbs-menuitem {
+    align-content: center;
+    flex: 7;
+}
+.tbs-menuitem input#search-top {
+    width: 100%;
+    border-radius: 8px;
+    padding: 14px;
+    -webkit-box-shadow: 8px 2px 7px -4px rgba(199, 199, 199, 0.73);
+    box-shadow: 6px 6px 5px -4px rgba(199, 199, 199, 0.73);
+    border: solid 2px var(--color-yellow2);
+}
+
+.tbs-menuitem-div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tbs-menuitem-div ul {
+    list-style-type: none;
+}
+
+.tbs-menuitem-div>div {
+    text-align: center;
+    flex: 1;
+    margin: 14px;
+}
+
+.tbs-menuitem-div>div:hover>ul {
+    display: block;
+}
+
+.tbs-menuitem-div ul {
+    display: none;
+    position: absolute;
+    background: #fff;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    min-width: 200px;
+}
+
+.tbs-menuitem-div ul li {
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.tbs-menuitem-div ul li a {
+    font-weight: normal;
+}
+
+.tbs-menuitem-div a {
+    color: var(--color-black);
+    font-weight: bold;
+}
+
+.tbs-menuitem-div .tbs-menuitem-menuspecial a {
+    font-weight: normal;
+}
+
+.tbs-container-cp {
+    max-width: 2000px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin: auto;
+}
+
+
+.tbs-connect {
+    flex: 1;
+    align-content: center;
+    text-align: right;
+    padding-right: 2vw;
+    min-width: 156px;
+}
+
+.tbs-connect .divSearch {
+    display: block;
 }
 
 

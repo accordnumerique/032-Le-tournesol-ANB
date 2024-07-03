@@ -1,0 +1,370 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" Inherits="WebSite.MP" CodeBehind="~/Fr/MP.Master.cs" %>
+	<!DOCTYPE html>
+	<html lang="fr">
+
+	<head runat="server">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdn.comelin.com/cdn/bootstrap4-large-grid.min.css">
+		<link href="/css/comelin2018.min.css" rel="stylesheet" type="text/css" runat="server" id="linkCSS" />
+		<meta name="theme-color" content="#DF660B">
+		<asp:ContentPlaceHolder ID="head" runat="server">
+		</asp:ContentPlaceHolder>
+
+		<!-- Google Tag Manager -->
+		<script>(function (w, d, s, l, i)
+			{
+				w[l] = w[l] || []; w[l].push({
+					'gtm.start':
+						new Date().getTime(), event: 'gtm.js'
+				}); var f = d.getElementsByTagName(s)[0],
+					j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+						'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+			})(window, document, 'script', 'dataLayer', 'GTM-MCR5655B');</script>
+		<!-- End Google Tag Manager -->
+		<script src="/tournesol_custom/tournesol.js"></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+		<!-- Google Tag Manager -->
+		<script>(function (w, d, s, l, i)
+			{
+				w[l] = w[l] || []; w[l].push({
+					'gtm.start':
+						new Date().getTime(), event: 'gtm.js'
+				}); var f = d.getElementsByTagName(s)[0],
+					j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+						'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+			})(window, document, 'script', 'dataLayer', 'GTM-MCR5655B');</script>
+		<!-- End Google Tag Manager -->
+
+
+
+
+		<form id="form1" runat="server">
+			<asp:ScriptManager ID="ScriptManager1" runat="server" EnableCdn="true" ScriptMode="Release">
+			</asp:ScriptManager>
+			<div id="b" <%=VCloak %>>
+				<div id="topbar">
+					<div id="top-bar-container" class="container">
+						<div class="divSearch">
+							<i class="fa fa-search" data-toggle="collapse" data-target=".search-toogle" alt="Recherche" class="img-search"></i>
+							<span class="search-toogle show" data-toggle="collapse" data-target=".search-toogle">Recherche</span>
+							<input class="search-toogle collapse" @keyup.enter="search" autofocus id="search-top" type="search" />
+						</div>
+
+						<div class="customMessage">
+							<h>TopBanner</h>
+						</div>
+
+						<div class="divSignIn">
+							<a :href="urlWithLang('Login.aspx')" v-if="!session.IsLogged">
+								<t>Login</t>
+							</a>
+							<a :href="urlWithLang('Account.aspx')" v-if="session.IsLogged"><span>Compte</span></a>
+							<a :href="urlWithLang('Login.aspx?action=Logout')" title="Se déconnecter" v-if="session.IsLogged"><i class="fa fa-sign-out"></i></a>
+							<template v-if="bilingual">
+								<a :href="urlBilingual" class="lang-switcher">EN</a>
+							</template>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row no-gutters" id="menu-top">
+						<div class="col-2 col-lg-1 d-lg-none">
+							<!-- menu in mobile -->
+							<nav class="navbar navbar-light mobile d-lg-none">
+								<div data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Afficher la navigation">
+									<span class="navbar-toggler-icon"></span>
+								</div>
+							</nav>
+							<span data-toggle="modal" data-target="#store-picker" class="container-open-filter-by-store" style="display: none"><i class="fa fa-map-marker"></i></span>
+						</div>
+						<div class="d-none d-lg-block col-lg-2 ">
+							<span class="btn btn-default container-open-filter-by-store" data-toggle="modal" data-target="#store-picker" style="display: none"><i class="fa fa-map-marker"></i> <span id="cmdOpenFilterByStore">Sélection du magasin</span>
+							</span><br />
+						</div>
+						<div class="col" id="top-logo">
+							<a :href="urlWithLang('')">
+								<h>Logo</h>
+							</a>
+						</div>
+						<div class="col-1 d-lg-none d-lg-none">
+							<i class="fa fa-search" data-toggle="collapse" href="#divSearchOpen"></i>
+						</div>
+						<div class="col-1 d-lg-none d-lg-none" style="white-space:nowrap">
+							<a :href="urlWithLang('POS_VoirListeCadeaux.aspx')" v-if="wishList"><i class="fa fa-gift"></i></a>
+							<a :href="urlWithLang('POS_Sommaire.aspx')"><i class="fa fa-shopping-cart"></i></a>
+						</div>
+						<div class="d-none d-lg-block col-lg-2  text-right">
+							<a :href="urlWithLang('POS_VoirListeCadeaux.aspx')" id="lnkWishlist" v-if="wishList"><i class="fa fa-gift"></i><span v-if="wishList.NbItems > 0" class="badge badge-pill badge-secondary">{{wishList.NbItems}}</span></a>
+							<a :href="urlWithLang('POS_Sommaire.aspx')" id="lnkViewCart"><i class="fa fa-shopping-cart"></i><span v-if="cart.NbItems > 0" class="badge badge-pill badge-secondary">{{cart.NbItems}}</span></a>
+						</div>
+
+						<div class="col-12 d-lg-none mobile">
+							<div id="navbarSupportedContent" class="navbar-collapse collapse">
+								<div v-for="cat in categories" class="nav-item" :class="{'dropdown': cat.SubCategories}">
+									<div class="btn-group">
+										<a :href="cat.Url">{{cat.Title}}</a>
+										<span v-if="cat.SubCategories" class="dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></span>
+
+										<div v-if="cat.SubCategories" class="dropdown-menu">
+											<a v-for="subcat in cat.SubCategories" class="dropdown-item" :href="subcat.Url">{{subcat.Title}}</a>
+										</div>
+
+									</div>
+								</div>
+								<hr />
+								<div class="row">
+									<div class="col">
+										<a :href="urlWithLang('Login.aspx')" v-if="!session.IsLogged"><span>Se
+												connecter</span></a>
+										<a :href="urlWithLang('Account.aspx')" v-if="session.IsLogged"><span>Compte</span></a>
+										<a :href="urlWithLang('Login.aspx?action=Logout')" title="Se déconnecter" v-if="session.IsLogged"><i class="fa fa-sign-out"></i></a>
+									</div>
+									<div class="col text-right" v-if="bilingual">
+										<a :href="urlBilingual" class="lang-switcher">EN</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12" id="search-result">
+							<div id="divSearchOpen" class="collapse dropdown">
+								<div class="row">
+									<div class="col" id="btnSearchClose"><i class="fa fa-times" data-toggle="collapse" href="#divSearchOpen"></i></div>
+								</div>
+								<input id="search" type="search" autofocus />
+								<button id="btnSearch" class="btn btn-primary">Rechercher</button>
+							</div>
+						</div>
+
+						<div class="col-12 d-none d-lg-block"><!-- menu in desktop -->
+							<nav class="navbar navbar-expand-md navbar-light">
+								<ul class="navbar-nav">
+									<li v-for="cat in categories" class="nav-item" :class="{'dropdown': cat.SubCategories}">
+										<a :href="cat.Url">{{cat.Title}}</a>
+										<div v-if="cat.SubCategories" class="dropdown-menu">
+											<a v-for="subcat in cat.SubCategories" class="dropdown-item" :href="subcat.Url">{{subcat.Title}}</a>
+										</div>
+									</li>
+									<li v-if="brandLeading" class="nav-item dropdown">
+										<span>Marques</span>
+										<div class="dropdown-menu">
+											<a v-for="brand in brandLeading" class="dropdown-item" :href="brand.Url">{{brand.Title}}</a>
+										</div>
+									</li>
+								</ul>
+							</nav>
+						</div><!-- fin menu desktop -->
+					</div>
+					<div class="row text-center" id="mNPL">
+						<div class="col">
+							<div><a :href="urlWithLang('Nouveautes')" class="TextNouveaute"><i class="fa fa-star-o" aria-hidden="true"></i>Nouveautés</a></div>
+							<div><a :href="urlWithLang('Rabais')" class="TextPromotion"><i class="fa fa-clock-o" aria-hidden="true"></i>Promotions</a></div>
+							<div><a :href="urlWithLang('Liquidation')" class="TextLiqudation"><i class="fa fa-gift" aria-hidden="true"></i>Liquidations</a></div>
+						</div>
+					</div>
+					<div class="row justify-content-between" id="breadcrumb" v-if="listing">
+						<div class="col">
+							<ol class="breadcrumb">
+								<li class="breadcrumb-item"><a :href="urlWithLang('')"><i class="fa fa-home"></i></a>
+								</li>
+								<li v-for="(b, index) in listing.Breadcrumb" class="breadcrumb-item" :class="{active: !b.Url}">
+									<a :href="b.Url">{{b.Title}}</a>
+								</li>
+							</ol>
+							<%= RenderRemoveFilters %>
+						</div>
+						<div class="col-auto">
+							<div id="div-sorting">
+								<select onchange="selectNavigateTo(this)" id="lstSorting" runat="server" ClientIDMode="Static">
+									<option value="Default">Classez par</option>
+									<option value="ByPriceAscending">Prix</option>
+									<option value="ByName">Par Nom</option>
+									<option value="ByBrand">Par Marque</option>
+									<option value="ByDate">Par Date</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					<%= UserMessage.Write() %>
+						<asp:ContentPlaceHolder ID="cp" runat="server">
+						</asp:ContentPlaceHolder>
+				</div>
+				<div id="footer">
+					<div class="zone-infolettre">
+						<div class="container">
+							<div id="infolettre">
+								<h3>
+									<t>Newsletter</t>
+								</h3>
+								<newsletter-subscribe></newsletter-subscribe>
+							</div>
+							<div id="media-sociaux">
+								<h3>
+									<t>FollowUs</t>
+								</h3>
+								<a v-if="facebook" target="_blank" :href="'https://www.facebook.com/' + facebook" class="fa-stack fa-lg" id="facebook" rel="noopener">
+									<i class="fa fa-circle fa-stack-2x"></i>
+									<i class="fa fa-facebook fa-stack-1x"></i>
+								</a>
+								<a target="_blank" v-if="instagram" :href="'https://www.instagram.com/' + instagram" class="fa-stack fa-lg" id="instagram" rel="noopener">
+									<i class="fa fa-circle fa-stack-2x"></i>
+									<i class="fa fa-instagram fa-stack-1x"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="container" id="sections">
+						<div class="row">
+							<div class="col-12 col-sm-6 col-lg" id="categories">
+								<h3>
+									<t>Department</t>
+								</h3>
+								<a v-for="cat in categories" :href="cat.Url">{{cat.Title}}<br /></a>
+							</div>
+							<div class="col-12 col-sm-6 col-lg" id="contact">
+
+								<h3>Contact</h3>
+								<a v-if="email" :href="'mailto:'+ email">{{email}}</a>
+								<a v-if=tel :href="'tel:' + tel">{{tel}}</a>
+								<div><a v-if=address :href="addressLink" id=address>{{address}}</a></div>
+								<a v-if="facebook" :href="'https://www.facebook.com/' + facebook">Facebook <i class="fa fa-facebook-official" aria-hidden="true"></i></a><br />
+								<a v-if="instagram" :href="'https://www.instagram.com/' + instagram">Instagram <i class="fa fa-instagram" aria-hidden="true"></i></a>
+							</div>
+							<div class="col-12 col-sm-6 col-lg" id="information">
+								<h3>Information</h3>
+								<template v-if="genericPages" v-for="p in genericPages">
+									<a :href="p.Url">{{p.Title}}</a><br />
+								</template>
+							</div>
+							<div class="col-12 col-sm-6 col-lg" id="open-hours" v-if="storeOpenHours">
+								<h3>
+									<t>OpenHours</t>
+								</h3>
+								<div v-for="openingHours in storeOpenHours">
+									<open-hours :openingHours="openingHours" :multistore="storeOpenHours.length > 1"></open-hours>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+
+				</div>
+				<a id="lnkToTop" class="visibleBottom" href="#b">
+					<i class="fa fa-chevron-up" aria-hidden="true"></i>
+				</a>
+				<div id="footer-copyright">
+					<div class="container">
+						<div id="seo-comelin"><a href="https://www.comelin.com/" target="_blank">Logiciel de caisse et
+								solution e-commerce synchronisés Comelin | Commerce de détail</a></div><br />
+						<span>© <t>YearCurrent</t>
+							<t>CompanyName</t> - <t>AllRightReserves</t>
+						</span>
+					</div>
+				</div>
+
+				<!-- Notification lorsque ajouté au panier -->
+				<div v-if="cart" id="cart-notification" class="notification">
+					<div class="t">Dans votre panier</div>
+					<div class="row">
+						<div class="col-4">
+							<img id="cart-recent-item-image" :src="cart.LastProductAddedImage" />
+						</div>
+						<div class="col-8" id="cart-recent-item">
+							<div id="cart-recent-item-title">{{ cart.LastProductAddedTitle }}</div>
+							<div id="cart-recent-item-price">{{ cart.LastProductAddedPrice }}</div>
+						</div>
+					</div>
+					<div id="nb-item">
+						<span class="cart-nb-items">{{cart.NbItems }}</span>article(s) dans votre panier
+					</div>
+					<div id="subtotal">Sous-total: <span class="cart-items-total">{{formatPrice(cart.ItemsTotal)}}</span></div>
+					<a :href="urlWithLang('POS_Sommaire.aspx')" class="btn btn-primary">Détails du panier</a>
+				</div>
+				<div v-if="wishList" id="wishlist-notification" class="notification">
+					<div class="t">Liste cadeaux</div>
+					<div class="row" v-if="wishList.LastProductAddedTitle">
+						<div class="col-4">
+							<img id="cart-recent-item-image" :src="wishList.LastProductAddedImage" />
+						</div>
+						<div class="col-8" id="cart-recent-item">
+							<div id="cart-recent-item-title">{{ wishList.LastProductAddedTitle }}</div>
+							<div id="cart-recent-item-price">{{ formatPrice(wishList.LastProductAddedPrice) }}</div>
+						</div>
+					</div>
+					<div id="nb-item">
+						<span class="cart-nb-items">{{wishList.NbItems }}</span>articles(s) dans votre liste
+					</div>
+					<a :href="urlWithLang('POS_VoirListeCadeaux.aspx')" class="btn btn-primary">Voir liste</a>
+				</div>
+
+
+				<div id="store-picker" class="modal fade" role="dialog">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title">Choisir votre magasin</h4>
+							</div>
+							<div class="modal-body">
+								<span id="other-stores" data-text=''></span>
+							</div>
+							<div class="modal-footer">
+								<button type="button" id="cmdStorePreference" class="btn btn-default" data-dismiss="modal">
+									<t>Apply</t>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+			</div> <!-- end of b -->
+
+			<div id="postalcodehidden" style="display:none;visibility:hidden;">
+				<t>postalCodeShipping</t>
+			</div>
+
+			<a id="lnkLang" runat="server" Visible="False"></a>
+			<%= JavaScriptScriptsInclude %>
+
+
+				<asp:ContentPlaceHolder ID="cpFooter" runat="server">
+				</asp:ContentPlaceHolder>
+				<script src="/js/comelin.js<%=JsVersion %>" type="text/javascript"></script>
+				<script>
+					comelin.load();
+				</script>
+
+				<script src="/Tournesol_package/js/GestionCodePostal.js"></script>
+
+				<style>
+					#divPopup .modal-body {
+						position: relative;
+					}
+
+					#divPopup .modal-body #txtNewsletterPopup {
+						position: absolute;
+						bottom: 31px;
+						right: 57px;
+						width: 317px;
+						border: 0;
+					}
+				</style>
+
+<!-- a -->
+				<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" defer>
+				<!-- b -->
+				<asp:Literal runat="server" EnableViewState="False" ID="customCSS"></asp:Literal>
+<!-- c -->
+				<link href="/tournesol_custom/tournesol.css" rel="stylesheet" type="text/css">
+		</form>
+	</body>
+
+	</html>
