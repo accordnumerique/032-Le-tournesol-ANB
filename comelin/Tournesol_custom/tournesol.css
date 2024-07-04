@@ -26,7 +26,8 @@
 
 /** COMMUN */
 body.tbs-body {
-    font-family: "Inter", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
 }
 
 body.text-hide-fr .tbs-hide-fr {
@@ -37,12 +38,15 @@ body.text-hide-en .tbs-hide-en {
     display: none;
 }
 
+.tbs-body a {
+    text-decoration: none;
+}
 
 h1,
 h2,
 h3,
 h4 {
-    font-family: "Inter", sans-serif;
+    font-family: "League Spartan", 'Inter', sans-serif;
 }
 
 .page-home h1,
@@ -54,12 +58,28 @@ h4 {
     color: var(--color-black);
     text-align: center;
     text-transform: uppercase;
-    font-family: 'Inter', sans-serif;
+    font-family: "League Spartan", 'Inter', sans-serif;
     letter-spacing: 2px;
     text-decoration: none;
     padding: 36px;
     padding-right: 0;
     padding-left: 0;
+}
+
+.tbs-container {
+    max-width: 2000px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin: auto;
+    padding-bottom: 5vh;
+}
+
+.page-home .tbs-container {
+    padding: 0;
+}
+
+#module-banners {
+    margin-top: 0;
 }
 
 /** Search */
@@ -82,7 +102,7 @@ h4 {
 #search-top,
 #tbs-search {
     width: 100%;
-    border-radius: 8px;
+    border-radius: 40px;
     padding: 14px;
     border: solid 2px var(--color-green);
     position: relative;
@@ -96,6 +116,7 @@ h4 {
     z-index: 20;
     position: relative;
     padding-right: 52px;
+    margin-bottom: 16px;
 }
 
 
@@ -150,19 +171,29 @@ h4 {
     font-size: 1.3em;
 }
 
-#topbar .container .divSearch {
-    color: #fff;
-    font-size: 10px;
-    letter-spacing: normal;
+.tbs-menuitem-div>div.divSignIn {
+    background-image: url(./images/icon8-user.png);
+    background-repeat: no-repeat;
+    background-size: 39px;
+    background-position: left;
+    height: 48px;
+    background-position-x: 3px;
+    vertical-align: middle;
+    align-content: center;
+    font-weight: 700;
+    border: 2px solid var(--color-green);
+    border-radius: 40px;
+    text-align: left;
+    padding-left: 44px;
     text-wrap: nowrap;
+    padding-right: 12px;
+    margin-top: 3px;
 }
 
-#topbar .container .divSignIn .Login {
-    color: #fff;
-    font-size: 10px;
-    letter-spacing: normal;
-    text-wrap: nowrap;
+.divSignIn a .Login {
+    color: var(--color-green);
 }
+
 
 /** FOOTER */
 
@@ -230,7 +261,6 @@ h4 {
 /** HERO */
 .tbs-hero-container {
     background-color: var(--color-yellow);
-    margin-top: 125px;
 }
 
 .tbs-hero {
@@ -259,26 +289,39 @@ h4 {
 
 .tbs-hero .tbs-hero-text {
     flex: 1;
-    padding-top: 29px;
+    padding-top: 55px;
     padding-bottom: 29px;
+    padding-left: 33px;
 }
 
 .tbs-hero .tbs-hero-text .tbs-hero-text-tournesol {
     text-transform: uppercase;
-    font-weight: 700;
-    font-size: 3em;
+    font-size: 31px;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
 }
 
 .tbs-hero .tbs-hero-text .tbs-hero-text-aliment {
-    font-weight: 800;
-    font-size: 4em;
+    font-size: 55px;
     line-height: 0.9;
-    margin-top: 0.2em;
-    margin-bottom: 0.4em;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
 }
 
 .tbs-hero .tbs-hero-text .tbs-hero-text-detail {
     font-size: 1.1em;
+}
+
+
+.tbs-hero .tbs-hero-text .tbs-hero-text-detail a {
+    color: var(--color-black);
+    padding-top: 17px;
+    display: block;
+    font-weight: 700;
 }
 
 @media (max-width: 700px) {
@@ -331,7 +374,6 @@ h4 {
 
 .tbs-menuitem-div>div {
     text-align: center;
-    flex: 1;
     margin: 14px;
 }
 
@@ -367,33 +409,28 @@ h4 {
     font-weight: normal;
 }
 
-.tbs-container {
-    max-width: 2000px;
-    padding-left: 1vw;
-    padding-right: 1vw;
-    margin: auto;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+.tbs-menuitem-div .tbs-menuitem-cart a {
+    font-weight: bold;
+    text-wrap: nowrap;
+    color: #fff;
+    background-color: var(--color-green);
+    padding: 14px;
+    border-radius: 25px;
+}
+
+#lnkViewCart .badge-pill {
+    margin-left: 8px;
+    color: var(--color-green);
+    background-color: #fff;
+    font-size: 17px;
 }
 
 
-.tbs-connect {
-    flex: 1;
-    align-content: center;
-    text-align: right;
-    padding-right: 2vw;
-    min-width: 156px;
-}
 
-.tbs-connect .divSearch {
-    display: block;
-}
 
 
 /** RECHERCHE */
 .tbs-recherche-container {
-    margin-top: 300px;
-    margin-bottom: 300px;
     background-color: var(--color-green);
     padding-top: 100px;
     padding-bottom: 100px;
@@ -414,10 +451,12 @@ h4 {
 .tbs-recherche .tbs-recherche-text {
     flex: 1;
     text-transform: uppercase;
+    font-family: "League Spartan", sans-serif;
     color: #fff;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 35px;
-    line-height: 1em;
+    line-height: 1.3em;
+    max-width: 500px;
 }
 
 .tbs-recherche .tbs-recherche-control {
@@ -438,11 +477,9 @@ h4 {
 
 /** CATÉGORIES */
 .tbs-category-container {
-    margin-top: 300px;
-    margin-bottom: 300px;
-    background-color: #E9EFDE;
     padding-top: 100px;
     padding-bottom: 100px;
+    background-color: #eaf0de;
 }
 
 .tbs-category {
@@ -466,12 +503,10 @@ h4 {
     width: 100px;
     border-radius: 100px;
     padding: 13px;
-    background-color: #E9EFDE;
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: 75%;
     margin: auto;
     margin-bottom: 17px;
+    background-size: contain;
 }
 
 .tbs-category .tbs-category-item a {
@@ -501,7 +536,6 @@ h4 {
 .tbs-category .tbs-category-item.epicerie .categorie-image {
     background-image: url(/Tournesol_custom/images/categorie-epicerie.png);
     background-color: var(--color-green);
-    background-size: 55%;
 }
 
 @media (max-width: 700px) {

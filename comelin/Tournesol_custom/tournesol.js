@@ -9,10 +9,6 @@
             }
         });
 
-        var currentLang = window.location.pathname.substring(1, 3) || "fr";
-        $("body").addClass("text-hide-" + (currentLang == "fr" ? "en" : "fr"));
-
-
         if (window.location.pathname.toLocaleLowerCase() === "/fr/" ||
             window.location.pathname.toLocaleLowerCase() === "/en/")
         { 

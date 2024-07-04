@@ -25,15 +25,12 @@
 		<script src="/tournesol_custom/tournesol.js"></script>
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
-
 		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 	</head>
 
-	<body>
+	<body class="tbs-body">
 		<!-- Google Tag Manager -->
 		<script>(function (w, d, s, l, i)
 			{
@@ -75,34 +72,35 @@
 							
 							<div class="tbs-menuitem-menuspecial"><a :href="urlWithLang('Nouveautes')">Nouveautés</a></div>
 							<div class="tbs-menuitem-menuspecial"><a :href="urlWithLang('Rabais')">Promotions</a></div>
-							<div class="tbs-menuitem-menuspecial"><a :href="urlWithLang('Liquidation')">Liquidations</a></div>
 							<div data-toggle="collapse" data-target=".search-toogle" style="cursor: pointer;">Rechercher</div>
+							<div class="tbs-menuitem-cart"><a :href="urlWithLang('POS_Sommaire.aspx')" id="lnkViewCart">Votre panier<span v-if="cart.NbItems > 0" class="badge badge-pill badge-secondary">{{cart.NbItems}}</span></a></div>
+							<!-- <div class="tbs-menuitem-menuspecial" style="display: none;"><a :href="urlWithLang('Liquidation')">Liquidations</a></div> -->
+							 
+							<div class="divSignIn">
+								<a :href="urlWithLang('Login.aspx')" v-if="!session.IsLogged">
+									<t>Login</t>
+								</a>
+								<a :href="urlWithLang('Account.aspx')" v-if="session.IsLogged"><span>Profil</span></a>
+								<a :href="urlWithLang('Login.aspx?action=Logout')" title="Se déconnecter" v-if="session.IsLogged"><i class="fa fa-sign-out"></i></a>
+								<template v-if="bilingual">
+									<a :href="urlBilingual" class="lang-switcher">EN</a>
+								</template>
+							</div>
 						</div>
 						<div class="search-toogle collapse">
 							<input @keyup.enter="search" autofocus id="search-top" type="search" placeholder="Chercher un produit, une marque ou un mot clé" />
 							<div class="tbs-lightbox"></div>
 						</div>
-					</div>
-					
-					<div class="tbs-connect">
+						
+
+						
+						<!-- 
 						<div>
 							<a :href="urlWithLang('POS_VoirListeCadeaux.aspx')" id="lnkWishlist" v-if="wishList"><i class="fa fa-gift"></i><span v-if="wishList.NbItems > 0" class="badge badge-pill badge-secondary">{{wishList.NbItems}}</span></a>
-							<a :href="urlWithLang('POS_Sommaire.aspx')" id="lnkViewCart"><i class="fa fa-shopping-cart"></i><span v-if="cart.NbItems > 0" class="badge badge-pill badge-secondary">{{cart.NbItems}}</span></a>
 						</div>
-
-						<div class="divSignIn">
-							<a :href="urlWithLang('Login.aspx')" v-if="!session.IsLogged">
-								<t>Login</t>
-							</a>
-							<a :href="urlWithLang('Account.aspx')" v-if="session.IsLogged"><span>Compte</span></a>
-							<a :href="urlWithLang('Login.aspx?action=Logout')" title="Se déconnecter" v-if="session.IsLogged"><i class="fa fa-sign-out"></i></a>
-							<template v-if="bilingual">
-								<a :href="urlBilingual" class="lang-switcher">EN</a>
-							</template>
-						</div>
-
-
+						-->
 					</div>
+					
 				</div>
 
 				<div class="container tbs-container">
