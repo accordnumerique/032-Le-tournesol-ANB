@@ -23,6 +23,7 @@
 			})(window, document, 'script', 'dataLayer', 'GTM-MCR5655B');</script>
 		<!-- End Google Tag Manager -->
 		<script src="/tournesol_custom/tournesol.js"></script>
+		<script src="/tournesol_custom/cookie-consent.js"></script>
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
@@ -307,7 +308,13 @@
 				<asp:Literal runat="server" EnableViewState="False" ID="customCSS"></asp:Literal>
 <!-- c -->
 				<link href="/tournesol_custom/tournesol.css" rel="stylesheet" type="text/css">
+				<link href="/tournesol_custom/cookie-consent.css" rel="stylesheet" type="text/css">
 		</form>
+		<div class="cookie-consent" data-duration="8" style="display: none;">
+			<p>Nous utilisons des cookies sur ce site web. <span class="hidden-xs">Les cookies sont de petits fichiers texte, stockés sur votre ordinateur. Nous utilisons des cookies pour fournir des statistiques qui nous aident à vous offrir la meilleure expérience sur notre site. En continuant à utiliser le site sans modifier les paramètres, vous acceptez notre utilisation des cookies.</span>
+			<a href="/politiques" style="display:none;">Voir les politiques</a></p>
+			<button type="button" class="btn btn-primary cookie-accept" data-duration="8760">Confirmer</button>
+		</div>
 	</body>
 
 	</html>
