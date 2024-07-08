@@ -234,6 +234,11 @@
 									<i class="fa fa-circle fa-stack-2x"></i>
 									<i class="fa fa-instagram fa-stack-1x"></i>
 								</a>
+								<a target="_blank" href="https://www.tiktok.com/@le.tournesol.bout"
+									class="fa-stack fa-lg" id="tiktok" rel="noopener">
+									<i class="fa fa-circle fa-stack-2x"></i>
+									<i class="fa fa-tiktok fa-stack-1x"></i>
+								</a>
 							</div>
 						</div>
 					</div>

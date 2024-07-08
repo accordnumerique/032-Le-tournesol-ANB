@@ -152,6 +152,11 @@
 									<i class="fa fa-circle fa-stack-2x"></i>
 									<i class="fa fa-instagram fa-stack-1x"></i>
 								</a>
+								<a target="_blank" href="https://www.tiktok.com/@le.tournesol.bout"
+									class="fa-stack fa-lg tbs-media-sociaux-tiktok" id="tiktok" rel="noopener">
+
+									<img src="/Tournesol_custom/images/icon-tiktok.png"/>
+								</a>
 							</div>
 						</div>
 					</div>
@@ -169,8 +174,9 @@
 								<a v-if="email" :href="'mailto:'+ email">{{email}}</a>
 								<a v-if=tel :href="'tel:' + tel">{{tel}}</a>
 								<div><a v-if=address :href="addressLink" id=address>{{address}}</a></div>
-								<a v-if="facebook" :href="'https://www.facebook.com/' + facebook">Facebook <i class="fa fa-facebook-official" aria-hidden="true"></i></a><br />
-								<a v-if="instagram" :href="'https://www.instagram.com/' + instagram">Instagram <i class="fa fa-instagram" aria-hidden="true"></i></a>
+								<a v-if="facebook" :href="'https://www.facebook.com/' + facebook" target="_blank"  rel="noopener">Facebook <i class="fa fa-facebook-official" aria-hidden="true"></i></a><br />
+								<a v-if="instagram" :href="'https://www.instagram.com/' + instagram" target="_blank"  rel="noopener">Instagram <i class="fa fa-instagram" aria-hidden="true"></i></a><br />
+								<a class="tbs-social-tiktok" href="https://www.tiktok.com/@le.tournesol.bout" target="_blank"  rel="noopener">Tiktok <img src="/Tournesol_custom/images/icon-tiktok.png"/></a>
 							</div>
 							<div class="col-12 col-sm-6 col-lg" id="information">
 								<h3>Information</h3>

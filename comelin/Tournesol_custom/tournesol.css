@@ -146,6 +146,19 @@ h4 {
     display: block;
 }
 
+
+.tbs-media-sociaux-tiktok {
+    line-height: initial;
+    padding-top: 3px;
+    padding-left: 4px;
+}
+.tbs-media-sociaux-tiktok img {
+    width: 36px;
+}
+.tbs-social-tiktok img {
+    width: 20px;
+}
+
 .btn-primary,
 .btn-primary:hover,
 .btn-primary:active {
